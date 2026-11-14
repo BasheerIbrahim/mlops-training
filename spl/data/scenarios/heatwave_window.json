@@ -1,0 +1,185 @@
+{
+ "about": "Heatwave: round 3 of 2025-26 replayed with every kickoff at 44 C. Synthetic transform: kickoff_temp_c set to 44.0. Input drift scenario.",
+ "rows": [
+  {
+   "form_points": 2.4,
+   "home": 1,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 44.0,
+   "league_position": 2,
+   "opponent_position": 9,
+   "squad_value_m": 442.9,
+   "travel_km": 0
+  },
+  {
+   "form_points": 2.4,
+   "home": 0,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 44.0,
+   "league_position": 9,
+   "opponent_position": 2,
+   "squad_value_m": 419.1,
+   "travel_km": 0
+  },
+  {
+   "form_points": 2.2,
+   "home": 1,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 44.0,
+   "league_position": 3,
+   "opponent_position": 11,
+   "squad_value_m": 117.6,
+   "travel_km": 0
+  },
+  {
+   "form_points": 1.2,
+   "home": 0,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 44.0,
+   "league_position": 11,
+   "opponent_position": 3,
+   "squad_value_m": 132.3,
+   "travel_km": 478
+  },
+  {
+   "form_points": 1.8,
+   "home": 1,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 44.0,
+   "league_position": 13,
+   "opponent_position": 16,
+   "squad_value_m": 187.6,
+   "travel_km": 0
+  },
+  {
+   "form_points": 0.2,
+   "home": 0,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 44.0,
+   "league_position": 16,
+   "opponent_position": 13,
+   "squad_value_m": 64.3,
+   "travel_km": 69
+  },
+  {
+   "form_points": 0.6,
+   "home": 1,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 44.0,
+   "league_position": 18,
+   "opponent_position": 17,
+   "squad_value_m": 52.9,
+   "travel_km": 0
+  },
+  {
+   "form_points": 1.2,
+   "home": 0,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 44.0,
+   "league_position": 17,
+   "opponent_position": 18,
+   "squad_value_m": 53.3,
+   "travel_km": 914
+  },
+  {
+   "form_points": 0.6,
+   "home": 1,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 44.0,
+   "league_position": 8,
+   "opponent_position": 6,
+   "squad_value_m": 108.3,
+   "travel_km": 0
+  },
+  {
+   "form_points": 1.6,
+   "home": 0,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 44.0,
+   "league_position": 6,
+   "opponent_position": 8,
+   "squad_value_m": 182.9,
+   "travel_km": 792
+  },
+  {
+   "form_points": 3.0,
+   "home": 1,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 44.0,
+   "league_position": 1,
+   "opponent_position": 4,
+   "squad_value_m": 652.1,
+   "travel_km": 0
+  },
+  {
+   "form_points": 2.6,
+   "home": 0,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 44.0,
+   "league_position": 4,
+   "opponent_position": 1,
+   "squad_value_m": 934.5,
+   "travel_km": 0
+  },
+  {
+   "form_points": 1.4,
+   "home": 1,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 44.0,
+   "league_position": 10,
+   "opponent_position": 14,
+   "squad_value_m": 51.4,
+   "travel_km": 0
+  },
+  {
+   "form_points": 0.6,
+   "home": 0,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 44.0,
+   "league_position": 14,
+   "opponent_position": 10,
+   "squad_value_m": 111.1,
+   "travel_km": 672
+  },
+  {
+   "form_points": 0.2,
+   "home": 1,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 44.0,
+   "league_position": 15,
+   "opponent_position": 12,
+   "squad_value_m": 54.0,
+   "travel_km": 0
+  },
+  {
+   "form_points": 0.8,
+   "home": 0,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 44.0,
+   "league_position": 12,
+   "opponent_position": 15,
+   "squad_value_m": 140.1,
+   "travel_km": 174
+  },
+  {
+   "form_points": 2.0,
+   "home": 1,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 44.0,
+   "league_position": 5,
+   "opponent_position": 7,
+   "squad_value_m": 147.6,
+   "travel_km": 0
+  },
+  {
+   "form_points": 1.4,
+   "home": 0,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 44.0,
+   "league_position": 7,
+   "opponent_position": 5,
+   "squad_value_m": 145.7,
+   "travel_km": 138
+  }
+ ]
+}

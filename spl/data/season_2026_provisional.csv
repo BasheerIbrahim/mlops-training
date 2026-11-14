@@ -1,0 +1,145 @@
+match_id,season,round,date,club_code,club,opponent_code,opponent,venue,club_tier,promoted,home,league_position,opponent_position,form_points,squad_value_m,travel_km,kickoff_temp_c,kickoff_slot,goals_for,goals_against,result,points,shots_on_target,possession_pct,yellow_cards,red_cards,win
+2026-01-FAT-HAZ,2026,1,2026-08-15,FAT,Al-Fateh,HAZ,Al-Hazem,Al-Hofuf,mid,false,1,6,13,0.6,186.6,0,35.6,evening,1,0,W,3,2,60.3,4,0,1
+2026-01-FAT-HAZ,2026,1,2026-08-15,HAZ,Al-Hazem,FAT,Al-Fateh,Al-Hofuf,small,false,0,13,6,1.4,83.9,613,35.6,evening,0,1,L,0,1,39.7,3,0,0
+2026-01-RAE-FAY,2026,1,2026-08-15,RAE,Al-Raed,FAY,Al-Fayha,Buraidah,small,false,1,14,8,1.2,100.0,0,29.1,night,5,0,W,3,5,53.8,2,0,1
+2026-01-RAE-FAY,2026,1,2026-08-15,FAY,Al-Fayha,RAE,Al-Raed,Buraidah,mid,false,0,8,14,2.0,171.3,146,29.1,night,0,5,L,0,2,46.2,1,0,0
+2026-01-ETT-OKH,2026,1,2026-08-15,ETT,Al-Ettifaq,OKH,Al-Okhdood,Dammam,mid,false,1,9,15,1.6,165.5,0,28.6,night,3,0,W,3,4,59.0,1,0,1
+2026-01-ETT-OKH,2026,1,2026-08-15,OKH,Al-Okhdood,ETT,Al-Ettifaq,Dammam,small,false,0,15,9,0.6,74.4,1169,28.6,night,0,3,L,0,4,41.0,1,0,0
+2026-01-QAD-SHB,2026,1,2026-08-15,QAD,Al-Qadsiah,SHB,Al-Shabab,Al-Khobar,mid,false,1,11,5,0.8,600.0,0,29.6,night,1,2,L,0,4,59.4,2,0,0
+2026-01-QAD-SHB,2026,1,2026-08-15,SHB,Al-Shabab,QAD,Al-Qadsiah,Al-Khobar,mid,false,0,5,11,1.4,200.0,392,29.6,night,2,1,W,3,2,40.6,2,0,1
+2026-01-TAA-NAJ,2026,1,2026-08-15,TAA,Al-Taawoun,NAJ,Al-Najma,Buraidah,mid,false,1,4,17,2.0,160.0,0,30.5,night,1,2,L,0,2,47.3,1,1,0
+2026-01-TAA-NAJ,2026,1,2026-08-15,NAJ,Al-Najma,TAA,Al-Taawoun,Buraidah,small,true,0,17,4,1.2,850.0,27,30.5,night,2,1,W,3,8,52.7,1,0,1
+2026-01-DAM-KHA,2026,1,2026-08-15,DAM,Damac,KHA,Al-Khaleej,Khamis Mushait,mid,false,1,10,12,0.2,176.7,0,19.9,night,0,1,L,0,1,46.2,4,0,0
+2026-01-DAM-KHA,2026,1,2026-08-15,KHA,Al-Khaleej,DAM,Damac,Khamis Mushait,mid,false,0,12,10,2.2,120.0,1183,19.9,night,1,0,W,3,6,53.8,2,1,1
+2026-01-TAI-HIL,2026,1,2026-08-15,TAI,Al-Tai,HIL,Al-Hilal,Hail,small,true,1,18,2,0.6,60.0,0,31.4,evening,4,1,W,3,4,57.0,2,0,1
+2026-01-TAI-HIL,2026,1,2026-08-15,HIL,Al-Hilal,TAI,Al-Tai,Hail,elite,false,0,2,18,3.0,950.0,593,31.4,evening,1,4,L,0,5,43.0,1,0,0
+2026-01-NEO-NAS,2026,1,2026-08-15,NEO,Neom SC,NAS,Al-Nassr,Tabuk,small,true,1,16,3,0.8,1300.0,0,24.5,night,2,0,W,3,9,62.6,5,0,1
+2026-01-NEO-NAS,2026,1,2026-08-15,NAS,Al-Nassr,NEO,Neom SC,Tabuk,elite,false,0,3,16,2.6,760.0,1089,24.5,night,0,2,L,0,1,37.4,0,0,0
+2026-01-ITT-AHL,2026,1,2026-08-15,ITT,Al-Ittihad,AHL,Al-Ahli,Jeddah,elite,false,1,7,1,1.6,620.0,0,24.3,night,3,1,W,3,3,43.4,1,0,1
+2026-01-ITT-AHL,2026,1,2026-08-15,AHL,Al-Ahli,ITT,Al-Ittihad,Jeddah,elite,false,0,1,7,2.4,540.0,0,24.3,night,1,3,L,0,5,56.6,1,0,0
+2026-02-RAE-FAT,2026,2,2026-08-23,RAE,Al-Raed,FAT,Al-Fateh,Buraidah,small,false,1,1,8,1.2,100.0,0,37.2,afternoon,2,0,W,3,6,60.1,1,0,1
+2026-02-RAE-FAT,2026,2,2026-08-23,FAT,Al-Fateh,RAE,Al-Raed,Buraidah,mid,false,0,8,1,1.2,186.6,572,37.2,afternoon,0,2,L,0,0,39.9,3,0,0
+2026-02-HAZ-OKH,2026,2,2026-08-23,HAZ,Al-Hazem,OKH,Al-Okhdood,Ar Rass,small,false,1,13,17,0.8,83.9,0,30.0,night,4,1,W,3,4,55.3,1,0,1
+2026-02-HAZ-OKH,2026,2,2026-08-23,OKH,Al-Okhdood,HAZ,Al-Hazem,Ar Rass,small,false,0,17,13,0.0,74.4,934,30.0,night,1,4,L,0,6,44.7,2,0,0
+2026-02-QAD-FAY,2026,2,2026-08-23,QAD,Al-Qadsiah,FAY,Al-Fayha,Al-Khobar,mid,false,1,10,18,0.8,600.0,0,26.8,night,3,0,W,3,8,63.3,1,0,1
+2026-02-QAD-FAY,2026,2,2026-08-23,FAY,Al-Fayha,QAD,Al-Qadsiah,Al-Khobar,mid,false,0,18,10,1.4,171.3,487,26.8,night,0,3,L,0,1,36.7,3,0,0
+2026-02-ETT-NAJ,2026,2,2026-08-23,ETT,Al-Ettifaq,NAJ,Al-Najma,Dammam,mid,false,1,3,6,2.2,165.5,0,35.5,evening,1,2,L,0,1,52.5,0,0,0
+2026-02-ETT-NAJ,2026,2,2026-08-23,NAJ,Al-Najma,ETT,Al-Ettifaq,Dammam,small,true,0,6,3,3.0,850.0,610,35.5,evening,2,1,W,3,6,47.5,1,0,1
+2026-02-DAM-SHB,2026,2,2026-08-23,DAM,Damac,SHB,Al-Shabab,Khamis Mushait,mid,false,1,12,7,0.2,176.7,0,24.4,evening,0,4,L,0,2,44.0,3,0,0
+2026-02-DAM-SHB,2026,2,2026-08-23,SHB,Al-Shabab,DAM,Damac,Khamis Mushait,mid,false,0,7,12,2.0,200.0,821,24.4,evening,4,0,W,3,4,56.0,2,1,1
+2026-02-TAA-HIL,2026,2,2026-08-23,TAA,Al-Taawoun,HIL,Al-Hilal,Buraidah,mid,false,1,11,16,2.0,160.0,0,36.8,afternoon,1,5,L,0,5,46.4,2,0,0
+2026-02-TAA-HIL,2026,2,2026-08-23,HIL,Al-Hilal,TAA,Al-Taawoun,Buraidah,elite,false,0,16,11,2.4,950.0,331,36.8,afternoon,5,1,W,3,3,53.6,3,0,1
+2026-02-NEO-KHA,2026,2,2026-08-23,NEO,Neom SC,KHA,Al-Khaleej,Tabuk,small,true,1,5,9,1.4,1300.0,0,24.3,night,0,0,D,1,7,54.1,0,1,0
+2026-02-NEO-KHA,2026,2,2026-08-23,KHA,Al-Khaleej,NEO,Neom SC,Tabuk,mid,false,0,9,5,2.2,120.0,1341,24.3,night,0,0,D,1,2,45.9,0,0,0
+2026-02-TAI-AHL,2026,2,2026-08-23,TAI,Al-Tai,AHL,Al-Ahli,Hail,small,true,1,2,14,0.6,60.0,0,24.3,night,2,0,W,3,13,64.2,1,0,1
+2026-02-TAI-AHL,2026,2,2026-08-23,AHL,Al-Ahli,TAI,Al-Tai,Hail,elite,false,0,14,2,1.8,540.0,717,24.3,night,0,2,L,0,2,35.8,3,0,0
+2026-02-ITT-NAS,2026,2,2026-08-23,ITT,Al-Ittihad,NAS,Al-Nassr,Jeddah,elite,false,1,4,15,2.0,620.0,0,26.0,evening,2,1,W,3,2,50.2,2,0,1
+2026-02-ITT-NAS,2026,2,2026-08-23,NAS,Al-Nassr,ITT,Al-Ittihad,Jeddah,elite,false,0,15,4,2.0,760.0,848,26.0,evening,1,2,L,0,2,49.8,0,0,0
+2026-03-FAT-OKH,2026,3,2026-08-31,FAT,Al-Fateh,OKH,Al-Okhdood,Al-Hofuf,mid,false,1,12,17,0.6,186.6,0,30.3,night,3,1,W,3,6,56.5,2,0,1
+2026-03-FAT-OKH,2026,3,2026-08-31,OKH,Al-Okhdood,FAT,Al-Fateh,Al-Hofuf,small,false,0,17,12,0.0,74.4,1043,30.3,night,1,3,L,0,1,43.5,3,0,0
+2026-03-QAD-RAE,2026,3,2026-08-31,QAD,Al-Qadsiah,RAE,Al-Raed,Al-Khobar,mid,false,1,10,1,1.4,600.0,0,29.3,night,2,1,W,3,9,53.2,3,0,1
+2026-03-QAD-RAE,2026,3,2026-08-31,RAE,Al-Raed,QAD,Al-Qadsiah,Al-Khobar,small,false,0,1,10,1.8,100.0,622,29.3,night,1,2,L,0,4,46.8,1,0,0
+2026-03-HAZ-NAJ,2026,3,2026-08-31,HAZ,Al-Hazem,NAJ,Al-Najma,Ar Rass,small,false,1,9,5,1.4,83.9,0,27.4,night,0,2,L,0,9,39.0,2,0,0
+2026-03-HAZ-NAJ,2026,3,2026-08-31,NAJ,Al-Najma,HAZ,Al-Hazem,Ar Rass,small,true,0,5,9,3.0,850.0,55,27.4,night,2,0,W,3,8,61.0,1,0,1
+2026-03-DAM-FAY,2026,3,2026-08-31,DAM,Damac,FAY,Al-Fayha,Khamis Mushait,mid,false,1,16,18,0.2,176.7,0,19.4,night,2,0,W,3,1,51.9,2,0,1
+2026-03-DAM-FAY,2026,3,2026-08-31,FAY,Al-Fayha,DAM,Damac,Khamis Mushait,mid,false,0,18,16,0.8,171.3,886,19.4,night,0,2,L,0,3,48.1,1,1,0
+2026-03-ETT-HIL,2026,3,2026-08-31,ETT,Al-Ettifaq,HIL,Al-Hilal,Dammam,mid,false,1,8,11,2.0,165.5,0,33.9,evening,3,2,W,3,5,47.4,2,0,1
+2026-03-ETT-HIL,2026,3,2026-08-31,HIL,Al-Hilal,ETT,Al-Ettifaq,Dammam,elite,false,0,11,8,2.4,950.0,390,33.9,evening,2,3,L,0,1,52.6,1,0,0
+2026-03-NEO-SHB,2026,3,2026-08-31,NEO,Neom SC,SHB,Al-Shabab,Tabuk,small,true,1,6,2,1.6,1300.0,0,25.3,evening,5,0,W,3,6,56.2,1,0,1
+2026-03-NEO-SHB,2026,3,2026-08-31,SHB,Al-Shabab,NEO,Neom SC,Tabuk,mid,false,0,2,6,2.4,200.0,1089,25.3,evening,0,5,L,0,2,43.8,2,0,0
+2026-03-TAA-AHL,2026,3,2026-08-31,TAA,Al-Taawoun,AHL,Al-Ahli,Buraidah,mid,false,1,15,14,1.4,160.0,0,26.8,night,0,2,L,0,8,49.2,0,0,0
+2026-03-TAA-AHL,2026,3,2026-08-31,AHL,Al-Ahli,TAA,Al-Taawoun,Buraidah,elite,false,0,14,15,1.2,540.0,725,26.8,night,2,0,W,3,2,50.8,0,0,1
+2026-03-ITT-KHA,2026,3,2026-08-31,ITT,Al-Ittihad,KHA,Al-Khaleej,Jeddah,elite,false,1,4,7,2.4,620.0,0,25.9,night,0,1,L,0,0,37.6,5,0,0
+2026-03-ITT-KHA,2026,3,2026-08-31,KHA,Al-Khaleej,ITT,Al-Ittihad,Jeddah,mid,false,0,7,4,1.8,120.0,1234,25.9,night,1,0,W,3,6,62.4,2,0,1
+2026-03-TAI-NAS,2026,3,2026-08-31,TAI,Al-Tai,NAS,Al-Nassr,Hail,small,true,1,3,13,1.2,60.0,0,29.1,evening,3,0,W,3,9,60.0,2,0,1
+2026-03-TAI-NAS,2026,3,2026-08-31,NAS,Al-Nassr,TAI,Al-Tai,Hail,elite,false,0,13,3,1.8,760.0,593,29.1,evening,0,3,L,0,4,40.0,1,0,0
+2026-04-QAD-FAT,2026,4,2026-09-08,QAD,Al-Qadsiah,FAT,Al-Fateh,Al-Khobar,mid,false,1,7,9,1.8,600.0,0,28.2,night,0,0,D,1,3,54.1,2,0,0
+2026-04-QAD-FAT,2026,4,2026-09-08,FAT,Al-Fateh,QAD,Al-Qadsiah,Al-Khobar,mid,false,0,9,7,1.2,186.6,118,28.2,night,0,0,D,1,3,45.9,1,0,0
+2026-04-OKH-NAJ,2026,4,2026-09-08,OKH,Al-Okhdood,NAJ,Al-Najma,Najran,small,false,1,17,2,0.0,74.4,0,27.7,evening,0,2,L,0,0,39.8,2,0,0
+2026-04-OKH-NAJ,2026,4,2026-09-08,NAJ,Al-Najma,OKH,Al-Okhdood,Najran,small,true,0,2,17,3.0,850.0,956,27.7,evening,2,0,W,3,4,60.2,5,0,1
+2026-04-DAM-RAE,2026,4,2026-09-08,DAM,Damac,RAE,Al-Raed,Khamis Mushait,mid,false,1,14,5,0.8,176.7,0,16.8,night,1,2,L,0,4,45.3,2,0,0
+2026-04-DAM-RAE,2026,4,2026-09-08,RAE,Al-Raed,DAM,Damac,Khamis Mushait,small,false,0,5,14,1.2,100.0,901,16.8,night,2,1,W,3,5,54.7,1,0,1
+2026-04-HAZ-HIL,2026,4,2026-09-08,HAZ,Al-Hazem,HIL,Al-Hilal,Ar Rass,small,false,1,12,11,1.4,83.9,0,30.9,night,2,2,D,1,8,52.9,4,0,0
+2026-04-HAZ-HIL,2026,4,2026-09-08,HIL,Al-Hilal,HAZ,Al-Hazem,Ar Rass,elite,false,0,11,12,1.8,950.0,349,30.9,night,2,2,D,1,3,47.1,0,0,0
+2026-04-NEO-FAY,2026,4,2026-09-08,NEO,Neom SC,FAY,Al-Fayha,Tabuk,small,true,1,3,18,1.6,1300.0,0,25.2,night,1,0,W,3,10,62.3,1,0,1
+2026-04-NEO-FAY,2026,4,2026-09-08,FAY,Al-Fayha,NEO,Neom SC,Tabuk,mid,false,0,18,3,0.2,171.3,911,25.2,night,0,1,L,0,2,37.7,2,0,0
+2026-04-ETT-AHL,2026,4,2026-09-08,ETT,Al-Ettifaq,AHL,Al-Ahli,Dammam,mid,false,1,6,13,2.4,165.5,0,27.3,night,1,2,L,0,9,57.5,2,0,0
+2026-04-ETT-AHL,2026,4,2026-09-08,AHL,Al-Ahli,ETT,Al-Ettifaq,Dammam,elite,false,0,13,6,1.8,540.0,1236,27.3,night,2,1,W,3,3,42.5,1,0,1
+2026-04-ITT-SHB,2026,4,2026-09-08,ITT,Al-Ittihad,SHB,Al-Shabab,Jeddah,elite,false,1,8,10,1.8,620.0,0,28.9,evening,0,0,D,1,2,42.3,6,0,0
+2026-04-ITT-SHB,2026,4,2026-09-08,SHB,Al-Shabab,ITT,Al-Ittihad,Jeddah,mid,false,0,10,8,1.8,200.0,848,28.9,evening,0,0,D,1,4,57.7,2,0,0
+2026-04-TAA-NAS,2026,4,2026-09-08,TAA,Al-Taawoun,NAS,Al-Nassr,Buraidah,mid,false,1,16,15,1.2,160.0,0,29.2,evening,2,0,W,3,2,61.4,3,0,1
+2026-04-TAA-NAS,2026,4,2026-09-08,NAS,Al-Nassr,TAA,Al-Taawoun,Buraidah,elite,false,0,15,16,1.2,760.0,331,29.2,evening,0,2,L,0,2,38.6,2,0,0
+2026-04-TAI-KHA,2026,4,2026-09-08,TAI,Al-Tai,KHA,Al-Khaleej,Hail,small,true,1,1,4,1.8,60.0,0,23.2,night,1,1,D,1,7,52.9,2,0,0
+2026-04-TAI-KHA,2026,4,2026-09-08,KHA,Al-Khaleej,TAI,Al-Tai,Hail,mid,false,0,4,1,2.2,120.0,831,23.2,night,1,1,D,1,6,47.1,1,0,0
+2026-05-FAT-NAJ,2026,5,2026-09-16,FAT,Al-Fateh,NAJ,Al-Najma,Al-Hofuf,mid,false,1,8,1,1.4,186.6,0,28.1,night,2,1,W,3,1,42.3,2,0,1
+2026-05-FAT-NAJ,2026,5,2026-09-16,NAJ,Al-Najma,FAT,Al-Fateh,Al-Hofuf,small,true,0,1,8,3.0,850.0,566,28.1,night,1,2,L,0,3,57.7,2,0,0
+2026-05-DAM-QAD,2026,5,2026-09-16,DAM,Damac,QAD,Al-Qadsiah,Khamis Mushait,mid,false,1,14,6,0.6,176.7,0,18.7,night,0,1,L,0,4,44.3,1,0,0
+2026-05-DAM-QAD,2026,5,2026-09-16,QAD,Al-Qadsiah,DAM,Damac,Khamis Mushait,mid,false,0,6,14,1.4,600.0,1173,18.7,night,1,0,W,3,2,55.7,0,0,1
+2026-05-OKH-HIL,2026,5,2026-09-16,OKH,Al-Okhdood,HIL,Al-Hilal,Najran,small,false,1,17,12,0.0,74.4,0,23.2,night,1,2,L,0,6,52.0,2,0,0
+2026-05-OKH-HIL,2026,5,2026-09-16,HIL,Al-Hilal,OKH,Al-Okhdood,Najran,elite,false,0,12,17,1.4,950.0,844,23.2,night,2,1,W,3,4,48.0,4,0,1
+2026-05-NEO-RAE,2026,5,2026-09-16,NEO,Neom SC,RAE,Al-Raed,Tabuk,small,true,1,3,4,2.0,1300.0,0,23.1,night,3,1,W,3,8,59.4,0,0,1
+2026-05-NEO-RAE,2026,5,2026-09-16,RAE,Al-Raed,NEO,Neom SC,Tabuk,small,false,0,4,3,1.8,100.0,765,23.1,night,1,3,L,0,1,40.6,3,0,0
+2026-05-HAZ-AHL,2026,5,2026-09-16,HAZ,Al-Hazem,AHL,Al-Ahli,Ar Rass,small,false,1,13,11,1.0,83.9,0,32.2,evening,1,1,D,1,4,43.7,1,0,0
+2026-05-HAZ-AHL,2026,5,2026-09-16,AHL,Al-Ahli,HAZ,Al-Hazem,Ar Rass,elite,false,0,11,13,1.8,540.0,655,32.2,evening,1,1,D,1,7,56.3,3,0,0
+2026-05-ITT-FAY,2026,5,2026-09-16,ITT,Al-Ittihad,FAY,Al-Fayha,Jeddah,elite,false,1,7,18,2.0,620.0,0,23.0,night,1,4,L,0,4,49.3,1,0,0
+2026-05-ITT-FAY,2026,5,2026-09-16,FAY,Al-Fayha,ITT,Al-Ittihad,Jeddah,mid,false,0,18,7,0.0,171.3,796,23.0,night,4,1,W,3,1,50.7,2,0,1
+2026-05-ETT-NAS,2026,5,2026-09-16,ETT,Al-Ettifaq,NAS,Al-Nassr,Dammam,mid,false,1,10,16,1.8,165.5,0,29.1,night,1,1,D,1,4,53.5,1,0,0
+2026-05-ETT-NAS,2026,5,2026-09-16,NAS,Al-Nassr,ETT,Al-Ettifaq,Dammam,elite,false,0,16,10,0.6,760.0,390,29.1,night,1,1,D,1,3,46.5,1,0,0
+2026-05-TAI-SHB,2026,5,2026-09-16,TAI,Al-Tai,SHB,Al-Shabab,Hail,small,true,1,2,9,2.0,60.0,0,22.5,night,4,1,W,3,5,50.5,2,0,1
+2026-05-TAI-SHB,2026,5,2026-09-16,SHB,Al-Shabab,TAI,Al-Tai,Hail,mid,false,0,9,2,2.0,200.0,593,22.5,night,1,4,L,0,3,49.5,0,0,0
+2026-05-TAA-KHA,2026,5,2026-09-16,TAA,Al-Taawoun,KHA,Al-Khaleej,Buraidah,mid,false,1,15,5,1.2,160.0,0,23.0,night,2,1,W,3,3,36.6,0,0,1
+2026-05-TAA-KHA,2026,5,2026-09-16,KHA,Al-Khaleej,TAA,Al-Taawoun,Buraidah,mid,false,0,5,15,1.8,120.0,602,23.0,night,1,2,L,0,5,63.4,1,0,0
+2026-06-DAM-FAT,2026,6,2026-09-24,DAM,Damac,FAT,Al-Fateh,Khamis Mushait,mid,false,1,15,5,0.6,176.7,0,21.8,evening,0,1,L,0,3,53.8,2,0,0
+2026-06-DAM-FAT,2026,6,2026-09-24,FAT,Al-Fateh,DAM,Damac,Khamis Mushait,mid,false,0,5,15,2.0,186.6,1057,21.8,evening,1,0,W,3,5,46.2,0,0,1
+2026-06-NAJ-HIL,2026,6,2026-09-24,NAJ,Al-Najma,HIL,Al-Hilal,Unaizah,small,true,1,3,9,2.4,850.0,0,22.7,night,4,0,W,3,8,61.3,4,0,1
+2026-06-NAJ-HIL,2026,6,2026-09-24,HIL,Al-Hilal,NAJ,Al-Najma,Unaizah,elite,false,0,9,3,1.4,950.0,315,22.7,night,0,4,L,0,1,38.7,3,0,0
+2026-06-NEO-QAD,2026,6,2026-09-24,NEO,Neom SC,QAD,Al-Qadsiah,Tabuk,small,true,1,2,4,2.6,1300.0,0,21.5,night,1,2,L,0,7,60.3,0,0,0
+2026-06-NEO-QAD,2026,6,2026-09-24,QAD,Al-Qadsiah,NEO,Neom SC,Tabuk,mid,false,0,4,2,2.0,600.0,1367,21.5,night,2,1,W,3,1,39.7,3,0,1
+2026-06-OKH-AHL,2026,6,2026-09-24,OKH,Al-Okhdood,AHL,Al-Ahli,Najran,small,false,1,18,10,0.0,74.4,0,21.7,evening,3,2,W,3,4,48.9,2,0,1
+2026-06-OKH-AHL,2026,6,2026-09-24,AHL,Al-Ahli,OKH,Al-Okhdood,Najran,elite,false,0,10,18,1.4,540.0,682,21.7,evening,2,3,L,0,5,51.1,1,0,0
+2026-06-ITT-RAE,2026,6,2026-09-24,ITT,Al-Ittihad,RAE,Al-Raed,Jeddah,elite,false,1,11,6,1.4,620.0,0,25.4,night,2,1,W,3,2,43.9,1,0,1
+2026-06-ITT-RAE,2026,6,2026-09-24,RAE,Al-Raed,ITT,Al-Ittihad,Jeddah,small,false,0,6,11,1.8,100.0,725,25.4,night,1,2,L,0,3,56.1,2,0,0
+2026-06-HAZ-NAS,2026,6,2026-09-24,HAZ,Al-Hazem,NAS,Al-Nassr,Ar Rass,small,false,1,14,17,1.0,83.9,0,24.0,night,3,1,W,3,2,47.1,1,0,1
+2026-06-HAZ-NAS,2026,6,2026-09-24,NAS,Al-Nassr,HAZ,Al-Hazem,Ar Rass,elite,false,0,17,14,0.2,760.0,349,24.0,night,1,3,L,0,3,52.9,0,0,0
+2026-06-TAI-FAY,2026,6,2026-09-24,TAI,Al-Tai,FAY,Al-Fayha,Hail,small,true,1,1,16,2.6,60.0,0,21.6,night,1,0,W,3,7,60.9,1,0,1
+2026-06-TAI-FAY,2026,6,2026-09-24,FAY,Al-Fayha,TAI,Al-Tai,Hail,mid,false,0,16,1,0.6,171.3,406,21.6,night,0,1,L,0,0,39.1,5,0,0
+2026-06-ETT-KHA,2026,6,2026-09-24,ETT,Al-Ettifaq,KHA,Al-Khaleej,Dammam,mid,false,1,8,7,1.4,165.5,0,26.1,night,2,2,D,1,2,49.6,1,0,0
+2026-06-ETT-KHA,2026,6,2026-09-24,KHA,Al-Khaleej,ETT,Al-Ettifaq,Dammam,mid,false,0,7,8,1.6,120.0,17,26.1,night,2,2,D,1,2,50.4,0,0,0
+2026-06-TAA-SHB,2026,6,2026-09-24,TAA,Al-Taawoun,SHB,Al-Shabab,Buraidah,mid,false,1,13,12,1.2,160.0,0,25.5,night,2,0,W,3,4,43.4,1,0,1
+2026-06-TAA-SHB,2026,6,2026-09-24,SHB,Al-Shabab,TAA,Al-Taawoun,Buraidah,mid,false,0,12,13,1.4,200.0,331,25.5,night,0,2,L,0,3,56.6,1,0,0
+2026-07-FAT-HIL,2026,7,2026-10-02,FAT,Al-Fateh,HIL,Al-Hilal,Al-Hofuf,mid,false,1,5,13,2.0,186.6,0,29.7,evening,2,0,W,3,3,54.0,1,0,1
+2026-07-FAT-HIL,2026,7,2026-10-02,HIL,Al-Hilal,FAT,Al-Fateh,Al-Hofuf,elite,false,0,13,5,1.4,950.0,299,29.7,evening,0,2,L,0,3,46.0,4,0,0
+2026-07-NEO-DAM,2026,7,2026-10-02,NEO,Neom SC,DAM,Damac,Tabuk,small,true,1,3,15,2.0,1300.0,0,20.5,night,5,0,W,3,7,69.7,1,0,1
+2026-07-NEO-DAM,2026,7,2026-10-02,DAM,Damac,NEO,Neom SC,Tabuk,mid,false,0,15,3,0.6,176.7,1284,20.5,night,0,5,L,0,1,30.299999999999997,0,0,0
+2026-07-NAJ-AHL,2026,7,2026-10-02,NAJ,Al-Najma,AHL,Al-Ahli,Unaizah,small,true,1,2,12,2.4,850.0,0,27.1,evening,1,4,L,0,5,57.1,0,0,0
+2026-07-NAJ-AHL,2026,7,2026-10-02,AHL,Al-Ahli,NAJ,Al-Najma,Unaizah,elite,false,0,12,2,1.4,540.0,707,27.1,evening,4,1,W,3,1,42.9,1,0,1
+2026-07-ITT-QAD,2026,7,2026-10-02,ITT,Al-Ittihad,QAD,Al-Qadsiah,Jeddah,elite,false,1,6,4,1.4,620.0,0,25.0,night,0,4,L,0,3,37.8,3,0,0
+2026-07-ITT-QAD,2026,7,2026-10-02,QAD,Al-Qadsiah,ITT,Al-Ittihad,Jeddah,mid,false,0,4,6,2.6,600.0,1240,25.0,night,4,0,W,3,1,62.2,4,0,1
+2026-07-OKH-NAS,2026,7,2026-10-02,OKH,Al-Okhdood,NAS,Al-Nassr,Najran,small,false,1,17,18,0.6,74.4,0,25.4,evening,2,3,L,0,5,46.2,1,0,0
+2026-07-OKH-NAS,2026,7,2026-10-02,NAS,Al-Nassr,OKH,Al-Okhdood,Najran,elite,false,0,18,17,0.2,760.0,844,25.4,evening,3,2,W,3,5,53.8,6,0,1
+2026-07-TAI-RAE,2026,7,2026-10-02,TAI,Al-Tai,RAE,Al-Raed,Hail,small,true,1,1,7,2.6,60.0,0,23.0,night,6,2,W,3,3,45.9,4,0,1
+2026-07-TAI-RAE,2026,7,2026-10-02,RAE,Al-Raed,TAI,Al-Tai,Hail,small,false,0,7,1,1.2,100.0,262,23.0,night,2,6,L,0,3,54.1,3,0,0
+2026-07-HAZ-KHA,2026,7,2026-10-02,HAZ,Al-Hazem,KHA,Al-Khaleej,Ar Rass,small,false,1,11,8,1.6,83.9,0,28.6,evening,1,6,L,0,6,36.1,0,0,0
+2026-07-HAZ-KHA,2026,7,2026-10-02,KHA,Al-Khaleej,HAZ,Al-Hazem,Ar Rass,mid,false,0,8,11,1.2,120.0,654,28.6,evening,6,1,W,3,8,63.9,1,0,1
+2026-07-TAA-FAY,2026,7,2026-10-02,TAA,Al-Taawoun,FAY,Al-Fayha,Buraidah,mid,false,1,9,16,1.8,160.0,0,26.0,evening,0,1,L,0,1,53.2,1,0,0
+2026-07-TAA-FAY,2026,7,2026-10-02,FAY,Al-Fayha,TAA,Al-Taawoun,Buraidah,mid,false,0,16,9,0.6,171.3,146,26.0,evening,1,0,W,3,5,46.8,0,0,1
+2026-07-ETT-SHB,2026,7,2026-10-02,ETT,Al-Ettifaq,SHB,Al-Shabab,Dammam,mid,false,1,10,14,1.0,165.5,0,25.4,night,1,1,D,1,3,48.2,2,0,0
+2026-07-ETT-SHB,2026,7,2026-10-02,SHB,Al-Shabab,ETT,Al-Ettifaq,Dammam,mid,false,0,14,10,0.8,200.0,390,25.4,night,1,1,D,1,1,51.8,1,0,0
+2026-08-NEO-FAT,2026,8,2026-10-10,NEO,Neom SC,FAT,Al-Fateh,Tabuk,small,true,1,2,4,2.4,1300.0,0,21.9,evening,4,0,W,3,7,69.3,0,0,1
+2026-08-NEO-FAT,2026,8,2026-10-10,FAT,Al-Fateh,NEO,Neom SC,Tabuk,mid,false,0,4,2,2.6,186.6,1333,21.9,evening,0,4,L,0,0,30.700000000000003,5,0,0
+2026-08-HIL-AHL,2026,8,2026-10-10,HIL,Al-Hilal,AHL,Al-Ahli,Riyadh,elite,false,1,14,7,0.8,950.0,0,25.7,evening,3,0,W,3,8,56.6,1,0,1
+2026-08-HIL-AHL,2026,8,2026-10-10,AHL,Al-Ahli,HIL,Al-Hilal,Riyadh,elite,false,0,7,14,2.0,540.0,848,25.7,evening,0,3,L,0,3,43.4,2,0,0
+2026-08-ITT-DAM,2026,8,2026-10-10,ITT,Al-Ittihad,DAM,Damac,Jeddah,elite,false,1,8,18,0.8,620.0,0,20.6,night,1,4,L,0,2,48.7,0,0,0
+2026-08-ITT-DAM,2026,8,2026-10-10,DAM,Damac,ITT,Al-Ittihad,Jeddah,mid,false,0,18,8,0.6,176.7,512,20.6,night,4,1,W,3,6,51.3,3,0,1
+2026-08-NAJ-NAS,2026,8,2026-10-10,NAJ,Al-Najma,NAS,Al-Nassr,Unaizah,small,true,1,5,16,1.8,850.0,0,21.1,night,2,0,W,3,11,64.9,2,0,1
+2026-08-NAJ-NAS,2026,8,2026-10-10,NAS,Al-Nassr,NAJ,Al-Najma,Unaizah,elite,false,0,16,5,0.8,760.0,315,21.1,night,0,2,L,0,2,35.099999999999994,3,0,0
+2026-08-TAI-QAD,2026,8,2026-10-10,TAI,Al-Tai,QAD,Al-Qadsiah,Hail,small,true,1,1,3,2.6,60.0,0,23.6,evening,0,0,D,1,6,55.0,3,0,0
+2026-08-TAI-QAD,2026,8,2026-10-10,QAD,Al-Qadsiah,TAI,Al-Tai,Hail,mid,false,0,3,1,2.6,600.0,856,23.6,evening,0,0,D,1,3,45.0,1,0,0
+2026-08-OKH-KHA,2026,8,2026-10-10,OKH,Al-Okhdood,KHA,Al-Khaleej,Najran,small,false,1,17,6,0.6,74.4,0,21.3,night,0,4,L,0,3,44.4,0,0,0
+2026-08-OKH-KHA,2026,8,2026-10-10,KHA,Al-Khaleej,OKH,Al-Okhdood,Najran,mid,false,0,6,17,1.6,120.0,1176,21.3,night,4,0,W,3,8,55.6,1,0,1
+2026-08-TAA-RAE,2026,8,2026-10-10,TAA,Al-Taawoun,RAE,Al-Raed,Buraidah,mid,false,1,11,10,1.8,160.0,0,24.2,night,1,4,L,0,5,52.9,2,0,0
+2026-08-TAA-RAE,2026,8,2026-10-10,RAE,Al-Raed,TAA,Al-Taawoun,Buraidah,small,false,0,10,11,0.6,100.0,0,24.2,night,4,1,W,3,6,47.1,2,0,1
+2026-08-HAZ-SHB,2026,8,2026-10-10,HAZ,Al-Hazem,SHB,Al-Shabab,Ar Rass,small,false,1,12,13,1.0,83.9,0,25.7,evening,1,1,D,1,2,38.3,3,0,0
+2026-08-HAZ-SHB,2026,8,2026-10-10,SHB,Al-Shabab,HAZ,Al-Hazem,Ar Rass,mid,false,0,13,12,0.4,200.0,349,25.7,evening,1,1,D,1,5,61.7,3,0,0
+2026-08-ETT-FAY,2026,8,2026-10-10,ETT,Al-Ettifaq,FAY,Al-Fayha,Dammam,mid,false,1,9,15,1.2,165.5,0,24.9,evening,6,1,W,3,3,54.1,1,0,1
+2026-08-ETT-FAY,2026,8,2026-10-10,FAY,Al-Fayha,ETT,Al-Ettifaq,Dammam,mid,false,0,15,9,1.2,171.3,478,24.9,evening,1,6,L,0,3,45.9,2,0,0

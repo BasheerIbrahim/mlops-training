@@ -1,0 +1,2887 @@
+{
+ "about": "A new logistics feed sends travel_km in miles. served = what the API received; recomputed = the training pipeline value for the same requests. Training-serving skew scenario.",
+ "recomputed": [
+  {
+   "form_points": 2.4,
+   "home": 1,
+   "kickoff_slot": "afternoon",
+   "kickoff_temp_c": 33.4,
+   "league_position": 2,
+   "opponent_position": 5,
+   "squad_value_m": 442.9,
+   "travel_km": 0
+  },
+  {
+   "form_points": 2.0,
+   "home": 0,
+   "kickoff_slot": "afternoon",
+   "kickoff_temp_c": 33.4,
+   "league_position": 5,
+   "opponent_position": 2,
+   "squad_value_m": 187.6,
+   "travel_km": 725
+  },
+  {
+   "form_points": 0.8,
+   "home": 1,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 30.0,
+   "league_position": 9,
+   "opponent_position": 17,
+   "squad_value_m": 132.3,
+   "travel_km": 0
+  },
+  {
+   "form_points": 2.4,
+   "home": 0,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 30.0,
+   "league_position": 17,
+   "opponent_position": 9,
+   "squad_value_m": 53.3,
+   "travel_km": 146
+  },
+  {
+   "form_points": 0.2,
+   "home": 1,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 30.1,
+   "league_position": 13,
+   "opponent_position": 1,
+   "squad_value_m": 108.3,
+   "travel_km": 0
+  },
+  {
+   "form_points": 2.6,
+   "home": 0,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 30.1,
+   "league_position": 1,
+   "opponent_position": 13,
+   "squad_value_m": 419.1,
+   "travel_km": 70
+  },
+  {
+   "form_points": 2.6,
+   "home": 1,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 31.7,
+   "league_position": 6,
+   "opponent_position": 4,
+   "squad_value_m": 117.6,
+   "travel_km": 0
+  },
+  {
+   "form_points": 2.0,
+   "home": 0,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 31.7,
+   "league_position": 4,
+   "opponent_position": 6,
+   "squad_value_m": 934.5,
+   "travel_km": 390
+  },
+  {
+   "form_points": 1.4,
+   "home": 1,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 30.5,
+   "league_position": 12,
+   "opponent_position": 15,
+   "squad_value_m": 51.4,
+   "travel_km": 0
+  },
+  {
+   "form_points": 0.2,
+   "home": 0,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 30.5,
+   "league_position": 15,
+   "opponent_position": 12,
+   "squad_value_m": 64.3,
+   "travel_km": 0
+  },
+  {
+   "form_points": 0.6,
+   "home": 1,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 22.0,
+   "league_position": 18,
+   "opponent_position": 10,
+   "squad_value_m": 52.9,
+   "travel_km": 0
+  },
+  {
+   "form_points": 0.2,
+   "home": 0,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 22.0,
+   "league_position": 10,
+   "opponent_position": 18,
+   "squad_value_m": 140.1,
+   "travel_km": 25
+  },
+  {
+   "form_points": 1.8,
+   "home": 1,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 26.5,
+   "league_position": 7,
+   "opponent_position": 8,
+   "squad_value_m": 147.6,
+   "travel_km": 0
+  },
+  {
+   "form_points": 1.4,
+   "home": 0,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 26.5,
+   "league_position": 8,
+   "opponent_position": 7,
+   "squad_value_m": 182.9,
+   "travel_km": 390
+  },
+  {
+   "form_points": 3.0,
+   "home": 1,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 29.9,
+   "league_position": 3,
+   "opponent_position": 11,
+   "squad_value_m": 652.1,
+   "travel_km": 0
+  },
+  {
+   "form_points": 1.4,
+   "home": 0,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 29.9,
+   "league_position": 11,
+   "opponent_position": 3,
+   "squad_value_m": 145.7,
+   "travel_km": 299
+  },
+  {
+   "form_points": 0.0,
+   "home": 1,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 25.4,
+   "league_position": 16,
+   "opponent_position": 14,
+   "squad_value_m": 54.0,
+   "travel_km": 0
+  },
+  {
+   "form_points": 0.6,
+   "home": 0,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 25.4,
+   "league_position": 14,
+   "opponent_position": 16,
+   "squad_value_m": 111.1,
+   "travel_km": 1161
+  },
+  {
+   "form_points": 1.4,
+   "home": 1,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 33.0,
+   "league_position": 5,
+   "opponent_position": 1,
+   "squad_value_m": 132.3,
+   "travel_km": 0
+  },
+  {
+   "form_points": 2.4,
+   "home": 0,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 33.0,
+   "league_position": 1,
+   "opponent_position": 5,
+   "squad_value_m": 442.9,
+   "travel_km": 796
+  },
+  {
+   "form_points": 1.4,
+   "home": 1,
+   "kickoff_slot": "afternoon",
+   "kickoff_temp_c": 39.7,
+   "league_position": 18,
+   "opponent_position": 4,
+   "squad_value_m": 187.6,
+   "travel_km": 0
+  },
+  {
+   "form_points": 2.6,
+   "home": 0,
+   "kickoff_slot": "afternoon",
+   "kickoff_temp_c": 39.7,
+   "league_position": 4,
+   "opponent_position": 18,
+   "squad_value_m": 419.1,
+   "travel_km": 725
+  },
+  {
+   "form_points": 2.2,
+   "home": 1,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 26.0,
+   "league_position": 9,
+   "opponent_position": 15,
+   "squad_value_m": 117.6,
+   "travel_km": 0
+  },
+  {
+   "form_points": 1.8,
+   "home": 0,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 26.0,
+   "league_position": 15,
+   "opponent_position": 9,
+   "squad_value_m": 53.3,
+   "travel_km": 611
+  },
+  {
+   "form_points": 0.0,
+   "home": 1,
+   "kickoff_slot": "afternoon",
+   "kickoff_temp_c": 38.9,
+   "league_position": 13,
+   "opponent_position": 14,
+   "squad_value_m": 108.3,
+   "travel_km": 0
+  },
+  {
+   "form_points": 0.2,
+   "home": 0,
+   "kickoff_slot": "afternoon",
+   "kickoff_temp_c": 38.9,
+   "league_position": 14,
+   "opponent_position": 13,
+   "squad_value_m": 64.3,
+   "travel_km": 621
+  },
+  {
+   "form_points": 0.6,
+   "home": 1,
+   "kickoff_slot": "afternoon",
+   "kickoff_temp_c": 25.3,
+   "league_position": 16,
+   "opponent_position": 10,
+   "squad_value_m": 52.9,
+   "travel_km": 0
+  },
+  {
+   "form_points": 2.0,
+   "home": 0,
+   "kickoff_slot": "afternoon",
+   "kickoff_temp_c": 25.3,
+   "league_position": 10,
+   "opponent_position": 16,
+   "squad_value_m": 934.5,
+   "travel_km": 841
+  },
+  {
+   "form_points": 2.0,
+   "home": 1,
+   "kickoff_slot": "afternoon",
+   "kickoff_temp_c": 35.8,
+   "league_position": 6,
+   "opponent_position": 8,
+   "squad_value_m": 51.4,
+   "travel_km": 0
+  },
+  {
+   "form_points": 1.6,
+   "home": 0,
+   "kickoff_slot": "afternoon",
+   "kickoff_temp_c": 35.8,
+   "league_position": 8,
+   "opponent_position": 6,
+   "squad_value_m": 182.9,
+   "travel_km": 349
+  },
+  {
+   "form_points": 3.0,
+   "home": 1,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 36.7,
+   "league_position": 2,
+   "opponent_position": 3,
+   "squad_value_m": 652.1,
+   "travel_km": 0
+  },
+  {
+   "form_points": 0.8,
+   "home": 0,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 36.7,
+   "league_position": 3,
+   "opponent_position": 2,
+   "squad_value_m": 140.1,
+   "travel_km": 821
+  },
+  {
+   "form_points": 1.4,
+   "home": 1,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 26.9,
+   "league_position": 7,
+   "opponent_position": 12,
+   "squad_value_m": 147.6,
+   "travel_km": 0
+  },
+  {
+   "form_points": 0.8,
+   "home": 0,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 26.9,
+   "league_position": 12,
+   "opponent_position": 7,
+   "squad_value_m": 111.1,
+   "travel_km": 37
+  },
+  {
+   "form_points": 0.2,
+   "home": 1,
+   "kickoff_slot": "afternoon",
+   "kickoff_temp_c": 31.7,
+   "league_position": 11,
+   "opponent_position": 17,
+   "squad_value_m": 54.0,
+   "travel_km": 0
+  },
+  {
+   "form_points": 1.4,
+   "home": 0,
+   "kickoff_slot": "afternoon",
+   "kickoff_temp_c": 31.7,
+   "league_position": 17,
+   "opponent_position": 11,
+   "squad_value_m": 145.7,
+   "travel_km": 1043
+  },
+  {
+   "form_points": 2.4,
+   "home": 1,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 25.4,
+   "league_position": 2,
+   "opponent_position": 9,
+   "squad_value_m": 442.9,
+   "travel_km": 0
+  },
+  {
+   "form_points": 2.4,
+   "home": 0,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 25.4,
+   "league_position": 9,
+   "opponent_position": 2,
+   "squad_value_m": 419.1,
+   "travel_km": 0
+  },
+  {
+   "form_points": 2.2,
+   "home": 1,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 32.0,
+   "league_position": 3,
+   "opponent_position": 11,
+   "squad_value_m": 117.6,
+   "travel_km": 0
+  },
+  {
+   "form_points": 1.2,
+   "home": 0,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 32.0,
+   "league_position": 11,
+   "opponent_position": 3,
+   "squad_value_m": 132.3,
+   "travel_km": 478
+  },
+  {
+   "form_points": 1.8,
+   "home": 1,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 28.1,
+   "league_position": 13,
+   "opponent_position": 16,
+   "squad_value_m": 187.6,
+   "travel_km": 0
+  },
+  {
+   "form_points": 0.2,
+   "home": 0,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 28.1,
+   "league_position": 16,
+   "opponent_position": 13,
+   "squad_value_m": 64.3,
+   "travel_km": 69
+  },
+  {
+   "form_points": 0.6,
+   "home": 1,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 19.4,
+   "league_position": 18,
+   "opponent_position": 17,
+   "squad_value_m": 52.9,
+   "travel_km": 0
+  },
+  {
+   "form_points": 1.2,
+   "home": 0,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 19.4,
+   "league_position": 17,
+   "opponent_position": 18,
+   "squad_value_m": 53.3,
+   "travel_km": 914
+  },
+  {
+   "form_points": 0.6,
+   "home": 1,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 35.9,
+   "league_position": 8,
+   "opponent_position": 6,
+   "squad_value_m": 108.3,
+   "travel_km": 0
+  },
+  {
+   "form_points": 1.6,
+   "home": 0,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 35.9,
+   "league_position": 6,
+   "opponent_position": 8,
+   "squad_value_m": 182.9,
+   "travel_km": 792
+  },
+  {
+   "form_points": 3.0,
+   "home": 1,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 28.3,
+   "league_position": 1,
+   "opponent_position": 4,
+   "squad_value_m": 652.1,
+   "travel_km": 0
+  },
+  {
+   "form_points": 2.6,
+   "home": 0,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 28.3,
+   "league_position": 4,
+   "opponent_position": 1,
+   "squad_value_m": 934.5,
+   "travel_km": 0
+  },
+  {
+   "form_points": 1.4,
+   "home": 1,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 32.9,
+   "league_position": 10,
+   "opponent_position": 14,
+   "squad_value_m": 51.4,
+   "travel_km": 0
+  },
+  {
+   "form_points": 0.6,
+   "home": 0,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 32.9,
+   "league_position": 14,
+   "opponent_position": 10,
+   "squad_value_m": 111.1,
+   "travel_km": 672
+  },
+  {
+   "form_points": 0.2,
+   "home": 1,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 23.4,
+   "league_position": 15,
+   "opponent_position": 12,
+   "squad_value_m": 54.0,
+   "travel_km": 0
+  },
+  {
+   "form_points": 0.8,
+   "home": 0,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 23.4,
+   "league_position": 12,
+   "opponent_position": 15,
+   "squad_value_m": 140.1,
+   "travel_km": 174
+  },
+  {
+   "form_points": 2.0,
+   "home": 1,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 28.6,
+   "league_position": 5,
+   "opponent_position": 7,
+   "squad_value_m": 147.6,
+   "travel_km": 0
+  },
+  {
+   "form_points": 1.4,
+   "home": 0,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 28.6,
+   "league_position": 7,
+   "opponent_position": 5,
+   "squad_value_m": 145.7,
+   "travel_km": 138
+  },
+  {
+   "form_points": 2.0,
+   "home": 1,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 28.5,
+   "league_position": 8,
+   "opponent_position": 1,
+   "squad_value_m": 117.6,
+   "travel_km": 0
+  },
+  {
+   "form_points": 2.4,
+   "home": 0,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 28.5,
+   "league_position": 1,
+   "opponent_position": 8,
+   "squad_value_m": 442.9,
+   "travel_km": 1236
+  },
+  {
+   "form_points": 1.8,
+   "home": 1,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 25.3,
+   "league_position": 12,
+   "opponent_position": 18,
+   "squad_value_m": 419.1,
+   "travel_km": 0
+  },
+  {
+   "form_points": 0.0,
+   "home": 0,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 25.3,
+   "league_position": 18,
+   "opponent_position": 12,
+   "squad_value_m": 64.3,
+   "travel_km": 655
+  },
+  {
+   "form_points": 0.8,
+   "home": 1,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 15.7,
+   "league_position": 17,
+   "opponent_position": 6,
+   "squad_value_m": 52.9,
+   "travel_km": 0
+  },
+  {
+   "form_points": 1.8,
+   "home": 0,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 15.7,
+   "league_position": 6,
+   "opponent_position": 17,
+   "squad_value_m": 132.3,
+   "travel_km": 903
+  },
+  {
+   "form_points": 1.8,
+   "home": 1,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 29.8,
+   "league_position": 7,
+   "opponent_position": 3,
+   "squad_value_m": 187.6,
+   "travel_km": 0
+  },
+  {
+   "form_points": 2.2,
+   "home": 0,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 29.8,
+   "league_position": 3,
+   "opponent_position": 7,
+   "squad_value_m": 182.9,
+   "travel_km": 331
+  },
+  {
+   "form_points": 2.4,
+   "home": 1,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 28.1,
+   "league_position": 4,
+   "opponent_position": 16,
+   "squad_value_m": 652.1,
+   "travel_km": 0
+  },
+  {
+   "form_points": 0.8,
+   "home": 0,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 28.1,
+   "league_position": 16,
+   "opponent_position": 4,
+   "squad_value_m": 53.3,
+   "travel_km": 331
+  },
+  {
+   "form_points": 0.6,
+   "home": 1,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 27.9,
+   "league_position": 13,
+   "opponent_position": 14,
+   "squad_value_m": 108.3,
+   "travel_km": 0
+  },
+  {
+   "form_points": 0.6,
+   "home": 0,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 27.9,
+   "league_position": 14,
+   "opponent_position": 13,
+   "squad_value_m": 111.1,
+   "travel_km": 1184
+  },
+  {
+   "form_points": 0.4,
+   "home": 1,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 22.9,
+   "league_position": 15,
+   "opponent_position": 2,
+   "squad_value_m": 54.0,
+   "travel_km": 0
+  },
+  {
+   "form_points": 2.6,
+   "home": 0,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 22.9,
+   "league_position": 2,
+   "opponent_position": 15,
+   "squad_value_m": 934.5,
+   "travel_km": 844
+  },
+  {
+   "form_points": 1.6,
+   "home": 1,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 26.9,
+   "league_position": 10,
+   "opponent_position": 5,
+   "squad_value_m": 51.4,
+   "travel_km": 0
+  },
+  {
+   "form_points": 2.0,
+   "home": 0,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 26.9,
+   "league_position": 5,
+   "opponent_position": 10,
+   "squad_value_m": 145.7,
+   "travel_km": 613
+  },
+  {
+   "form_points": 1.4,
+   "home": 1,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 31.5,
+   "league_position": 9,
+   "opponent_position": 11,
+   "squad_value_m": 147.6,
+   "travel_km": 0
+  },
+  {
+   "form_points": 0.8,
+   "home": 0,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 31.5,
+   "league_position": 11,
+   "opponent_position": 9,
+   "squad_value_m": 140.1,
+   "travel_km": 1183
+  },
+  {
+   "form_points": 2.4,
+   "home": 1,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 28.3,
+   "league_position": 1,
+   "opponent_position": 18,
+   "squad_value_m": 442.9,
+   "travel_km": 0
+  },
+  {
+   "form_points": 0.0,
+   "home": 0,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 28.3,
+   "league_position": 18,
+   "opponent_position": 1,
+   "squad_value_m": 64.3,
+   "travel_km": 655
+  },
+  {
+   "form_points": 0.8,
+   "home": 1,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 18.8,
+   "league_position": 16,
+   "opponent_position": 11,
+   "squad_value_m": 52.9,
+   "travel_km": 0
+  },
+  {
+   "form_points": 1.4,
+   "home": 0,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 18.8,
+   "league_position": 11,
+   "opponent_position": 16,
+   "squad_value_m": 117.6,
+   "travel_km": 1201
+  },
+  {
+   "form_points": 1.8,
+   "home": 1,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 27.6,
+   "league_position": 9,
+   "opponent_position": 6,
+   "squad_value_m": 419.1,
+   "travel_km": 0
+  },
+  {
+   "form_points": 2.2,
+   "home": 0,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 27.6,
+   "league_position": 6,
+   "opponent_position": 9,
+   "squad_value_m": 182.9,
+   "travel_km": 848
+  },
+  {
+   "form_points": 2.4,
+   "home": 1,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 27.2,
+   "league_position": 3,
+   "opponent_position": 5,
+   "squad_value_m": 652.1,
+   "travel_km": 0
+  },
+  {
+   "form_points": 2.4,
+   "home": 0,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 27.2,
+   "league_position": 5,
+   "opponent_position": 3,
+   "squad_value_m": 132.3,
+   "travel_km": 193
+  },
+  {
+   "form_points": 1.4,
+   "home": 1,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 29.0,
+   "league_position": 8,
+   "opponent_position": 10,
+   "squad_value_m": 187.6,
+   "travel_km": 0
+  },
+  {
+   "form_points": 1.0,
+   "home": 0,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 29.0,
+   "league_position": 10,
+   "opponent_position": 8,
+   "squad_value_m": 111.1,
+   "travel_km": 622
+  },
+  {
+   "form_points": 0.4,
+   "home": 1,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 21.2,
+   "league_position": 15,
+   "opponent_position": 17,
+   "squad_value_m": 54.0,
+   "travel_km": 0
+  },
+  {
+   "form_points": 0.2,
+   "home": 0,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 21.2,
+   "league_position": 17,
+   "opponent_position": 15,
+   "squad_value_m": 53.3,
+   "travel_km": 983
+  },
+  {
+   "form_points": 0.6,
+   "home": 1,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 27.0,
+   "league_position": 14,
+   "opponent_position": 4,
+   "squad_value_m": 108.3,
+   "travel_km": 0
+  },
+  {
+   "form_points": 2.4,
+   "home": 0,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 27.0,
+   "league_position": 4,
+   "opponent_position": 14,
+   "squad_value_m": 145.7,
+   "travel_km": 1087
+  },
+  {
+   "form_points": 2.0,
+   "home": 1,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 29.7,
+   "league_position": 7,
+   "opponent_position": 2,
+   "squad_value_m": 147.6,
+   "travel_km": 0
+  },
+  {
+   "form_points": 2.6,
+   "home": 0,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 29.7,
+   "league_position": 2,
+   "opponent_position": 7,
+   "squad_value_m": 934.5,
+   "travel_km": 390
+  },
+  {
+   "form_points": 1.4,
+   "home": 1,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 24.8,
+   "league_position": 12,
+   "opponent_position": 13,
+   "squad_value_m": 51.4,
+   "travel_km": 0
+  },
+  {
+   "form_points": 0.8,
+   "home": 0,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 24.8,
+   "league_position": 13,
+   "opponent_position": 12,
+   "squad_value_m": 140.1,
+   "travel_km": 844
+  },
+  {
+   "form_points": 0.8,
+   "home": 1,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 17.7,
+   "league_position": 15,
+   "opponent_position": 1,
+   "squad_value_m": 52.9,
+   "travel_km": 0
+  },
+  {
+   "form_points": 3.0,
+   "home": 0,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 17.7,
+   "league_position": 1,
+   "opponent_position": 15,
+   "squad_value_m": 442.9,
+   "travel_km": 503
+  },
+  {
+   "form_points": 0.0,
+   "home": 1,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 27.4,
+   "league_position": 18,
+   "opponent_position": 4,
+   "squad_value_m": 64.3,
+   "travel_km": 0
+  },
+  {
+   "form_points": 2.2,
+   "home": 0,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 27.4,
+   "league_position": 4,
+   "opponent_position": 18,
+   "squad_value_m": 182.9,
+   "travel_km": 349
+  },
+  {
+   "form_points": 2.4,
+   "home": 1,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 28.1,
+   "league_position": 3,
+   "opponent_position": 14,
+   "squad_value_m": 652.1,
+   "travel_km": 0
+  },
+  {
+   "form_points": 0.8,
+   "home": 0,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 28.1,
+   "league_position": 14,
+   "opponent_position": 3,
+   "squad_value_m": 117.6,
+   "travel_km": 390
+  },
+  {
+   "form_points": 1.2,
+   "home": 1,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 27.7,
+   "league_position": 10,
+   "opponent_position": 12,
+   "squad_value_m": 419.1,
+   "travel_km": 0
+  },
+  {
+   "form_points": 1.0,
+   "home": 0,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 27.7,
+   "league_position": 12,
+   "opponent_position": 10,
+   "squad_value_m": 111.1,
+   "travel_km": 1240
+  },
+  {
+   "form_points": 1.0,
+   "home": 1,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 27.5,
+   "league_position": 13,
+   "opponent_position": 7,
+   "squad_value_m": 54.0,
+   "travel_km": 0
+  },
+  {
+   "form_points": 1.8,
+   "home": 0,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 27.5,
+   "league_position": 7,
+   "opponent_position": 13,
+   "squad_value_m": 132.3,
+   "travel_km": 944
+  },
+  {
+   "form_points": 2.0,
+   "home": 1,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 23.1,
+   "league_position": 5,
+   "opponent_position": 6,
+   "squad_value_m": 187.6,
+   "travel_km": 0
+  },
+  {
+   "form_points": 1.8,
+   "home": 0,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 23.1,
+   "league_position": 6,
+   "opponent_position": 5,
+   "squad_value_m": 145.7,
+   "travel_km": 572
+  },
+  {
+   "form_points": 1.4,
+   "home": 1,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 26.4,
+   "league_position": 9,
+   "opponent_position": 17,
+   "squad_value_m": 147.6,
+   "travel_km": 0
+  },
+  {
+   "form_points": 0.2,
+   "home": 0,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 26.4,
+   "league_position": 17,
+   "opponent_position": 9,
+   "squad_value_m": 53.3,
+   "travel_km": 602
+  },
+  {
+   "form_points": 1.2,
+   "home": 1,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 30.4,
+   "league_position": 11,
+   "opponent_position": 16,
+   "squad_value_m": 108.3,
+   "travel_km": 0
+  },
+  {
+   "form_points": 0.8,
+   "home": 0,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 30.4,
+   "league_position": 16,
+   "opponent_position": 11,
+   "squad_value_m": 140.1,
+   "travel_km": 455
+  },
+  {
+   "form_points": 1.4,
+   "home": 1,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 28.6,
+   "league_position": 8,
+   "opponent_position": 2,
+   "squad_value_m": 51.4,
+   "travel_km": 0
+  },
+  {
+   "form_points": 2.6,
+   "home": 0,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 28.6,
+   "league_position": 2,
+   "opponent_position": 8,
+   "squad_value_m": 934.5,
+   "travel_km": 349
+  },
+  {
+   "form_points": 3.0,
+   "home": 1,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 19.2,
+   "league_position": 1,
+   "opponent_position": 5,
+   "squad_value_m": 442.9,
+   "travel_km": 0
+  },
+  {
+   "form_points": 2.2,
+   "home": 0,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 19.2,
+   "league_position": 5,
+   "opponent_position": 1,
+   "squad_value_m": 182.9,
+   "travel_km": 848
+  },
+  {
+   "form_points": 2.4,
+   "home": 1,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 24.0,
+   "league_position": 3,
+   "opponent_position": 16,
+   "squad_value_m": 652.1,
+   "travel_km": 0
+  },
+  {
+   "form_points": 0.8,
+   "home": 0,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 24.0,
+   "league_position": 16,
+   "opponent_position": 3,
+   "squad_value_m": 52.9,
+   "travel_km": 841
+  },
+  {
+   "form_points": 0.2,
+   "home": 1,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 21.0,
+   "league_position": 18,
+   "opponent_position": 13,
+   "squad_value_m": 64.3,
+   "travel_km": 0
+  },
+  {
+   "form_points": 0.8,
+   "home": 0,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 21.0,
+   "league_position": 13,
+   "opponent_position": 18,
+   "squad_value_m": 111.1,
+   "travel_km": 672
+  },
+  {
+   "form_points": 1.0,
+   "home": 1,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 23.2,
+   "league_position": 12,
+   "opponent_position": 15,
+   "squad_value_m": 54.0,
+   "travel_km": 0
+  },
+  {
+   "form_points": 0.6,
+   "home": 0,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 23.2,
+   "league_position": 15,
+   "opponent_position": 12,
+   "squad_value_m": 117.6,
+   "travel_km": 1169
+  },
+  {
+   "form_points": 1.2,
+   "home": 1,
+   "kickoff_slot": "afternoon",
+   "kickoff_temp_c": 29.1,
+   "league_position": 7,
+   "opponent_position": 8,
+   "squad_value_m": 419.1,
+   "travel_km": 0
+  },
+  {
+   "form_points": 1.8,
+   "home": 0,
+   "kickoff_slot": "afternoon",
+   "kickoff_temp_c": 29.1,
+   "league_position": 8,
+   "opponent_position": 7,
+   "squad_value_m": 145.7,
+   "travel_km": 1145
+  },
+  {
+   "form_points": 1.4,
+   "home": 1,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 26.8,
+   "league_position": 9,
+   "opponent_position": 6,
+   "squad_value_m": 147.6,
+   "travel_km": 0
+  },
+  {
+   "form_points": 1.4,
+   "home": 0,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 26.8,
+   "league_position": 6,
+   "opponent_position": 9,
+   "squad_value_m": 132.3,
+   "travel_km": 471
+  },
+  {
+   "form_points": 2.6,
+   "home": 1,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 26.3,
+   "league_position": 4,
+   "opponent_position": 14,
+   "squad_value_m": 187.6,
+   "travel_km": 0
+  },
+  {
+   "form_points": 0.4,
+   "home": 0,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 26.3,
+   "league_position": 14,
+   "opponent_position": 4,
+   "squad_value_m": 140.1,
+   "travel_km": 901
+  },
+  {
+   "form_points": 0.8,
+   "home": 1,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 28.4,
+   "league_position": 11,
+   "opponent_position": 17,
+   "squad_value_m": 51.4,
+   "travel_km": 0
+  },
+  {
+   "form_points": 0.4,
+   "home": 0,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 28.4,
+   "league_position": 17,
+   "opponent_position": 11,
+   "squad_value_m": 53.3,
+   "travel_km": 69
+  },
+  {
+   "form_points": 1.4,
+   "home": 1,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 34.1,
+   "league_position": 10,
+   "opponent_position": 2,
+   "squad_value_m": 108.3,
+   "travel_km": 0
+  },
+  {
+   "form_points": 3.0,
+   "home": 0,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 34.1,
+   "league_position": 2,
+   "opponent_position": 10,
+   "squad_value_m": 934.5,
+   "travel_km": 792
+  },
+  {
+   "form_points": 2.4,
+   "home": 1,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 25.3,
+   "league_position": 3,
+   "opponent_position": 1,
+   "squad_value_m": 652.1,
+   "travel_km": 0
+  },
+  {
+   "form_points": 3.0,
+   "home": 0,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 25.3,
+   "league_position": 1,
+   "opponent_position": 3,
+   "squad_value_m": 442.9,
+   "travel_km": 848
+  },
+  {
+   "form_points": 1.6,
+   "home": 1,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 22.6,
+   "league_position": 6,
+   "opponent_position": 15,
+   "squad_value_m": 182.9,
+   "travel_km": 0
+  },
+  {
+   "form_points": 0.8,
+   "home": 0,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 22.6,
+   "league_position": 15,
+   "opponent_position": 6,
+   "squad_value_m": 111.1,
+   "travel_km": 392
+  },
+  {
+   "form_points": 1.2,
+   "home": 1,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 19.7,
+   "league_position": 13,
+   "opponent_position": 17,
+   "squad_value_m": 54.0,
+   "travel_km": 0
+  },
+  {
+   "form_points": 0.8,
+   "home": 0,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 19.7,
+   "league_position": 17,
+   "opponent_position": 13,
+   "squad_value_m": 52.9,
+   "travel_km": 190
+  },
+  {
+   "form_points": 0.8,
+   "home": 1,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 23.4,
+   "league_position": 16,
+   "opponent_position": 5,
+   "squad_value_m": 64.3,
+   "travel_km": 0
+  },
+  {
+   "form_points": 1.8,
+   "home": 0,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 23.4,
+   "league_position": 5,
+   "opponent_position": 16,
+   "squad_value_m": 145.7,
+   "travel_km": 613
+  },
+  {
+   "form_points": 1.4,
+   "home": 1,
+   "kickoff_slot": "afternoon",
+   "kickoff_temp_c": 31.2,
+   "league_position": 7,
+   "opponent_position": 14,
+   "squad_value_m": 147.6,
+   "travel_km": 0
+  },
+  {
+   "form_points": 0.2,
+   "home": 0,
+   "kickoff_slot": "afternoon",
+   "kickoff_temp_c": 31.2,
+   "league_position": 14,
+   "opponent_position": 7,
+   "squad_value_m": 117.6,
+   "travel_km": 17
+  },
+  {
+   "form_points": 1.2,
+   "home": 1,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 26.5,
+   "league_position": 10,
+   "opponent_position": 11,
+   "squad_value_m": 419.1,
+   "travel_km": 0
+  },
+  {
+   "form_points": 1.0,
+   "home": 0,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 26.5,
+   "league_position": 11,
+   "opponent_position": 10,
+   "squad_value_m": 140.1,
+   "travel_km": 512
+  },
+  {
+   "form_points": 1.4,
+   "home": 1,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 19.9,
+   "league_position": 8,
+   "opponent_position": 9,
+   "squad_value_m": 51.4,
+   "travel_km": 0
+  },
+  {
+   "form_points": 1.4,
+   "home": 0,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 19.9,
+   "league_position": 9,
+   "opponent_position": 8,
+   "squad_value_m": 132.3,
+   "travel_km": 185
+  },
+  {
+   "form_points": 2.0,
+   "home": 1,
+   "kickoff_slot": "afternoon",
+   "kickoff_temp_c": 28.9,
+   "league_position": 4,
+   "opponent_position": 2,
+   "squad_value_m": 187.6,
+   "travel_km": 0
+  },
+  {
+   "form_points": 3.0,
+   "home": 0,
+   "kickoff_slot": "afternoon",
+   "kickoff_temp_c": 28.9,
+   "league_position": 2,
+   "opponent_position": 4,
+   "squad_value_m": 934.5,
+   "travel_km": 331
+  },
+  {
+   "form_points": 0.8,
+   "home": 1,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 25.2,
+   "league_position": 12,
+   "opponent_position": 18,
+   "squad_value_m": 108.3,
+   "travel_km": 0
+  },
+  {
+   "form_points": 0.4,
+   "home": 0,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 25.2,
+   "league_position": 18,
+   "opponent_position": 12,
+   "squad_value_m": 53.3,
+   "travel_km": 690
+  }
+ ],
+ "served": [
+  {
+   "form_points": 2.4,
+   "home": 1,
+   "kickoff_slot": "afternoon",
+   "kickoff_temp_c": 33.4,
+   "league_position": 2,
+   "opponent_position": 5,
+   "squad_value_m": 442.9,
+   "travel_km": 0.0
+  },
+  {
+   "form_points": 2.0,
+   "home": 0,
+   "kickoff_slot": "afternoon",
+   "kickoff_temp_c": 33.4,
+   "league_position": 5,
+   "opponent_position": 2,
+   "squad_value_m": 187.6,
+   "travel_km": 450.5
+  },
+  {
+   "form_points": 0.8,
+   "home": 1,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 30.0,
+   "league_position": 9,
+   "opponent_position": 17,
+   "squad_value_m": 132.3,
+   "travel_km": 0.0
+  },
+  {
+   "form_points": 2.4,
+   "home": 0,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 30.0,
+   "league_position": 17,
+   "opponent_position": 9,
+   "squad_value_m": 53.3,
+   "travel_km": 90.7
+  },
+  {
+   "form_points": 0.2,
+   "home": 1,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 30.1,
+   "league_position": 13,
+   "opponent_position": 1,
+   "squad_value_m": 108.3,
+   "travel_km": 0.0
+  },
+  {
+   "form_points": 2.6,
+   "home": 0,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 30.1,
+   "league_position": 1,
+   "opponent_position": 13,
+   "squad_value_m": 419.1,
+   "travel_km": 43.5
+  },
+  {
+   "form_points": 2.6,
+   "home": 1,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 31.7,
+   "league_position": 6,
+   "opponent_position": 4,
+   "squad_value_m": 117.6,
+   "travel_km": 0.0
+  },
+  {
+   "form_points": 2.0,
+   "home": 0,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 31.7,
+   "league_position": 4,
+   "opponent_position": 6,
+   "squad_value_m": 934.5,
+   "travel_km": 242.3
+  },
+  {
+   "form_points": 1.4,
+   "home": 1,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 30.5,
+   "league_position": 12,
+   "opponent_position": 15,
+   "squad_value_m": 51.4,
+   "travel_km": 0.0
+  },
+  {
+   "form_points": 0.2,
+   "home": 0,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 30.5,
+   "league_position": 15,
+   "opponent_position": 12,
+   "squad_value_m": 64.3,
+   "travel_km": 0.0
+  },
+  {
+   "form_points": 0.6,
+   "home": 1,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 22.0,
+   "league_position": 18,
+   "opponent_position": 10,
+   "squad_value_m": 52.9,
+   "travel_km": 0.0
+  },
+  {
+   "form_points": 0.2,
+   "home": 0,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 22.0,
+   "league_position": 10,
+   "opponent_position": 18,
+   "squad_value_m": 140.1,
+   "travel_km": 15.5
+  },
+  {
+   "form_points": 1.8,
+   "home": 1,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 26.5,
+   "league_position": 7,
+   "opponent_position": 8,
+   "squad_value_m": 147.6,
+   "travel_km": 0.0
+  },
+  {
+   "form_points": 1.4,
+   "home": 0,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 26.5,
+   "league_position": 8,
+   "opponent_position": 7,
+   "squad_value_m": 182.9,
+   "travel_km": 242.3
+  },
+  {
+   "form_points": 3.0,
+   "home": 1,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 29.9,
+   "league_position": 3,
+   "opponent_position": 11,
+   "squad_value_m": 652.1,
+   "travel_km": 0.0
+  },
+  {
+   "form_points": 1.4,
+   "home": 0,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 29.9,
+   "league_position": 11,
+   "opponent_position": 3,
+   "squad_value_m": 145.7,
+   "travel_km": 185.8
+  },
+  {
+   "form_points": 0.0,
+   "home": 1,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 25.4,
+   "league_position": 16,
+   "opponent_position": 14,
+   "squad_value_m": 54.0,
+   "travel_km": 0.0
+  },
+  {
+   "form_points": 0.6,
+   "home": 0,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 25.4,
+   "league_position": 14,
+   "opponent_position": 16,
+   "squad_value_m": 111.1,
+   "travel_km": 721.4
+  },
+  {
+   "form_points": 1.4,
+   "home": 1,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 33.0,
+   "league_position": 5,
+   "opponent_position": 1,
+   "squad_value_m": 132.3,
+   "travel_km": 0.0
+  },
+  {
+   "form_points": 2.4,
+   "home": 0,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 33.0,
+   "league_position": 1,
+   "opponent_position": 5,
+   "squad_value_m": 442.9,
+   "travel_km": 494.6
+  },
+  {
+   "form_points": 1.4,
+   "home": 1,
+   "kickoff_slot": "afternoon",
+   "kickoff_temp_c": 39.7,
+   "league_position": 18,
+   "opponent_position": 4,
+   "squad_value_m": 187.6,
+   "travel_km": 0.0
+  },
+  {
+   "form_points": 2.6,
+   "home": 0,
+   "kickoff_slot": "afternoon",
+   "kickoff_temp_c": 39.7,
+   "league_position": 4,
+   "opponent_position": 18,
+   "squad_value_m": 419.1,
+   "travel_km": 450.5
+  },
+  {
+   "form_points": 2.2,
+   "home": 1,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 26.0,
+   "league_position": 9,
+   "opponent_position": 15,
+   "squad_value_m": 117.6,
+   "travel_km": 0.0
+  },
+  {
+   "form_points": 1.8,
+   "home": 0,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 26.0,
+   "league_position": 15,
+   "opponent_position": 9,
+   "squad_value_m": 53.3,
+   "travel_km": 379.7
+  },
+  {
+   "form_points": 0.0,
+   "home": 1,
+   "kickoff_slot": "afternoon",
+   "kickoff_temp_c": 38.9,
+   "league_position": 13,
+   "opponent_position": 14,
+   "squad_value_m": 108.3,
+   "travel_km": 0.0
+  },
+  {
+   "form_points": 0.2,
+   "home": 0,
+   "kickoff_slot": "afternoon",
+   "kickoff_temp_c": 38.9,
+   "league_position": 14,
+   "opponent_position": 13,
+   "squad_value_m": 64.3,
+   "travel_km": 385.9
+  },
+  {
+   "form_points": 0.6,
+   "home": 1,
+   "kickoff_slot": "afternoon",
+   "kickoff_temp_c": 25.3,
+   "league_position": 16,
+   "opponent_position": 10,
+   "squad_value_m": 52.9,
+   "travel_km": 0.0
+  },
+  {
+   "form_points": 2.0,
+   "home": 0,
+   "kickoff_slot": "afternoon",
+   "kickoff_temp_c": 25.3,
+   "league_position": 10,
+   "opponent_position": 16,
+   "squad_value_m": 934.5,
+   "travel_km": 522.6
+  },
+  {
+   "form_points": 2.0,
+   "home": 1,
+   "kickoff_slot": "afternoon",
+   "kickoff_temp_c": 35.8,
+   "league_position": 6,
+   "opponent_position": 8,
+   "squad_value_m": 51.4,
+   "travel_km": 0.0
+  },
+  {
+   "form_points": 1.6,
+   "home": 0,
+   "kickoff_slot": "afternoon",
+   "kickoff_temp_c": 35.8,
+   "league_position": 8,
+   "opponent_position": 6,
+   "squad_value_m": 182.9,
+   "travel_km": 216.9
+  },
+  {
+   "form_points": 3.0,
+   "home": 1,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 36.7,
+   "league_position": 2,
+   "opponent_position": 3,
+   "squad_value_m": 652.1,
+   "travel_km": 0.0
+  },
+  {
+   "form_points": 0.8,
+   "home": 0,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 36.7,
+   "league_position": 3,
+   "opponent_position": 2,
+   "squad_value_m": 140.1,
+   "travel_km": 510.1
+  },
+  {
+   "form_points": 1.4,
+   "home": 1,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 26.9,
+   "league_position": 7,
+   "opponent_position": 12,
+   "squad_value_m": 147.6,
+   "travel_km": 0.0
+  },
+  {
+   "form_points": 0.8,
+   "home": 0,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 26.9,
+   "league_position": 12,
+   "opponent_position": 7,
+   "squad_value_m": 111.1,
+   "travel_km": 23.0
+  },
+  {
+   "form_points": 0.2,
+   "home": 1,
+   "kickoff_slot": "afternoon",
+   "kickoff_temp_c": 31.7,
+   "league_position": 11,
+   "opponent_position": 17,
+   "squad_value_m": 54.0,
+   "travel_km": 0.0
+  },
+  {
+   "form_points": 1.4,
+   "home": 0,
+   "kickoff_slot": "afternoon",
+   "kickoff_temp_c": 31.7,
+   "league_position": 17,
+   "opponent_position": 11,
+   "squad_value_m": 145.7,
+   "travel_km": 648.1
+  },
+  {
+   "form_points": 2.4,
+   "home": 1,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 25.4,
+   "league_position": 2,
+   "opponent_position": 9,
+   "squad_value_m": 442.9,
+   "travel_km": 0.0
+  },
+  {
+   "form_points": 2.4,
+   "home": 0,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 25.4,
+   "league_position": 9,
+   "opponent_position": 2,
+   "squad_value_m": 419.1,
+   "travel_km": 0.0
+  },
+  {
+   "form_points": 2.2,
+   "home": 1,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 32.0,
+   "league_position": 3,
+   "opponent_position": 11,
+   "squad_value_m": 117.6,
+   "travel_km": 0.0
+  },
+  {
+   "form_points": 1.2,
+   "home": 0,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 32.0,
+   "league_position": 11,
+   "opponent_position": 3,
+   "squad_value_m": 132.3,
+   "travel_km": 297.0
+  },
+  {
+   "form_points": 1.8,
+   "home": 1,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 28.1,
+   "league_position": 13,
+   "opponent_position": 16,
+   "squad_value_m": 187.6,
+   "travel_km": 0.0
+  },
+  {
+   "form_points": 0.2,
+   "home": 0,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 28.1,
+   "league_position": 16,
+   "opponent_position": 13,
+   "squad_value_m": 64.3,
+   "travel_km": 42.9
+  },
+  {
+   "form_points": 0.6,
+   "home": 1,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 19.4,
+   "league_position": 18,
+   "opponent_position": 17,
+   "squad_value_m": 52.9,
+   "travel_km": 0.0
+  },
+  {
+   "form_points": 1.2,
+   "home": 0,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 19.4,
+   "league_position": 17,
+   "opponent_position": 18,
+   "squad_value_m": 53.3,
+   "travel_km": 567.9
+  },
+  {
+   "form_points": 0.6,
+   "home": 1,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 35.9,
+   "league_position": 8,
+   "opponent_position": 6,
+   "squad_value_m": 108.3,
+   "travel_km": 0.0
+  },
+  {
+   "form_points": 1.6,
+   "home": 0,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 35.9,
+   "league_position": 6,
+   "opponent_position": 8,
+   "squad_value_m": 182.9,
+   "travel_km": 492.1
+  },
+  {
+   "form_points": 3.0,
+   "home": 1,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 28.3,
+   "league_position": 1,
+   "opponent_position": 4,
+   "squad_value_m": 652.1,
+   "travel_km": 0.0
+  },
+  {
+   "form_points": 2.6,
+   "home": 0,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 28.3,
+   "league_position": 4,
+   "opponent_position": 1,
+   "squad_value_m": 934.5,
+   "travel_km": 0.0
+  },
+  {
+   "form_points": 1.4,
+   "home": 1,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 32.9,
+   "league_position": 10,
+   "opponent_position": 14,
+   "squad_value_m": 51.4,
+   "travel_km": 0.0
+  },
+  {
+   "form_points": 0.6,
+   "home": 0,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 32.9,
+   "league_position": 14,
+   "opponent_position": 10,
+   "squad_value_m": 111.1,
+   "travel_km": 417.6
+  },
+  {
+   "form_points": 0.2,
+   "home": 1,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 23.4,
+   "league_position": 15,
+   "opponent_position": 12,
+   "squad_value_m": 54.0,
+   "travel_km": 0.0
+  },
+  {
+   "form_points": 0.8,
+   "home": 0,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 23.4,
+   "league_position": 12,
+   "opponent_position": 15,
+   "squad_value_m": 140.1,
+   "travel_km": 108.1
+  },
+  {
+   "form_points": 2.0,
+   "home": 1,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 28.6,
+   "league_position": 5,
+   "opponent_position": 7,
+   "squad_value_m": 147.6,
+   "travel_km": 0.0
+  },
+  {
+   "form_points": 1.4,
+   "home": 0,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 28.6,
+   "league_position": 7,
+   "opponent_position": 5,
+   "squad_value_m": 145.7,
+   "travel_km": 85.7
+  },
+  {
+   "form_points": 2.0,
+   "home": 1,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 28.5,
+   "league_position": 8,
+   "opponent_position": 1,
+   "squad_value_m": 117.6,
+   "travel_km": 0.0
+  },
+  {
+   "form_points": 2.4,
+   "home": 0,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 28.5,
+   "league_position": 1,
+   "opponent_position": 8,
+   "squad_value_m": 442.9,
+   "travel_km": 768.0
+  },
+  {
+   "form_points": 1.8,
+   "home": 1,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 25.3,
+   "league_position": 12,
+   "opponent_position": 18,
+   "squad_value_m": 419.1,
+   "travel_km": 0.0
+  },
+  {
+   "form_points": 0.0,
+   "home": 0,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 25.3,
+   "league_position": 18,
+   "opponent_position": 12,
+   "squad_value_m": 64.3,
+   "travel_km": 407.0
+  },
+  {
+   "form_points": 0.8,
+   "home": 1,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 15.7,
+   "league_position": 17,
+   "opponent_position": 6,
+   "squad_value_m": 52.9,
+   "travel_km": 0.0
+  },
+  {
+   "form_points": 1.8,
+   "home": 0,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 15.7,
+   "league_position": 6,
+   "opponent_position": 17,
+   "squad_value_m": 132.3,
+   "travel_km": 561.1
+  },
+  {
+   "form_points": 1.8,
+   "home": 1,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 29.8,
+   "league_position": 7,
+   "opponent_position": 3,
+   "squad_value_m": 187.6,
+   "travel_km": 0.0
+  },
+  {
+   "form_points": 2.2,
+   "home": 0,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 29.8,
+   "league_position": 3,
+   "opponent_position": 7,
+   "squad_value_m": 182.9,
+   "travel_km": 205.7
+  },
+  {
+   "form_points": 2.4,
+   "home": 1,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 28.1,
+   "league_position": 4,
+   "opponent_position": 16,
+   "squad_value_m": 652.1,
+   "travel_km": 0.0
+  },
+  {
+   "form_points": 0.8,
+   "home": 0,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 28.1,
+   "league_position": 16,
+   "opponent_position": 4,
+   "squad_value_m": 53.3,
+   "travel_km": 205.7
+  },
+  {
+   "form_points": 0.6,
+   "home": 1,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 27.9,
+   "league_position": 13,
+   "opponent_position": 14,
+   "squad_value_m": 108.3,
+   "travel_km": 0.0
+  },
+  {
+   "form_points": 0.6,
+   "home": 0,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 27.9,
+   "league_position": 14,
+   "opponent_position": 13,
+   "squad_value_m": 111.1,
+   "travel_km": 735.7
+  },
+  {
+   "form_points": 0.4,
+   "home": 1,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 22.9,
+   "league_position": 15,
+   "opponent_position": 2,
+   "squad_value_m": 54.0,
+   "travel_km": 0.0
+  },
+  {
+   "form_points": 2.6,
+   "home": 0,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 22.9,
+   "league_position": 2,
+   "opponent_position": 15,
+   "squad_value_m": 934.5,
+   "travel_km": 524.4
+  },
+  {
+   "form_points": 1.6,
+   "home": 1,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 26.9,
+   "league_position": 10,
+   "opponent_position": 5,
+   "squad_value_m": 51.4,
+   "travel_km": 0.0
+  },
+  {
+   "form_points": 2.0,
+   "home": 0,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 26.9,
+   "league_position": 5,
+   "opponent_position": 10,
+   "squad_value_m": 145.7,
+   "travel_km": 380.9
+  },
+  {
+   "form_points": 1.4,
+   "home": 1,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 31.5,
+   "league_position": 9,
+   "opponent_position": 11,
+   "squad_value_m": 147.6,
+   "travel_km": 0.0
+  },
+  {
+   "form_points": 0.8,
+   "home": 0,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 31.5,
+   "league_position": 11,
+   "opponent_position": 9,
+   "squad_value_m": 140.1,
+   "travel_km": 735.1
+  },
+  {
+   "form_points": 2.4,
+   "home": 1,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 28.3,
+   "league_position": 1,
+   "opponent_position": 18,
+   "squad_value_m": 442.9,
+   "travel_km": 0.0
+  },
+  {
+   "form_points": 0.0,
+   "home": 0,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 28.3,
+   "league_position": 18,
+   "opponent_position": 1,
+   "squad_value_m": 64.3,
+   "travel_km": 407.0
+  },
+  {
+   "form_points": 0.8,
+   "home": 1,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 18.8,
+   "league_position": 16,
+   "opponent_position": 11,
+   "squad_value_m": 52.9,
+   "travel_km": 0.0
+  },
+  {
+   "form_points": 1.4,
+   "home": 0,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 18.8,
+   "league_position": 11,
+   "opponent_position": 16,
+   "squad_value_m": 117.6,
+   "travel_km": 746.3
+  },
+  {
+   "form_points": 1.8,
+   "home": 1,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 27.6,
+   "league_position": 9,
+   "opponent_position": 6,
+   "squad_value_m": 419.1,
+   "travel_km": 0.0
+  },
+  {
+   "form_points": 2.2,
+   "home": 0,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 27.6,
+   "league_position": 6,
+   "opponent_position": 9,
+   "squad_value_m": 182.9,
+   "travel_km": 526.9
+  },
+  {
+   "form_points": 2.4,
+   "home": 1,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 27.2,
+   "league_position": 3,
+   "opponent_position": 5,
+   "squad_value_m": 652.1,
+   "travel_km": 0.0
+  },
+  {
+   "form_points": 2.4,
+   "home": 0,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 27.2,
+   "league_position": 5,
+   "opponent_position": 3,
+   "squad_value_m": 132.3,
+   "travel_km": 119.9
+  },
+  {
+   "form_points": 1.4,
+   "home": 1,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 29.0,
+   "league_position": 8,
+   "opponent_position": 10,
+   "squad_value_m": 187.6,
+   "travel_km": 0.0
+  },
+  {
+   "form_points": 1.0,
+   "home": 0,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 29.0,
+   "league_position": 10,
+   "opponent_position": 8,
+   "squad_value_m": 111.1,
+   "travel_km": 386.5
+  },
+  {
+   "form_points": 0.4,
+   "home": 1,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 21.2,
+   "league_position": 15,
+   "opponent_position": 17,
+   "squad_value_m": 54.0,
+   "travel_km": 0.0
+  },
+  {
+   "form_points": 0.2,
+   "home": 0,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 21.2,
+   "league_position": 17,
+   "opponent_position": 15,
+   "squad_value_m": 53.3,
+   "travel_km": 610.8
+  },
+  {
+   "form_points": 0.6,
+   "home": 1,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 27.0,
+   "league_position": 14,
+   "opponent_position": 4,
+   "squad_value_m": 108.3,
+   "travel_km": 0.0
+  },
+  {
+   "form_points": 2.4,
+   "home": 0,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 27.0,
+   "league_position": 4,
+   "opponent_position": 14,
+   "squad_value_m": 145.7,
+   "travel_km": 675.4
+  },
+  {
+   "form_points": 2.0,
+   "home": 1,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 29.7,
+   "league_position": 7,
+   "opponent_position": 2,
+   "squad_value_m": 147.6,
+   "travel_km": 0.0
+  },
+  {
+   "form_points": 2.6,
+   "home": 0,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 29.7,
+   "league_position": 2,
+   "opponent_position": 7,
+   "squad_value_m": 934.5,
+   "travel_km": 242.3
+  },
+  {
+   "form_points": 1.4,
+   "home": 1,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 24.8,
+   "league_position": 12,
+   "opponent_position": 13,
+   "squad_value_m": 51.4,
+   "travel_km": 0.0
+  },
+  {
+   "form_points": 0.8,
+   "home": 0,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 24.8,
+   "league_position": 13,
+   "opponent_position": 12,
+   "squad_value_m": 140.1,
+   "travel_km": 524.4
+  },
+  {
+   "form_points": 0.8,
+   "home": 1,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 17.7,
+   "league_position": 15,
+   "opponent_position": 1,
+   "squad_value_m": 52.9,
+   "travel_km": 0.0
+  },
+  {
+   "form_points": 3.0,
+   "home": 0,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 17.7,
+   "league_position": 1,
+   "opponent_position": 15,
+   "squad_value_m": 442.9,
+   "travel_km": 312.5
+  },
+  {
+   "form_points": 0.0,
+   "home": 1,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 27.4,
+   "league_position": 18,
+   "opponent_position": 4,
+   "squad_value_m": 64.3,
+   "travel_km": 0.0
+  },
+  {
+   "form_points": 2.2,
+   "home": 0,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 27.4,
+   "league_position": 4,
+   "opponent_position": 18,
+   "squad_value_m": 182.9,
+   "travel_km": 216.9
+  },
+  {
+   "form_points": 2.4,
+   "home": 1,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 28.1,
+   "league_position": 3,
+   "opponent_position": 14,
+   "squad_value_m": 652.1,
+   "travel_km": 0.0
+  },
+  {
+   "form_points": 0.8,
+   "home": 0,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 28.1,
+   "league_position": 14,
+   "opponent_position": 3,
+   "squad_value_m": 117.6,
+   "travel_km": 242.3
+  },
+  {
+   "form_points": 1.2,
+   "home": 1,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 27.7,
+   "league_position": 10,
+   "opponent_position": 12,
+   "squad_value_m": 419.1,
+   "travel_km": 0.0
+  },
+  {
+   "form_points": 1.0,
+   "home": 0,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 27.7,
+   "league_position": 12,
+   "opponent_position": 10,
+   "squad_value_m": 111.1,
+   "travel_km": 770.5
+  },
+  {
+   "form_points": 1.0,
+   "home": 1,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 27.5,
+   "league_position": 13,
+   "opponent_position": 7,
+   "squad_value_m": 54.0,
+   "travel_km": 0.0
+  },
+  {
+   "form_points": 1.8,
+   "home": 0,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 27.5,
+   "league_position": 7,
+   "opponent_position": 13,
+   "squad_value_m": 132.3,
+   "travel_km": 586.6
+  },
+  {
+   "form_points": 2.0,
+   "home": 1,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 23.1,
+   "league_position": 5,
+   "opponent_position": 6,
+   "squad_value_m": 187.6,
+   "travel_km": 0.0
+  },
+  {
+   "form_points": 1.8,
+   "home": 0,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 23.1,
+   "league_position": 6,
+   "opponent_position": 5,
+   "squad_value_m": 145.7,
+   "travel_km": 355.4
+  },
+  {
+   "form_points": 1.4,
+   "home": 1,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 26.4,
+   "league_position": 9,
+   "opponent_position": 17,
+   "squad_value_m": 147.6,
+   "travel_km": 0.0
+  },
+  {
+   "form_points": 0.2,
+   "home": 0,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 26.4,
+   "league_position": 17,
+   "opponent_position": 9,
+   "squad_value_m": 53.3,
+   "travel_km": 374.1
+  },
+  {
+   "form_points": 1.2,
+   "home": 1,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 30.4,
+   "league_position": 11,
+   "opponent_position": 16,
+   "squad_value_m": 108.3,
+   "travel_km": 0.0
+  },
+  {
+   "form_points": 0.8,
+   "home": 0,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 30.4,
+   "league_position": 16,
+   "opponent_position": 11,
+   "squad_value_m": 140.1,
+   "travel_km": 282.7
+  },
+  {
+   "form_points": 1.4,
+   "home": 1,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 28.6,
+   "league_position": 8,
+   "opponent_position": 2,
+   "squad_value_m": 51.4,
+   "travel_km": 0.0
+  },
+  {
+   "form_points": 2.6,
+   "home": 0,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 28.6,
+   "league_position": 2,
+   "opponent_position": 8,
+   "squad_value_m": 934.5,
+   "travel_km": 216.9
+  },
+  {
+   "form_points": 3.0,
+   "home": 1,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 19.2,
+   "league_position": 1,
+   "opponent_position": 5,
+   "squad_value_m": 442.9,
+   "travel_km": 0.0
+  },
+  {
+   "form_points": 2.2,
+   "home": 0,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 19.2,
+   "league_position": 5,
+   "opponent_position": 1,
+   "squad_value_m": 182.9,
+   "travel_km": 526.9
+  },
+  {
+   "form_points": 2.4,
+   "home": 1,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 24.0,
+   "league_position": 3,
+   "opponent_position": 16,
+   "squad_value_m": 652.1,
+   "travel_km": 0.0
+  },
+  {
+   "form_points": 0.8,
+   "home": 0,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 24.0,
+   "league_position": 16,
+   "opponent_position": 3,
+   "squad_value_m": 52.9,
+   "travel_km": 522.6
+  },
+  {
+   "form_points": 0.2,
+   "home": 1,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 21.0,
+   "league_position": 18,
+   "opponent_position": 13,
+   "squad_value_m": 64.3,
+   "travel_km": 0.0
+  },
+  {
+   "form_points": 0.8,
+   "home": 0,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 21.0,
+   "league_position": 13,
+   "opponent_position": 18,
+   "squad_value_m": 111.1,
+   "travel_km": 417.6
+  },
+  {
+   "form_points": 1.0,
+   "home": 1,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 23.2,
+   "league_position": 12,
+   "opponent_position": 15,
+   "squad_value_m": 54.0,
+   "travel_km": 0.0
+  },
+  {
+   "form_points": 0.6,
+   "home": 0,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 23.2,
+   "league_position": 15,
+   "opponent_position": 12,
+   "squad_value_m": 117.6,
+   "travel_km": 726.4
+  },
+  {
+   "form_points": 1.2,
+   "home": 1,
+   "kickoff_slot": "afternoon",
+   "kickoff_temp_c": 29.1,
+   "league_position": 7,
+   "opponent_position": 8,
+   "squad_value_m": 419.1,
+   "travel_km": 0.0
+  },
+  {
+   "form_points": 1.8,
+   "home": 0,
+   "kickoff_slot": "afternoon",
+   "kickoff_temp_c": 29.1,
+   "league_position": 8,
+   "opponent_position": 7,
+   "squad_value_m": 145.7,
+   "travel_km": 711.5
+  },
+  {
+   "form_points": 1.4,
+   "home": 1,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 26.8,
+   "league_position": 9,
+   "opponent_position": 6,
+   "squad_value_m": 147.6,
+   "travel_km": 0.0
+  },
+  {
+   "form_points": 1.4,
+   "home": 0,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 26.8,
+   "league_position": 6,
+   "opponent_position": 9,
+   "squad_value_m": 132.3,
+   "travel_km": 292.7
+  },
+  {
+   "form_points": 2.6,
+   "home": 1,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 26.3,
+   "league_position": 4,
+   "opponent_position": 14,
+   "squad_value_m": 187.6,
+   "travel_km": 0.0
+  },
+  {
+   "form_points": 0.4,
+   "home": 0,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 26.3,
+   "league_position": 14,
+   "opponent_position": 4,
+   "squad_value_m": 140.1,
+   "travel_km": 559.9
+  },
+  {
+   "form_points": 0.8,
+   "home": 1,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 28.4,
+   "league_position": 11,
+   "opponent_position": 17,
+   "squad_value_m": 51.4,
+   "travel_km": 0.0
+  },
+  {
+   "form_points": 0.4,
+   "home": 0,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 28.4,
+   "league_position": 17,
+   "opponent_position": 11,
+   "squad_value_m": 53.3,
+   "travel_km": 42.9
+  },
+  {
+   "form_points": 1.4,
+   "home": 1,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 34.1,
+   "league_position": 10,
+   "opponent_position": 2,
+   "squad_value_m": 108.3,
+   "travel_km": 0.0
+  },
+  {
+   "form_points": 3.0,
+   "home": 0,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 34.1,
+   "league_position": 2,
+   "opponent_position": 10,
+   "squad_value_m": 934.5,
+   "travel_km": 492.1
+  },
+  {
+   "form_points": 2.4,
+   "home": 1,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 25.3,
+   "league_position": 3,
+   "opponent_position": 1,
+   "squad_value_m": 652.1,
+   "travel_km": 0.0
+  },
+  {
+   "form_points": 3.0,
+   "home": 0,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 25.3,
+   "league_position": 1,
+   "opponent_position": 3,
+   "squad_value_m": 442.9,
+   "travel_km": 526.9
+  },
+  {
+   "form_points": 1.6,
+   "home": 1,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 22.6,
+   "league_position": 6,
+   "opponent_position": 15,
+   "squad_value_m": 182.9,
+   "travel_km": 0.0
+  },
+  {
+   "form_points": 0.8,
+   "home": 0,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 22.6,
+   "league_position": 15,
+   "opponent_position": 6,
+   "squad_value_m": 111.1,
+   "travel_km": 243.6
+  },
+  {
+   "form_points": 1.2,
+   "home": 1,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 19.7,
+   "league_position": 13,
+   "opponent_position": 17,
+   "squad_value_m": 54.0,
+   "travel_km": 0.0
+  },
+  {
+   "form_points": 0.8,
+   "home": 0,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 19.7,
+   "league_position": 17,
+   "opponent_position": 13,
+   "squad_value_m": 52.9,
+   "travel_km": 118.1
+  },
+  {
+   "form_points": 0.8,
+   "home": 1,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 23.4,
+   "league_position": 16,
+   "opponent_position": 5,
+   "squad_value_m": 64.3,
+   "travel_km": 0.0
+  },
+  {
+   "form_points": 1.8,
+   "home": 0,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 23.4,
+   "league_position": 5,
+   "opponent_position": 16,
+   "squad_value_m": 145.7,
+   "travel_km": 380.9
+  },
+  {
+   "form_points": 1.4,
+   "home": 1,
+   "kickoff_slot": "afternoon",
+   "kickoff_temp_c": 31.2,
+   "league_position": 7,
+   "opponent_position": 14,
+   "squad_value_m": 147.6,
+   "travel_km": 0.0
+  },
+  {
+   "form_points": 0.2,
+   "home": 0,
+   "kickoff_slot": "afternoon",
+   "kickoff_temp_c": 31.2,
+   "league_position": 14,
+   "opponent_position": 7,
+   "squad_value_m": 117.6,
+   "travel_km": 10.6
+  },
+  {
+   "form_points": 1.2,
+   "home": 1,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 26.5,
+   "league_position": 10,
+   "opponent_position": 11,
+   "squad_value_m": 419.1,
+   "travel_km": 0.0
+  },
+  {
+   "form_points": 1.0,
+   "home": 0,
+   "kickoff_slot": "evening",
+   "kickoff_temp_c": 26.5,
+   "league_position": 11,
+   "opponent_position": 10,
+   "squad_value_m": 140.1,
+   "travel_km": 318.1
+  },
+  {
+   "form_points": 1.4,
+   "home": 1,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 19.9,
+   "league_position": 8,
+   "opponent_position": 9,
+   "squad_value_m": 51.4,
+   "travel_km": 0.0
+  },
+  {
+   "form_points": 1.4,
+   "home": 0,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 19.9,
+   "league_position": 9,
+   "opponent_position": 8,
+   "squad_value_m": 132.3,
+   "travel_km": 115.0
+  },
+  {
+   "form_points": 2.0,
+   "home": 1,
+   "kickoff_slot": "afternoon",
+   "kickoff_temp_c": 28.9,
+   "league_position": 4,
+   "opponent_position": 2,
+   "squad_value_m": 187.6,
+   "travel_km": 0.0
+  },
+  {
+   "form_points": 3.0,
+   "home": 0,
+   "kickoff_slot": "afternoon",
+   "kickoff_temp_c": 28.9,
+   "league_position": 2,
+   "opponent_position": 4,
+   "squad_value_m": 934.5,
+   "travel_km": 205.7
+  },
+  {
+   "form_points": 0.8,
+   "home": 1,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 25.2,
+   "league_position": 12,
+   "opponent_position": 18,
+   "squad_value_m": 108.3,
+   "travel_km": 0.0
+  },
+  {
+   "form_points": 0.4,
+   "home": 0,
+   "kickoff_slot": "night",
+   "kickoff_temp_c": 25.2,
+   "league_position": 18,
+   "opponent_position": 12,
+   "squad_value_m": 53.3,
+   "travel_km": 428.7
+  }
+ ]
+}

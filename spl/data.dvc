@@ -1,0 +1,7 @@
+outs:
+- md5: 5ac4a2478289f7107b96799ed5f79883.dir
+  size: 529794
+  nfiles: 8
+  hash: md5
+  path: data
+  remote: spl-store
