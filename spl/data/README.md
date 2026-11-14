@@ -1,6 +1,6 @@
 # Data: a synthetic Saudi league
 
-**Every result in this folder is synthetic.** The 24 clubs and their home cities are real. The tiers, strengths, squad values, players, tables and results are invented by `lab/data.py` from seed 2026 with the Python standard library, and they describe no real season. Run `make data-check` to prove that these files match the generator. Do not edit `data/`.
+**Every result in this folder is synthetic.** The 24 clubs and their home cities are real. The tiers, strengths, squad values, players, tables and results are invented from seed 2026 with the Python standard library, and they describe no real season. Do not edit these files by hand.
 
 The data has the shape of a real league: 18 clubs in the top flight, a double round robin of 34 rounds, three clubs relegated and three promoted every season, five seasons. The clubs' 18 home cities are real, so `travel_km` and `kickoff_temp_c` feel right. The data does not reproduce any real season or person, and a club's synthetic tier or table position says nothing about the real club. We use synthetic results because real results and squad values come with licence conditions and are not needed to learn MLOps.
 
@@ -43,7 +43,7 @@ A season is named by the year it starts: season 2025 is the 2025-26 season.
 
 ## Facts you can check
 
-Measured on this data with `make explore` and `python -m scripts.train` on the reference solution:
+Measured on this data with the reference baseline model:
 
 - 1,530 matches, 3,060 club-rows, 23 clubs over five seasons. 40.8 % of club-rows are wins. The home side wins 53 % of matches, 18 % are drawn.
 - The table-only rule ("the side higher in the table wins") is right for 0.693 of 2025-26 club-rows.

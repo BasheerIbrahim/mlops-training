@@ -1,7 +1,0 @@
-outs:
-- md5: 0808a3e9c5cb31e2e73493219e4c48c7.dir
-  size: 424743
-  nfiles: 8
-  hash: md5
-  path: data
-  remote: f1-store

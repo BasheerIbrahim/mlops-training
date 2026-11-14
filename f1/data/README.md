@@ -1,6 +1,6 @@
 # Data: the Synthetic Grand Prix Championship
 
-**Every team, driver and circuit in this folder is fictional.** `lab/data.py` generates all rows from seed 2026 with the Python standard library. Run `make data-check` to prove that these files match the generator. Do not edit `data/`.
+**Every team, driver and circuit in this folder is fictional.** All rows were generated from seed 2026 with the Python standard library. Do not edit these files by hand.
 
 The data has the shape of a real championship: 10 teams, 2 cars each, 24 circuits, five seasons. It does not reproduce any real season, team or person. We use synthetic data because real historical results come with licence conditions and are not needed to learn MLOps.
 
@@ -41,7 +41,7 @@ The data has the shape of a real championship: 10 teams, 2 cars each, 24 circuit
 
 ## Facts you can check
 
-Measured on this data with `make explore` and `python -m scripts.train` on the reference solution:
+Measured on this data with the reference baseline model:
 
 - 120 races, 2,400 entries, 28 drivers. Half of all entries score points. 10.9 % of entries do not finish.
 - The grid-only rule ("start in the top ten, score points") is right for 0.804 of 2025 entries.
