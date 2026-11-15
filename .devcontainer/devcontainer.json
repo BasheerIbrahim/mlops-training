@@ -1,0 +1,19 @@
+{
+  "name": "mlops-training-dataset",
+  "image": "mcr.microsoft.com/devcontainers/python:3.12",
+  "postCreateCommand": "pip install --no-cache-dir pandas pyarrow jupyterlab ipykernel matplotlib",
+  "customizations": {
+    "codespaces": {
+      "openFiles": ["README.md"]
+    },
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-toolsai.jupyter",
+        "ms-toolsai.datawrangler",
+        "mechatroner.rainbow-csv"
+      ]
+    }
+  },
+  "hostRequirements": { "cpus": 2 }
+}
