@@ -25,6 +25,10 @@ Each lab is a branch. Open a codespace on the branch and follow its README.
 | 03 Build a model and track experiments | [`03-build-model`](../../tree/03-build-model) | [`docs/packages/lab-03-build-model.md`](docs/packages/lab-03-build-model.md) |
 | 04 Quality gates and controlled promotion | [`04-quality-gates`](../../tree/04-quality-gates) | [`docs/packages/lab-04-quality-gates.md`](docs/packages/lab-04-quality-gates.md) |
 | 05 Serve the model and roll back a faulty release | [`05-serve-model`](../../tree/05-serve-model) | [`docs/packages/lab-05-serve-model.md`](docs/packages/lab-05-serve-model.md) |
+| 06 Monitor drift, skew and delayed labels | [`06-monitoring`](../../tree/06-monitoring) | [`docs/packages/lab-06-monitoring.md`](docs/packages/lab-06-monitoring.md) |
+| 07 Recover the service and train a controlled challenger | [`07-recovery`](../../tree/07-recovery) | [`docs/packages/lab-07-recovery.md`](docs/packages/lab-07-recovery.md) |
+| 08 Fairness, transparency and the model card | [`08-fairness`](../../tree/08-fairness) | [`docs/packages/lab-08-fairness.md`](docs/packages/lab-08-fairness.md) |
+| 09 Security gates and production-readiness acceptance | [`09-acceptance`](../../tree/09-acceptance) | [`docs/packages/lab-09-acceptance.md`](docs/packages/lab-09-acceptance.md) |
 
 The [`docs/`](docs/) folder records the concepts of each lab in Google's Open Knowledge Format (OKF). We build the classroom slide decks from it. See [`docs/README.md`](docs/README.md).
 
