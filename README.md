@@ -2,18 +2,6 @@
 
 Synthetic datasets for hands-on MLOps training: data validation, leakage, drift, training-serving skew and delayed labels.
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/majlisofai/mlops-training-dataset?quickstart=1)
-
-To work with the data in your browser, click the badge (or **Code → Codespaces → Create codespace on main**). The codespace runs Python 3.12 and installs the tools from [`.devcontainer/requirements.txt`](.devcontainer/requirements.txt) the first time it starts:
-
-| Task | Tools |
-|---|---|
-| Data exploration | pandas, DuckDB, JupyterLab, matplotlib, seaborn, ydata-profiling, and the Data Wrangler and Rainbow CSV extensions (right-click a CSV → **Open in Data Wrangler**) |
-| Data versioning | DVC and the DVC extension (run `dvc init` to start tracking) |
-| Data quality | pandera and Great Expectations for validation, Evidently for drift and training-serving skew reports |
-
-The codespace runs on your own GitHub account and uses its free monthly Codespaces hours.
-
 | Folder | Dataset | Target |
 |---|---|---|
 | [`f1/data/`](f1/data/) | Synthetic Grand Prix championship: 10 fictional teams, 24 circuits, five seasons, 2,400 car-race rows | `points_finish` |
