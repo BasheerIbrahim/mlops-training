@@ -26,6 +26,7 @@ The folder is one bundle in Google's [Open Knowledge Format (OKF) v0.2](https://
 | 02 MLflow | `02-mlflow` | [Lab 02](packages/lab-02-mlflow.md) |
 | 03 Build a model | `03-build-model` | [Lab 03](packages/lab-03-build-model.md) |
 | 04 Quality gates | `04-quality-gates` | [Lab 04](packages/lab-04-quality-gates.md) |
+| 05 Serve the model | `05-serve-model` | [Lab 05](packages/lab-05-serve-model.md) |
 
 ## Rules for a concept
 
