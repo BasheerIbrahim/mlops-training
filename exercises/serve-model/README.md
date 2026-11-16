@@ -198,7 +198,7 @@ The first build downloads the Python base image and installs the packages from [
 
 > **Check:** `docker image ls f1-api` shows the image `f1-api:1`, about 810 MB on disk.
 
-Run the container:
+Run the container in the terminal where the API ran:
 
 ```bash
 docker run --rm --name f1-api --network host f1-api:1
@@ -232,7 +232,7 @@ Open the **Ports** tab and click the globe icon next to **Locust UI** (port 8089
 
 | Objective | Threshold | Measured with the good model | Why this number |
 |---|---:|---:|---|
-| 95th percentile latency of `POST /v1/predict` | ≤ 500 ms | 71 to 190 ms in a container with 2 CPUs, like a codespace; 89 and 140 ms on GitHub Actions | A person waits for the answer. Half a second still feels immediate. The good model keeps more than half of it in reserve, for a busy codespace or a busier day. |
+| 95th percentile latency of `POST /v1/predict` | ≤ 500 ms | 71 to 190 ms in a container with 2 CPUs, like a codespace; 89 to 150 ms on GitHub Actions | A person waits for the answer. Half a second still feels immediate. The good model keeps more than half of it in reserve, for a busy codespace or a busier day. |
 | Failure rate | ≤ 1 % | 0 % | A failed request is a race with no prediction. One in a hundred is the most a dashboard should show. |
 | Requests in 30 seconds | ≥ 150 | 245 to 263 | 10 users ask for about 250. Fewer than 150 means the API could not keep up with the load. |
 
@@ -306,7 +306,7 @@ bash exercises/serve-model/load_test.sh
 > SLO BROKEN: requests, p95 latency
 > ```
 >
-> In other runs the p95 latency was 2500 ms (GitHub Actions) and 4300 ms. It always breaks the SLO many times over.
+> In other runs the p95 latency was 4300 ms in the same container, and 1900 and 2500 ms on GitHub Actions. It always breaks the SLO several times over.
 
 Each request now walks through 3000 trees instead of 300. Alone, that takes 0.2 seconds. With ten users, the requests queue behind each other, and the slowest wait seconds. Nothing failed, and every answer was right. The model is just too slow for this service. It also costs more to run. We measured, in a container with 2 CPUs:
 
@@ -318,7 +318,7 @@ Each request now walks through 3000 trees instead of 300. Alone, that takes 0.2 
 | Start-up until `/health` answers | 2.5 s | 5.5 s |
 | p95 latency, 10 users | 71 to 190 ms | 1800 to 4300 ms |
 
-Capacity is a release requirement too. To serve version 2 within the SLO you would need several times the CPUs, for no gain in accuracy.
+More CPUs are not an easy way out: on a laptop with 10 CPUs, outside a container, version 2 still had a p95 latency of 670 ms (version 1: 53 ms). Capacity is a release requirement too, and version 2 costs much more of it for no gain in accuracy.
 
 Roll back with the lesson 04 script, then reload:
 
@@ -369,7 +369,7 @@ It writes the SLO table to the run page and keeps `results/` as the artifact `lo
 
 Now try the faulty model. Open **Actions → serve → Run workflow**, set the candidate to `exercises/serve-model/examples/huge_forest.yaml`, and click **Run workflow**.
 
-> **Check:** step **1. Promote the candidate** passes: the huge forest passes all seven gates (accuracy 0.840). Steps 2 to 4 pass too: the contract tests, the image and the smoke test are fine. Step **5. Load test and SLO check** fails with `SLO BROKEN: requests, p95 latency` (we measured p95 2500 ms and 89 requests), and the job fails.
+> **Check:** step **1. Promote the candidate** passes: the huge forest passes all seven gates (accuracy 0.840). Steps 2 to 4 pass too: the contract tests, the image and the smoke test are fine. Step **5. Load test and SLO check** fails with `SLO BROKEN: requests, p95 latency` (we measured p95 latencies of 1900 and 2500 ms, with 89 and 121 requests), and the job fails.
 
 ## Discuss
 
