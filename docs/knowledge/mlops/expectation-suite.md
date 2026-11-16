@@ -55,7 +55,7 @@ A suite puts all the rules for one dataset in one place, with one name. You can 
 
 The NIST AI RMF asks teams to document the test sets, metrics and tools that they use for testing (MEASURE 2.1).[^nist-ai-rmf] ISO/IEC 42001 control A.7.4 covers data quality.[^iso-42001-a7] A suite in Git is a written, repeatable record of the data quality rules.
 
-A suite is like the teacher's checklist for homework: name on the page, every answer filled in, answers in the allowed range. The teacher uses the same checklist for every pupil.
+A suite is like the scrutineers' checklist: the same list of checks for every car at every race. The team writes it once and runs it on every new batch.
 
 # Examples
 

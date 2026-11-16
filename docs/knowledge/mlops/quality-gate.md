@@ -45,7 +45,7 @@ Google's MLOps guide says that continuous integration in ML is not only about te
 
 The NIST AI RMF asks for a determination of whether an AI system achieves its stated objectives and whether its deployment should proceed (MANAGE 1.1).[^nist-ai-rmf] A gate makes this decision the same way every time, and its report documents the metrics and the test set (MEASURE 2.1).
 
-A quality gate is a gatekeeper with a checklist at the kitchen door. Each dish must tick every box on the list, or it does not go to the judges.
+A quality gate is scrutineering before the predictor may go to the grid. The officials tick every box on the checklist, and a predictor that fails one box does not race. The predictor that already knows the finishing order is stopped here.
 
 # Examples
 

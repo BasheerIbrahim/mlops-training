@@ -50,7 +50,7 @@ The NIST AI RMF says that AI systems may need more frequent maintenance, and tri
 
 Because real concept drift shows up in the outcomes, it shows up late. In the lab, a final label arrives 2 to 26 hours after a race.[^lab07] See [delayed labels](/knowledge/mlops/delayed-labels.md) and [performance monitoring](/knowledge/mlops/performance-monitoring.md).
 
-Kid version: the restaurant's best dish won every prize last year. This year the customers' tastes changed. The ingredients are as fresh as ever, but fewer plates come back empty. The recipe did not get worse; the world around it moved.
+Kid version: last season the predictor's calls were good. This season new regulations bring fragile power units, and a backmarker team leads the championship. The timing sheets look as normal as ever, but the same grid position now means something different. The predictor did not get worse; the world around it moved.
 
 # Examples
 

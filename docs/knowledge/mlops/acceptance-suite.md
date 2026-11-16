@@ -75,7 +75,7 @@ The NIST AI RMF asks for a determination of whether a system achieves its stated
 
 Missing evidence must block. In lab 04, a skipped gate let a cheating model through. Here, a check that did not run is never a pass.[^lab09] The faults in the lab show why one gate is not enough: each fault is caught by a different gate, and every other gate passes.
 
-Before the restaurant opens, an inspector walks through a checklist with ten boxes. Each box gets a tick, a cross or "nobody checked". An empty box counts as a cross. Even ten ticks do not open the doors: the owner does.
+Before the predictor may race, final scrutineering walks through a checklist with ten boxes. Each box gets a tick, a cross or "nobody checked". An empty box counts as a cross. Even ten ticks do not send the car to the grid: the team principal does.
 
 # Examples
 

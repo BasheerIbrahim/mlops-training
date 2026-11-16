@@ -66,7 +66,7 @@ Each extra proposal that you try on the same test rows is another chance to win 
 
 The NIST AI RMF asks for a determination of whether the system achieves its objectives and whether its deployment should proceed (MANAGE 1.1). It asks that performance is measured for conditions similar to deployment (MEASURE 2.3), and that test sets and metrics are documented (MEASURE 2.1).[^nist-ai-rmf]
 
-Kid version: a new cook says her soup is better than the champion soup. Both soups go to the same blind tasters, on the same day, with the same bowls. The new soup must win clearly, not by one vote, and the head chef still decides.
+Kid version: a race engineer says a new setup is faster than the race setup. Both setups run in practice on the same laps, on the same day, in the same conditions. The new setup must win clearly, not by a whisker, and the team principal still decides.
 
 # Examples
 

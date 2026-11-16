@@ -67,7 +67,7 @@ A model can be accurate and still too slow to serve. Accuracy gates measure the 
 
 The NIST AI RMF asks that performance criteria are measured and demonstrated for conditions similar to the deployment setting (MEASURE 2.3), and that test sets, metrics and tools are documented (MEASURE 2.1).[^nist-ai-rmf] The load test runs against the same container image, with a written load, and keeps the Locust report.
 
-The load test is the lunch rush. One customer at the counter tells you nothing. Ten hungry customers at once show you whether the kitchen keeps up.
+The load test is the race start. One engineer on the radio tells you nothing. Every engineer on the radio at once shows you whether the pit wall keeps up.
 
 # Examples
 

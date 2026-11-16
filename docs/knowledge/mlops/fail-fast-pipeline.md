@@ -63,7 +63,7 @@ Bad data that passes one step quietly can train a bad model, pass a weak test an
 
 NIST AI RMF MANAGE 2.3 asks that procedures are followed to respond to and recover from a previously unknown risk.[^nist-ai-rmf] ISO/IEC 42001 control A.6.2.4 covers verification and validation measures for an AI system.[^iso-42001][^advisera-42001] A step that stops on a failed check, and a known way to roll back, put both into practice.
 
-Think of milk that smells bad. You stop before you bake the cake, not after your friends have eaten it.
+Think of a red flag. The session stops as soon as something is unsafe, not after the race is over.
 
 # Examples
 

@@ -51,13 +51,13 @@ Git is good at small text files and bad at large data files. The pointer file le
 
 `dvc add` also adds the data file to `.gitignore`, so that Git does not commit the data by mistake.[^dvc-add] `dvc checkout` restores the data that matches the current pointers from the cache to the workspace. You usually run it after `git checkout`.[^dvc-checkout]
 
-Think of a coat-check ticket. Git keeps the ticket (the pointer file). DVC keeps the coat (the data). Show the right ticket and you get the right coat back.
+Think of the ticket for a timing sheet in the team's archive. Git keeps the ticket (the pointer file). DVC keeps the sheet in the archive (the data). Show the right ticket and you get the right sheet back.
 
 # Examples
 
 - In lab 01, `dvc add f1/data/season_2026.csv` makes the pointer file `f1/data/season_2026.csv.dvc` and adds the CSV to `f1/data/.gitignore`. You commit only these two small files.[^lab-01]
 - The pointer for the provisional 2026 results has md5 `1dee862a3599e087b764cfb9ebd79ee8`. After `apply_stewards.py` changes 23 positions and you run `dvc add` again, the md5 is `87ffbc792aeb259333a41f7f573a38e3`.[^lab-01]
-- To go back to the provisional results: `git checkout HEAD~1 -- f1/data/season_2026.csv.dvc` moves the ticket, then `dvc checkout f1/data/season_2026.csv` fetches the matching coat from the cache.[^lab-01]
+- To go back to the provisional results: `git checkout HEAD~1 -- f1/data/season_2026.csv.dvc` moves the ticket, then `dvc checkout f1/data/season_2026.csv` fetches the matching sheet from the cache.[^lab-01]
 - Lab 02 logs this md5 to MLflow as the data version of each run. See [Data lineage](/knowledge/mlops/data-lineage.md).
 
 # Common mistakes

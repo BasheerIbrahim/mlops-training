@@ -53,7 +53,7 @@ Google's MLOps guide describes a common progression: automated deployment to a t
 
 The option **Prevent self-review** stops the person who started a deployment from approving it, even if they are a required reviewer.[^gh-deployments] This separates the author from the approver.
 
-A deployment approval is a grown-up's stamp. The gatekeeper says the dish passed the checklist. The dish becomes the champion only after the grown-up looks at it and stamps it.
+A deployment approval is the team principal's signature. Scrutineering says the predictor passed every check. The change goes to the grid only after the team principal reads the results and signs.
 
 # Examples
 

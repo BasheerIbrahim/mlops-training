@@ -35,7 +35,7 @@ Logistic regression is often the first real model after a baseline. It is fast, 
 
 When a complex model beats logistic regression by only a small margin, the simple model is often the better choice in production.
 
-Kid version: logistic regression is a cook with a scale. Each ingredient (grid position, form, rain) adds or takes away some weight. The total weight tips the scale to "points" or "no points".
+Kid version: logistic regression is a race engineer with a scale. Each input (grid position, form, rain) adds or takes away some weight. The total weight tips the scale to "points" or "no points".
 
 # Examples
 

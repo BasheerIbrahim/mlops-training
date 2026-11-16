@@ -39,7 +39,7 @@ A random forest finds non-linear patterns and interactions between inputs withou
 
 Its defaults can overfit. The default `max_depth=None` and `min_samples_leaf=1` grow fully developed, unpruned trees.[^sklearn-rf-api] Each tree can then learn the training rows by heart. NIST asks teams to show that the model to deploy is valid and reliable, and to document the limits of its generalisation.[^nist-ai-rmf] A score on held-out data is the evidence.
 
-Kid version: one cook can have strange habits. A forest asks 300 cooks, each with a different shopping basket, and takes the average of their opinions.
+Kid version: one race engineer can have strange habits. A forest asks 300 engineers, each studying a different pile of timing sheets, and takes the average of their calls.
 
 # Examples
 

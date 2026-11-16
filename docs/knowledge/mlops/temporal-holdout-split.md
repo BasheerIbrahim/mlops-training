@@ -39,7 +39,7 @@ A model for the next race runs on races that have not happened yet. A temporal s
 
 A model that fits the training data well does not always predict well. Only data that the model did not see gives a reliable score for new data.[^fpp3-accuracy]
 
-Kid version: you practise in the kitchen with old recipes (2021-2024). The judges keep the 2025 taste test sealed until the end. If you taste the test dishes while you practise, the contest is not fair.
+Kid version: the predictor practises on the 2021-2024 seasons. The 2025 season is a race it has never seen, kept sealed until the end. If it peeks at 2025 while it practises, the test is not fair.
 
 # Examples
 

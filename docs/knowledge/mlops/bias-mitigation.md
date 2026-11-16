@@ -61,7 +61,7 @@ Every fix has a cost, and a fix is not proof of fairness. NIST says that systems
 
 Some fixes are not allowed. A per-group threshold treats two cases with the same inputs differently because of their group. Fairlearn notes that one might argue this is disparate treatment under US law or direct discrimination under EU law, where those laws apply.[^fairlearn-postprocessing] SDAIA asks that sensitive attributes are not used as model data, or that their use is justified.[^sdaia-ethics] The course gives no legal advice: ask your legal and compliance team.
 
-Kid version: to help the new cooks, you can make the critic practise on their dishes ten times as often. The critic gets fairer to them but a little worse overall. Or you can set a higher bar for new cooks only. But that bar was chosen by peeking at the final judging, and the critic must know who cooked each dish.
+Kid version: every fix costs some lap time. To help the rookies, you can make the predictor practise on their races ten times as often. It gets fairer to them but a little worse overall. Or you can set a higher bar for rookies only. But that bar was chosen by peeking at the 2025 season, the race the predictor must never see, and the predictor must know who is a rookie at every prediction.
 
 # Examples
 

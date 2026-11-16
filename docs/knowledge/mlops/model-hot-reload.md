@@ -45,7 +45,7 @@ Martin Fowler describes the same idea for whole environments: prepare and test t
 
 The NIST AI RMF asks for mechanisms to supersede, disengage or deactivate AI systems whose performance is inconsistent with intended use (MANAGE 2.4), for systems that can fail safely (MEASURE 2.6), and for recovery and change management in post-deployment plans (MANAGE 4.1).[^nist-ai-rmf] The reload puts a rollback into effect in seconds. A failed reload leaves the old model serving.
 
-A hot reload swaps the chef without closing the restaurant. The new chef puts on the apron and gets ready while the old chef keeps cooking. If the new chef does not show up, the old chef just keeps cooking.
+A hot reload changes the predictor behind the pit-wall radio without switching the radio off. The new predictor gets ready while the old one keeps answering. If the new one fails to load, the old one just keeps answering.
 
 # Examples
 

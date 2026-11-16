@@ -31,7 +31,7 @@ A model score means nothing alone. "84 % right" is good only if a simple rule do
 
 The baseline also answers a business question: is the model worth the cost to build, deploy and monitor it? NIST asks for a decision on whether the AI system achieves its intended purpose and whether development or deployment should proceed.[^nist-ai-rmf] NIST also notes that a system that augments or replaces human decisions needs baseline metrics for comparison.[^nist-ai-rmf]
 
-Kid version: before the cook-off, the judges taste a sandwich from the shop. Every cook must make something better than that sandwich, or the cook-off is a waste of time.
+Kid version: the simplest predictor says "grid position decides": start in the top ten, score points. Every new predictor must beat that rule on the same races, or it is not worth the work.
 
 # Examples
 

@@ -66,7 +66,7 @@ NIST's Secure Software Development Framework asks for a way to verify release in
 
 The model file needs a second check. skops says that pickle is not secure, because loading some objects can run arbitrary code. skops constructs only the types that are trusted, by default or by the user. You should always review the types that `get_untrusted_types` reports, and load skops files only from sources you trust.[^skops-persistence]
 
-The head chef takes a photo of each page of the winning recipe and keeps the list of photos. Before service, a helper compares each page with its photo. One extra pinch of salt and the page no longer matches. But if the photos sit in the same drawer as the recipe, a thief can swap both.
+The officials seal the engine and write down every seal. Before the race, a scrutineer checks each seal. If someone changed the engine, the seal is broken. But if the list of seals sits in the same garage as the engine, a thief can swap both.
 
 # Examples
 

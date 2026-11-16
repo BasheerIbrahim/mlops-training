@@ -35,7 +35,7 @@ Google's MLOps guide says that a team must validate a new model before it serves
 
 The NIST AI RMF asks an organization to determine and document its risk tolerances (MAP 1.5). It also asks that performance criteria are measured and documented for conditions similar to the deployment setting (MEASURE 2.3).[^nist-ai-rmf] A criteria file in version control is such a record.
 
-Think of a cook-off. The judges write the score sheet before they taste any dish. If they write it after they taste, they can make the sheet fit their favourite dish.
+Think of the technical regulations in a Grand Prix. The officials write them before the season, before any car is tested. If they wrote them after they saw the cars, they could bend them to fit a favourite team. The strategy team writes its release criteria the same way: before it tests any predictor.
 
 # Examples
 

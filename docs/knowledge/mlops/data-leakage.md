@@ -51,7 +51,7 @@ Leakage gives overly optimistic test scores and poorer results on new data in pr
 
 The NIST AI RMF asks teams to document data selection and construct validation (MAP 2.3), and to show that a system is valid and reliable before deployment (MEASURE 2.5).[^nist-ai-rmf] A leaky model fails both. ISO/IEC 42001 control A.7.6 covers the criteria for data preparation, which is where most leaks enter.[^iso-42001-a7]
 
-It is like seeing the answer sheet before a test. You get full marks, but you learned nothing, and you fail the next test that has no answer sheet.
+It is like knowing the finishing order before the race. Your prediction looks perfect, but you learned nothing, and it is useless before the lights go out, when nobody knows the order yet.
 
 # Examples
 

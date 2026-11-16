@@ -63,7 +63,7 @@ A rollback that nobody tested can make an outage longer, so test the recovery st
 
 The NIST AI RMF asks for post-deployment plans that include incident response, recovery and change management (MANAGE 4.1). It asks that incidents and errors are communicated to the relevant AI actors, and that the processes for tracking, responding and recovering are followed and documented (MANAGE 4.3). It also asks for procedures to respond to and recover from a risk that was not known before (MANAGE 2.3).[^nist-ai-rmf] ISO/IEC 42001 control A.8.4 covers the communication of incidents to users and other interested parties. We confirmed this only through a secondary source.[^iso-42001-a8]
 
-Kid version: the restaurant keeps a red folder by the kitchen door. It says what to check when the kitchen will not open, who to call, and how to know it is fixed. After each bad day, the team writes one page: what went wrong, what we did, and what we change so it does not happen again. Nobody gets told off.
+Kid version: the team keeps a runbook on the pit wall. It says what to check when the car will not start, who to call, and how to know it is fixed. After each bad weekend, the team writes one page: what went wrong, what we did, and what we change so it does not happen again. Nobody gets told off.
 
 # Examples
 

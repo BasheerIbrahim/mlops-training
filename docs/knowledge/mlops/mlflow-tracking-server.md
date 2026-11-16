@@ -58,7 +58,7 @@ One server gives the whole team one place to log runs and one UI to compare them
 
 The security options matter when the UI is not on `localhost`. A codespace serves the UI from a `*.app.github.dev` address. That host is not in the default list, so the server rejects the browser requests. In the lab, the UI then shows **403**.[^lab02][^lab02-readme]
 
-Think of the school library. Every class puts its lab notebooks on the library shelves (the backend store) and its photos in the library's photo box (the artifact store). The librarian lets in only visitors whose names are on the list (`--allowed-hosts`).
+Think of the team's data room behind the pit wall. Every engineer puts logbook pages on its shelves (the backend store) and files in its archive boxes (the artifact store). The door lets in only the passes that are on the list (`--allowed-hosts`).
 
 # Examples
 

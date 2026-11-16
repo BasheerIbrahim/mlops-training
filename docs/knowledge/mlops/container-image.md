@@ -59,7 +59,7 @@ The image runs the same way in the codespace, on GitHub Actions and on a server.
 
 The NIST AI RMF asks that the risks of third-party software components are mapped and documented (MAP 4.1), and that performance is demonstrated for conditions similar to the deployment setting (MEASURE 2.3).[^nist-ai-rmf] `requirements-serve.txt` lists every third-party package and its version. CI load-tests the same image that would be deployed.
 
-The image is a packed food truck. It carries the stove, the pans and the cook's instructions, so it cooks the same way in any town. It does not carry the dish: when it opens, it fetches the champion recipe from the recipe book.
+The image is the team's freight boxes. The garage is packed the same way for every circuit, so it works the same at every race. The predictor does not travel in the boxes: when the garage opens, it fetches the champion predictor from the register.
 
 # Examples
 

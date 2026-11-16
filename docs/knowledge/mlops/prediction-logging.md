@@ -53,7 +53,7 @@ Evidently says that good logging records the ongoing model performance for later
 
 The NIST AI RMF asks that the functionality and behavior of the AI system are monitored when in production (MEASURE 2.4), and that post-deployment monitoring plans are implemented (MANAGE 4.1).[^nist-ai-rmf] ISO/IEC 42001 control A.6.2.8 asks for event logs during the AI system life cycle, at least while the system is in use.[^iso-42001-a6]
 
-The restaurant now keeps an order book. Each line says the time, the table, what the guest ordered, which cook made it and what came out of the kitchen. It also says which orders the waiter refused, and why.
+The team now records telemetry for every call on the pit-wall radio. Each line says the time, which car, what the engineer asked, which predictor answered and what it said. It also says which messages were sent back with "say again", and why.
 
 # Examples
 

@@ -66,7 +66,7 @@ NIST's Secure Software Development Framework asks you to archive, for each relea
 
 On GitHub, the human decision is a [deployment approval](/knowledge/mlops/deployment-approval.md). Required reviewers must approve a job that references the environment, and one approval is enough. With **Prevent self-review**, the person who started the deployment cannot approve it. If the environment requires approval, the job cannot read environment secrets before a reviewer approves.[^gh-deployments]
 
-The dossier is the restaurant's inspection folder. It holds the checklist, the photos of the recipe and the names of who cooked, who bought the food and who holds the keys. The last page has one empty line: "Open today? Signed: ____". Only the owner may sign it, and a robot never may.
+The dossier is the car's homologation file. It holds the checklist, the list of seals and the names of who built the predictor, who checked the parts and who holds the passes. The last page has one empty line: "Race? Signed: ____". Only the team principal may sign it, and a robot never may.
 
 # Examples
 

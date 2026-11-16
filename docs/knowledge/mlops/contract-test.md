@@ -49,7 +49,7 @@ Clients write code against the contract. If a field disappears or a check gets l
 
 Google's MLOps guide lists, for continuous delivery, testing the prediction service by calling the service API with the expected inputs and making sure that you get the response you expect.[^google-mlops] The NIST AI RMF asks that test sets, metrics and tools used during testing are documented (MEASURE 2.1), and that the AI system to be deployed is demonstrated to be valid and reliable (MEASURE 2.5).[^nist-ai-rmf] The test file is that record.
 
-A contract test is a mystery shopper at the restaurant counter. The shopper does not judge the taste. The shopper checks that the counter takes orders from the menu, refuses dishes that are not on it, and gives one plate per order.
+A contract test is a radio check before the session. It does not judge whether the answers are good. It checks that the pit-wall radio works: it takes messages in the agreed format, answers "say again" to a message in the wrong format, and gives one answer per car.
 
 # Examples
 

@@ -65,7 +65,7 @@ A model can pass every accuracy gate and still put its errors on one group. Lab 
 
 NIST asks that fairness and bias are evaluated and the results documented (MEASURE 2.11), and that someone decides whether deployment should proceed (MANAGE 1.1).[^nist-ai-rmf] ISO/IEC 42001 Annex A has a control for AI system verification and validation measures (A.6.2.4).[^iso-42001][^advisera-42001] A fairness gate is one such measure, and its report is the documented result.
 
-A fairness gate is a second gatekeeper at the kitchen door. The first one checks that the dish tastes good. The second one checks that the critic's mistakes are not all piled on the new cooks.
+A fairness gate is a second check at scrutineering. The first one checks that the predictor is good enough to go to the grid. The second one checks that its mistakes are not all piled on the rookies.
 
 # Examples
 

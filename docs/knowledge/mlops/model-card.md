@@ -58,7 +58,7 @@ NIST asks that intended purposes and context are documented (MAP 1.1), that the 
 
 SDAIA asks that performance metrics and the measured impact on individuals and communities are documented and accessible to stakeholders (Principle 6), and that owners review and sign off a model before production (Principle 7).[^sdaia-ethics] ISO/IEC 42001 Annex A has a control for AI system technical documentation (A.6.2.7).[^iso-42001][^advisera-42001]
 
-A model card is the label on the jar: what is inside, what it is good for, who should not eat it, how it was tested, and who signed it off.
+A model card is the car's technical passport: what the predictor is, what it is for, what it must never be used for, how it performs and for whom, and who signed it off.
 
 # Examples
 

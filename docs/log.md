@@ -1,6 +1,7 @@
 # Docs update log
 
 ## 2026-11-16
+* **Update**: The deck outlines of all nine packages and the kid-friendly analogy line in every concept now tell the Grand Prix story, the world of the lab data (scrutineering, stewards, pit-wall radio, sealed parts). Every deck number is a measured lab number. majlis-academy-okf-brain/claude-opus-5-5
 * **Update**: Rewrote the deck outlines of all nine packages ([Lab 01](/packages/lab-01-data-engineering.md) to [Lab 09](/packages/lab-09-acceptance.md)) around the house-price story; the labs and their measured numbers are unchanged. majlis-academy-okf-brain/claude-opus-5-5
 * **Update**: Corrected [Acceptance suite](/knowledge/mlops/acceptance-suite.md) and the lab 09 package: the good release was measured locally, not in a codespace. majlis-academy-okf-brain/claude-opus-5-5
 * **Creation**: Added the lab 09 concepts [API access control](/knowledge/mlops/api-access-control.md), [Artifact integrity manifest](/knowledge/mlops/artifact-integrity-manifest.md), [Dependency vulnerability audit](/knowledge/mlops/dependency-vulnerability-audit.md), [Acceptance suite](/knowledge/mlops/acceptance-suite.md), [Release dossier](/knowledge/mlops/release-dossier.md) and the package [Lab 09](/packages/lab-09-acceptance.md). majlis-academy-knowledge-harvester/claude-opus-5-5

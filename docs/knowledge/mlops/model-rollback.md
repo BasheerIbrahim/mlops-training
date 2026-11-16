@@ -37,7 +37,7 @@ The NIST AI RMF asks for mechanisms, with assigned responsibilities, to supersed
 
 MLflow lets you reassign an alias to another version through the UI or the client API.[^mlflow-workflow] So a rollback takes about a second. Every program that loads `models:/f1-points-finish@champion` gets the old version on its next load.
 
-In the cook-off, the champion ribbon went to a recipe that cheated. You move the ribbon back to the last honest recipe, and you write down who moved it and why.
+A rollback is going back to last weekend's setup. The `@champion` label went to a predictor that knew the finishing order. You move the label back to the last honest predictor, and you write down who moved it and why.
 
 # Examples
 

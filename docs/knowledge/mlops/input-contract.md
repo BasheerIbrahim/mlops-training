@@ -49,7 +49,7 @@ A model answers any numbers you give it. Without a contract, grid 21 or a made-u
 
 The contract also documents the model's limits. The NIST AI RMF asks that information about an AI system's knowledge limits is documented (MAP 2.2), and that the system can fail safely, particularly if made to operate beyond its knowledge limits (MEASURE 2.6).[^nist-ai-rmf] A 422 that names the bad field is a safe failure. A confident prediction from out-of-range input is not.
 
-The contract is the menu. You can order only what is on the menu. If you ask for "grid 21" or an "oval" dish, the waiter says no and tells you why, and the kitchen never starts cooking.
+The contract is the pit-wall radio protocol. A message must use the agreed words and values. If an engineer asks about "grid 21" or an "oval" circuit, the radio answers "422, say again" and says why, and the predictor never hears the message.
 
 # Examples
 

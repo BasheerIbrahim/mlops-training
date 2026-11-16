@@ -53,7 +53,7 @@ A batch where every value is valid can still be very different from the training
 
 The NIST AI RMF asks teams to monitor the system's behaviour in production (MEASURE 2.4) and to document the limits of generalization beyond the conditions of development (MEASURE 2.5).[^nist-ai-rmf] A distribution check is a simple way to see when data leaves those conditions. ISO/IEC 42001 control A.7.4 covers data quality for AI systems.[^iso-42001-a7]
 
-Allowed is not the same as normal. Every pupil may stay home with a sick note. If half the class stays home on the same day, each note is valid, but something is wrong.
+Allowed is not the same as normal. Every 2026 car passes scrutineering, yet 27.5 % retire instead of 10.9 %. Each car is legal, but something has changed.
 
 # Examples
 

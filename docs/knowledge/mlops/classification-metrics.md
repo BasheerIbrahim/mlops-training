@@ -41,7 +41,7 @@ Each metric can hide a weakness that another shows. Accuracy misleads on imbalan
 
 NIST asks teams to select metrics for the risks they found, to measure performance for conditions similar to deployment, and to document the measures.[^nist-ai-rmf] NIST also says that accuracy measures should consider false positive and false negative rates.[^nist-ai-rmf]
 
-Kid version: accuracy asks "how many dishes did the judges like?" F1 asks "when the cook said 'this one is great', was it, and did the cook find all the great ones?" ROC AUC asks "can the cook put the dishes in order from best to worst?"
+Kid version: accuracy asks "how often did the predictor call points or no points correctly?" F1 asks "when it said 'points', was it right, and did it find all the cars that scored?" ROC AUC asks "can it put the cars in order, from most likely to score to least likely?"
 
 # Examples
 

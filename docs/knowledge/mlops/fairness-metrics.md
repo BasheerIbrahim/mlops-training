@@ -62,7 +62,7 @@ NIST asks that fairness and bias are evaluated and the results documented (MEASU
 
 Metrics are not the whole story. Fairlearn says that fairness metrics capture some aspects of fairness but fail to capture all of them. Some metrics, such as demographic parity and equalized odds, cannot both be met at the same time.[^fairlearn-fairness]
 
-Kid version: a food critic guesses which dishes will win a star. The two new cooks made 21 dishes that did not deserve a star, and the critic promised a star for 16 of them. For the other cooks, the critic made that mistake only about 1 time in 7. The critic's average score hides this.
+Kid version: before each race, the predictor says "points or no points?" for every car. The two rookies had 21 entries that scored no points, and the predictor promised points for 16 of them. For everyone else, it made that mistake only about 1 time in 7. The predictor's average score hides this.
 
 # Examples
 

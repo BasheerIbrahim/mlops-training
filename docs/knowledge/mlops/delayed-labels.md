@@ -54,7 +54,7 @@ Delayed labels cause two problems.
 
 The NIST AI RMF asks teams to monitor the system's behaviour in production (MEASURE 2.4).[^nist-ai-rmf] ISO/IEC 42001 has controls for AI system operation and monitoring (A.6.2.6) and for data provenance (A.7.5).[^iso-42001-a6] [^iso-42001-a7] With delayed labels, both need a plan for when the labels arrive and which label version counts.
 
-Think of a football match where the referee checks the video after the final whistle and changes the result. The score you saw at the end of the match was not the final score.
+Think of the stewards. The chequered flag gives a provisional result, but penalties can arrive hours later and change the final classification. The result you saw at the flag was not the final one.
 
 # Examples
 

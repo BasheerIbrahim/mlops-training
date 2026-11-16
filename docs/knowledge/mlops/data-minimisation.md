@@ -54,7 +54,7 @@ NIST asks that the privacy risk of the AI system is examined and documented (MEA
 
 SDAIA asks that the decision criteria of an AI system are not based on personally identifying information, and that personal information is limited to what is necessary for the system to work. It also asks for a test that the combination of available data does not break anonymity.[^sdaia-ethics] The GDPR asks that, by default, only the personal data necessary for each purpose are processed, including how long they are stored and who can access them (Article 25(2)).[^gdpr]
 
-The kitchen ticket says "grid 3, street circuit, rain likely", not the customer's name. The cook needs only what changes the dish, and the order book never becomes a list of who ate what.
+The pit-wall question says "grid 3, street circuit, rain likely", not the driver's name. The predictor needs only what changes the call, so driver names stay out of the inputs and the telemetry logs.
 
 # Examples
 

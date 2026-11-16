@@ -38,7 +38,7 @@ You register a model from a run in the UI (**Register model**, then **Create New
 
 Experiment tracking keeps every try, good or bad. The registry keeps only the models that you choose to use. It answers three questions for the team: which models exist, which version is which, and which run (data, code, parameters) produced it. NIST asks for mechanisms to inventory AI systems.[^nist-ai-rmf] NIST also asks for post-deployment plans that include recovery and change management.[^nist-ai-rmf] Numbered versions and aliases make it possible to promote and roll back a model (lab 04).
 
-Kid version: MLflow tracking is the lab notebook where you write every try. The Model Registry is the official recipe book. Only the best honest recipe goes in, with a page number (the version), so every kitchen cooks the same dish.
+Kid version: MLflow tracking is the race engineer's logbook, where every try is written down. The Model Registry is the team's homologation register: only the best honest predictor goes in, with a number (the version), so every garage runs the same one.
 
 # Examples
 

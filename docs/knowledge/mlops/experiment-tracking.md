@@ -47,7 +47,7 @@ Memory and file names do not tell you which data, code and settings gave a resul
 
 NIST AI RMF asks that test sets, metrics and the tools used during test, evaluation, verification and validation (TEVV) are documented (MEASURE 2.1). It also asks that data collection and selection are documented (MAP 2.3).[^nist-ai-rmf] ISO/IEC 42001 Annex A has a control for the documentation of AI system design and development (A.6.2.3).[^iso-42001][^advisera-42001] Experiment tracking produces this evidence as a side effect of the work.
 
-Think of a science-fair lab notebook. Each time you try the experiment, you write one new page: what you used, what you changed and what happened. You never tear out a page.
+Think of the race engineer's logbook. Each run gets one new page: which timing sheet, which setup, which checks and which result. You never tear out a page.
 
 # Examples
 

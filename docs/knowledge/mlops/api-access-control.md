@@ -90,7 +90,7 @@ The NIST AI RMF calls an AI system secure when it keeps confidentiality, integri
 
 A key is a secret, so the rules for secrets apply. OWASP says that secrets must never be logged, that exposed keys must be revoked at once, and that secrets should be rotated so that a stolen one works only for a short time.[^owasp-secrets]
 
-The restaurant now gives out badges. A waiter's badge lets you place orders. Only the head chef's key opens the recipe cupboard. A stranger at the kitchen door hears "Who are you?" (401). A waiter at the recipe cupboard hears "I know you, but not this door" (403).
+The paddock now gives out passes. A garage pass lets you ask the pit wall for predictions. Only the team principal's pass can change the predictor. A stranger at the garage door hears "Who are you?" (401). A garage pass at the team principal's door hears "I know you, but not this door" (403).
 
 # Examples
 

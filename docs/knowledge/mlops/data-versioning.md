@@ -47,7 +47,7 @@ A model is the result of code plus data. If you version only the code, you canno
 
 The NIST AI RMF asks teams to document the test sets, metrics and tools that they use for testing (MEASURE 2.1).[^nist-ai-rmf] ISO/IEC 42001 has a control to record the provenance of the data that an AI system uses (A.7.5).[^iso-42001-a7] A data version ID is the simplest record of which data you used.
 
-Think of a save point in a video game. You can play on, and you can always go back to the exact place where you saved.
+Think of a Grand Prix result sheet. The provisional result comes at the flag, and the final result comes after the stewards. Both are versions of the same timing sheet, and you can always go back to either one.
 
 # Examples
 

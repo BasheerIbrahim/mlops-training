@@ -55,7 +55,7 @@ Recent changes are a good place to start. Systems tend to stay stable until some
 
 The NIST AI RMF asks that processes for tracking, responding to and recovering from incidents and errors are followed and documented (MANAGE 4.3). It also asks that the AI system is monitored in production (MEASURE 2.4).[^nist-ai-rmf] ISO/IEC 42001 control A.6.2.6 covers the operation and monitoring of an AI system, including tracking errors and failures. We confirmed this only through a secondary source.[^iso-42001-a6]
 
-Kid version: on Monday morning the restaurant kitchen does not open. Before anyone touches the stove, the head chef walks round with a notebook: is the stove on, which recipe is on the board, what did the night cook write, are the ingredients fresh, and did yesterday's customers like the food?
+Kid version: on race morning the car will not start. Before anyone touches it, the race engineer reads the telemetry: is it running, which setup is on it, what do the logs say, are the timing sheets normal, and how good were the predictor's calls against the final classification?
 
 # Examples
 

@@ -49,7 +49,7 @@ The NIST AI RMF asks that organizational risk tolerances are determined and docu
 
 The SRE book gives advice for choosing targets: do not pick a target based on current performance, keep it simple, have as few SLOs as possible, and perfection can wait.[^sre-slo] It also says that a tighter internal SLO than the one you promise users gives you room to respond.[^sre-slo]
 
-The SLO is the restaurant's promise: "food on your table within 5 minutes, and almost no wrong orders, even at lunch time." The kitchen checks the clock against that promise, not against a feeling.
+The SLO is the pit wall's promise: "an answer in under half a second, and almost no lost messages, even at the race start." The team checks the stopwatch against that promise, not against a feeling.
 
 # Examples
 

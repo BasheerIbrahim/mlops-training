@@ -49,7 +49,7 @@ A pipeline runs the same checks in the same order every time. Nobody can skip a 
 
 Google says that a rapid and reliable update of pipelines in production needs a robust automated CI/CD system. That system automatically builds, tests and deploys the new pipeline components to the target environment.[^google-mlops]
 
-A CI/CD pipeline is a kitchen conveyor belt. Each dish goes past the same stations in the same order. If one station rejects the dish, the belt stops and the dish never reaches the table.
+A CI/CD pipeline is the pit-stop routine. Every stop runs the same steps in the same order. If one step fails, the stop stops: the car does not leave the pit box until the step is done right.
 
 # Examples
 

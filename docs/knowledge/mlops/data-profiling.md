@@ -55,7 +55,7 @@ You cannot write a good quality check if you do not know what good data looks li
 
 The NIST AI RMF asks teams to document data collection and selection, including availability, representativeness and suitability (MAP 2.3).[^nist-ai-rmf] ISO/IEC 42001 control A.7.4 covers the quality of data for AI systems.[^iso-42001-a7] A profile is the first evidence for both.
 
-A profile is like a health check-up for a table. The doctor measures height, weight and temperature first, so that a later change stands out.
+A profile is like studying the timing sheets before you predict: how many races, how many cars, how many do not finish. You write the facts down, so that a later change stands out.
 
 # Examples
 

@@ -35,7 +35,7 @@ Good performance for most examples can mask poor performance for a minority subs
 
 NIST asks teams to evaluate fairness and bias and to document the results, and to measure performance for conditions similar to deployment.[^nist-ai-rmf]
 
-Kid version: the class average on a test is 84 %. That sounds great. But the new kids in the class got only 52 %. The average hides them, so you must check each group.
+Kid version: the grid rule calls 80 % of all cars right. That sounds good. But for rookies, the drivers in their first season, it is right only 52 % of the time. The average hides them, so you must check each group.
 
 # Examples
 

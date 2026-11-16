@@ -59,7 +59,7 @@ The service loads `models:/f1-points-finish@champion`. An MLflow alias is a muta
 
 Every answer names the model version. When a prediction looks wrong, you can find the exact model that made it. `/health` lets you watch which version is in production. The NIST AI RMF asks that the functionality and behavior of an AI system are monitored when in production (MEASURE 2.4), and that transparency and accountability risks are examined (MEASURE 2.8).[^nist-ai-rmf]
 
-The serving API is the restaurant counter. The kitchen cooks the champion dish, and each plate comes with a ticket that says which recipe version made it.
+The serving API is the pit-wall radio. A race engineer asks about a car and gets an answer back, points or no points, and every answer says which predictor version gave it.
 
 # Examples
 

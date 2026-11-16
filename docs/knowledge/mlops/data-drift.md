@@ -59,7 +59,7 @@ Drift is a warning, not a verdict. Evidently notes that data drift can happen wi
 
 Statistical tests need care. With many rows, a test calls even tiny differences significant.[^breck-2019] [^evidently-drift] With few rows, any new sample can look different. Choose the reference window and the window size on purpose.
 
-On a normal day the restaurant sells soup and salad in equal parts. Then a storm comes and every guest orders hot soup. The cooks did nothing wrong, and the orders are real, but the kitchen should know.
+On a normal race weekend the rain forecast is low for most cars. Then a storm race comes and the forecast jumps to 0.92 for every car. The timing sheets are right, and the rain is real, but the strategy team should know.
 
 # Examples
 

@@ -77,7 +77,7 @@ The exit code connects the monitor to the rest of the [CI/CD pipeline](/knowledg
 
 The NIST AI RMF asks that the system is monitored in production (MEASURE 2.4), that post-deployment monitoring plans include incident response (MANAGE 4.1), and that incidents and errors are communicated to the relevant AI actors (MANAGE 4.3).[^nist-ai-rmf] An alert is where monitoring hands over to [incident triage](/knowledge/mlops/incident-triage.md).
 
-A good smoke alarm rings when the kitchen is on fire, not every time someone makes toast. You test it on toast first, then on smoke, and you set it between the two.
+A marshal waves the yellow flag for a real change on track, not every time one car runs wide. You test the flag rule on normal races first, then on a storm race, and you set it between the two.
 
 # Examples
 

@@ -59,7 +59,7 @@ Without lineage, you cannot say which data gave a result, and you cannot get tha
 
 ISO/IEC 42001 Annex A has a control for data provenance (A.7.5): a process to record the provenance of the data that an AI system uses.[^iso-42001][^advisera-42001] NIST AI RMF MAP 2.3 asks that data collection and selection are identified and documented.[^nist-ai-rmf] A run that carries the md5 and the commit is that record.
 
-Think of the stamp in a library book. It tells you exactly which copy you borrowed and when. If you want to read the same pages again, you ask for that copy.
+Think of the logbook line that names the exact timing-sheet version, such as md5 `199d7bda…`. From any result you can walk back to the exact sheet it came from.
 
 # Examples
 

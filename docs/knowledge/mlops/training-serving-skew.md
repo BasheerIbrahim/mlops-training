@@ -67,7 +67,7 @@ To detect feature skew, the TFX Data Validator joins training and serving data b
 
 The NIST AI RMF asks that performance is demonstrated for conditions similar to deployment (MEASURE 2.3) and that the system is monitored in production (MEASURE 2.4).[^nist-ai-rmf] Skew means that production conditions are not the ones you tested. ISO/IEC 42001 control A.6.2.6 covers operation and monitoring with production data.[^iso-42001-a6]
 
-The recipe says 825 grams of flour. A new supplier labels the bag in kilograms, so the cook reads 0.825 and uses almost nothing. The cook did what the label said, and the cake is still wrong.
+The timing sheet says the qualifying gap is 825 milliseconds. A new timing feed sends it in seconds, so the predictor reads 0.825 and thinks the car was almost on pole. The predictor did what the feed said, and the call is still wrong.
 
 # Examples
 

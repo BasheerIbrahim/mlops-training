@@ -44,7 +44,7 @@ MLflow says that you can update the model that serves production traffic by reas
 
 MLflow deprecated model stages (such as Staging and Production) in version 2.9.0. Aliases and model version tags replace them.[^mlflow-workflow] Tags annotate a version with its status.[^mlflow-workflow] The lab uses tags as an audit trail: who promoted the version, when, the previous champion and the result of each gate. This supports transparent procedures and controls (NIST AI RMF GOVERN 1.4) and a recorded decision that deployment may proceed (MANAGE 1.1).[^nist-ai-rmf]
 
-In the cook-off, the official recipe book has a "champion" ribbon bookmark. Promotion moves the ribbon to a new recipe page. Nobody rewrites the recipe.
+Think of the race car and the spare car in a team's garage. Which one races is just a label. Promotion moves the race-car label to the car that passed scrutineering. Nobody rebuilds the car.
 
 # Examples
 

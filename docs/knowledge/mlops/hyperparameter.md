@@ -39,7 +39,7 @@ The same model type with different hyperparameters can give very different resul
 
 The search itself can cheat. When you tune settings until the test score is best, knowledge of the test set leaks into the model, and the test score no longer reports generalisation.[^sklearn-cv] scikit-learn recommends a development set for the search and a separate evaluation set for the final score.[^sklearn-grid-search] NIST asks teams to document experimental design and the details of test sets, metrics and tools.[^nist-ai-rmf]
 
-Kid version: hyperparameters are the knobs on the oven: temperature and time. The cake learns nothing about the knobs. You set them before you bake, and you write down each setting so that you can bake the best cake again.
+Kid version: hyperparameters are the car setup, such as the wing angle and the tyre pressure. The car learns nothing about its setup. The team sets it in practice before the race, and writes down each setup so that it can use the best one again.
 
 # Examples
 

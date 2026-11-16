@@ -59,7 +59,7 @@ Errors in the input data can cancel every benefit of a good training algorithm.[
 
 ISO/IEC 42001 control A.7.4 covers the quality of data for AI systems.[^iso-42001-a7] The NIST AI RMF asks teams to document data suitability (MAP 2.3).[^nist-ai-rmf] A validation suite that runs on every batch turns these requirements into code, and its results are the evidence.
 
-Think of a rule checker at the door, or a teacher who checks homework before marking it. Missing name? Answer outside the allowed range? The homework goes back before anybody grades it.
+Think of scrutineering. Every car is inspected before it may race. A grid slot outside 1 to 20? Two rows for the same car in the same race? The row is stopped before it reaches the model.
 
 # Examples
 

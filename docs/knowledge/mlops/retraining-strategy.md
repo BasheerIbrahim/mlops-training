@@ -61,7 +61,7 @@ Gama and colleagues call periodic retraining with a fixed window "blind" adaptat
 
 The NIST AI RMF asks for mechanisms that sustain the value of deployed AI systems (MANAGE 2.2), and for mechanisms and assigned responsibilities to supersede, disengage or deactivate systems that perform inconsistently with their intended use (MANAGE 2.4). It asks that measurable activities for continual improvement are part of system updates (MANAGE 4.2).[^nist-ai-rmf]
 
-Kid version: when the dish goes wrong, the restaurant can put back yesterday's recipe, add a pinch of salt, learn a new recipe from this season's customers, or wait for more customers before changing anything. Each one helps in a different situation.
+Kid version: when the predictor's calls go wrong, the team can go back to last weekend's setup, trim the setup a little, build a new setup from this season's races, or wait for more races before changing anything. Each one helps in a different situation.
 
 # Examples
 

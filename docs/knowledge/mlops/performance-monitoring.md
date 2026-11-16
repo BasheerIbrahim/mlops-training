@@ -53,7 +53,7 @@ Google's MLOps guide says that monitoring detects performance degradation and mo
 
 Label coverage protects the verdict. A score on a few labels, or on provisional labels, can change when the rest arrive. See [delayed labels](/knowledge/mlops/delayed-labels.md).
 
-The restaurant learns how good the food was only when the reviews come in, days later. The owner waits until most reviews are in before deciding that the new menu failed.
+The strategy team learns how good the predictor's calls were only when the stewards publish the final classification, hours after the race. The team waits until most results are final before deciding that the predictor got worse.
 
 # Examples
 

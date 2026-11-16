@@ -65,7 +65,7 @@ An MLflow run is one execution of a piece of code, recorded in an experiment.[^m
 
 A run is the unit of evidence. One run answers: which data, which code, which settings, what result and which files. NIST AI RMF MEASURE 2.1 asks that test sets, metrics and tool details are documented.[^nist-ai-rmf] ISO/IEC 42001 control A.6.2.3 covers the documentation of AI system design and development.[^iso-42001][^advisera-42001] A run puts these records in one place, and the UI can compare runs side by side.[^lab02]
 
-Think of one page in the lab notebook. The page has sticky labels on top (tags), the recipe settings (parameters), the scores (metrics), the label from the ingredient box (the input) and photos stapled to it (artifacts).
+Think of one page in the race engineer's logbook. The page has labels on top (tags), the car setup (parameters), the results (metrics), the timing sheet it used (the input) and printouts clipped to it (artifacts).
 
 # Examples
 

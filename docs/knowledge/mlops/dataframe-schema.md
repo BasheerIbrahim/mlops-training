@@ -58,7 +58,7 @@ A DataFrame schema is a pandera object that verifies the columns and the index o
 
 A schema turns "what good data looks like" into a test that a program can run on each new file. ISO/IEC 42001 control A.7.4 asks the organization to define and meet requirements for data quality.[^iso-42001][^advisera-42001] NIST AI RMF MAP 2.3 asks that data selection, including its suitability, is documented.[^nist-ai-rmf] The schema is that requirement, kept in Git next to the code, and the failure cases are the evidence.
 
-Think of the packing list for a school trip. Each bag must have a water bottle, a hat and a lunch box, and the water bottle must hold water, not juice. A teacher checks every bag against the list before the bus leaves.
+Think of the technical regulations for a car. Each part must be the right type and inside its limits, and each car is entered once per race. The scrutineers check every car against the rules before it races.
 
 # Examples
 
