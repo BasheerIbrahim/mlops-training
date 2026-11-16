@@ -1,5 +1,8 @@
 # Docs update log
 
+## 2026-11-17
+* **Update**: Added slide 6 to the [Lab 03](/packages/lab-03-build-model.md) deck outline: an infographic of the model pipeline and its quality gates. majlis-academy-okf-brain/claude-opus-5-5
+
 ## 2026-11-16
 * **Update**: The deck outlines of all nine packages and the kid-friendly analogy line in every concept now tell the Grand Prix story, the world of the lab data (scrutineering, stewards, pit-wall radio, sealed parts). Every deck number is a measured lab number. majlis-academy-okf-brain/claude-opus-5-5
 * **Update**: Rewrote the deck outlines of all nine packages ([Lab 01](/packages/lab-01-data-engineering.md) to [Lab 09](/packages/lab-09-acceptance.md)) around the house-price story; the labs and their measured numbers are unchanged. majlis-academy-okf-brain/claude-opus-5-5

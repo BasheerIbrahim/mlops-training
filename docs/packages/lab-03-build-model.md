@@ -1,7 +1,7 @@
 ---
 type: Learning Package
 title: Lab 03 deck — build a model and track experiments
-description: A five-slide classroom deck for engineers on baselines, models, tuning, leakage, subgroups and the MLflow Model Registry, built on the F1 lab.
+description: A six-slide classroom deck for engineers on baselines, models, tuning, leakage, subgroups and the MLflow Model Registry, built on the F1 lab.
 format: classroom-workshop
 audience: engineer
 release: 0.1.0
@@ -21,6 +21,12 @@ uses:
   - /knowledge/mlops/data-leakage
   - /knowledge/mlops/experiment-tracking
   - /knowledge/mlops/mlflow-run
+  - /knowledge/mlops/quality-gate
+  - /knowledge/mlops/release-criteria
+  - /knowledge/mlops/model-alias-promotion
+  - /knowledge/mlops/deployment-approval
+  - /knowledge/mlops/model-rollback
+  - /knowledge/mlops/ci-cd-pipeline
 ---
 
 # Lab
@@ -47,6 +53,7 @@ The models are the candidate predictors, practice is the 2021-2024 seasons, and 
 | 3 | Tune the setup, log every run | Hyperparameters change the score, so record every try. | Try 3, a forest of many race engineers, each studying a different pile of timing sheets. The hyperparameters are the car setup you tune in practice (trees, depth, rows per leaf): 0.819, 0.833, 0.842. MLflow is the race engineer's logbook with one page per try. | [Random forest](/knowledge/mlops/random-forest.md), [Hyperparameter](/knowledge/mlops/hyperparameter.md), [Experiment tracking](/knowledge/mlops/experiment-tracking.md), [MLflow run](/knowledge/mlops/mlflow-run.md) |
 | 4 | Too good to be true, and not good for everyone | A perfect score means the model peeked at the answer; a good average can hide a group it fails. | Try 4 knows the finishing order (`finish_position`): 1.000, disqualified. Is the best honest predictor as good for rookies as for experienced drivers? Rookies get 0.646 (grid rule 0.521) while the average is 0.842; only 48 rookie entries, and these are practice subgroups, not protected characteristics. | [Data leakage](/knowledge/mlops/data-leakage.md), [Subgroup evaluation](/knowledge/mlops/subgroup-evaluation.md), [Classification metrics](/knowledge/mlops/classification-metrics.md) |
 | 5 | The homologation register | Register only the best honest model, with a name and a version number. | The Model Registry is the team's homologation register of approved predictors: the best honest one goes in as `f1-points-finish` version 1 (a close call, +0.007 over logistic regression). The disqualified predictor never goes in. | [MLflow Model Registry](/knowledge/mlops/model-registry.md), [Experiment tracking](/knowledge/mlops/experiment-tracking.md) |
+| 6 | From timing sheet to the grid | Lab 03 builds, logs and registers a candidate; lab 04 lets it race only after every quality gate passes and a person approves, and it can always be rolled back. | An infographic of nine numbered stations that snakes from the timing sheets to the grid. Lab 03 (stations 1-6): the timing sheets (`races.csv`, 2,400 rows, md5 `199d7bda…`), the split by season (1,920 practice rows, 480 sealed 2025 rows), three predictors (grid rule, logistic regression, forest with its setup), the 2025 evaluation (accuracy, F1, ROC AUC, rookies), the race engineer's logbook (MLflow: params, metrics, model, tags `data.version` and `leakage`), and the homologation register (`f1-points-finish`, alias `@candidate`). Lab 04 (stations 7-9): scrutineering, the six gates from `criteria.yaml` side by side for the best honest forest (passes all: 0.842, +0.038, 0.907, 0.646), the leaky run (1.000, stopped by the after-race columns check) and the grid rule (fails accuracy 0.804, margin 0, rookies 0.521); the team principal signs (GitHub Actions `environment: production`; the course repo has no reviewer, so "no review recorded"); `@champion` is the race car the pit-wall radio serves, with a dashed rollback arrow to the previous champion (`promote.py --rollback`). | [Quality gate](/knowledge/mlops/quality-gate.md), [Release criteria](/knowledge/mlops/release-criteria.md), [MLflow Model Registry](/knowledge/mlops/model-registry.md), [Model alias promotion](/knowledge/mlops/model-alias-promotion.md), [Deployment approval](/knowledge/mlops/deployment-approval.md), [Model rollback](/knowledge/mlops/model-rollback.md), [CI/CD pipeline](/knowledge/mlops/ci-cd-pipeline.md) |
 
 # Numbers to quote
 
