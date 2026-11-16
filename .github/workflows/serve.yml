@@ -56,7 +56,9 @@ jobs:
         run: python -m pytest exercises/serve-model/test_api.py -rs --tb=line
 
       - name: 3. Build the Docker image
-        run: docker build -t f1-api:${{ github.sha }} exercises/serve-model
+        run: |
+          docker build -t f1-api:${{ github.sha }} exercises/serve-model
+          docker image ls f1-api
       - name: 4. Run the container
         run: |
           # --network host: the container shares the runner's network, so it reaches
@@ -66,9 +68,11 @@ jobs:
             docker logs f1-api; exit 1
           fi
           echo
-          curl -sf -X POST http://127.0.0.1:8000/v1/predict -H 'Content-Type: application/json' \
-            -d '{"entries": [{"grid": 1, "quali_gap_ms": 0, "driver_form": 2.33, "team_form": 27.0,
-                 "team_dnf_rate": 0.083, "rain_prob": 0.24, "circuit_type": "permanent"}]}'
+          # Smoke test: the two cars from step 4 of the lesson.
+          curl -sf -X POST http://127.0.0.1:8000/v1/predict -H 'Content-Type: application/json' -d '{"entries": [
+            {"grid": 1, "quali_gap_ms": 0, "driver_form": 2.33, "team_form": 27.0, "team_dnf_rate": 0.083, "rain_prob": 0.24, "circuit_type": "permanent"},
+            {"grid": 20, "quali_gap_ms": 1981, "driver_form": 17.0, "team_form": 0.0, "team_dnf_rate": 0.0, "rain_prob": 0.24, "circuit_type": "permanent"}
+          ]}'
           echo
           echo "Serving: \`$(curl -s http://127.0.0.1:8000/health)\`" >> "$GITHUB_STEP_SUMMARY"
       - name: 5. Load test and SLO check
