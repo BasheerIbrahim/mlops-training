@@ -14,6 +14,19 @@ To work with the data in your browser, click the badge and pick the branch for y
 
 The codespace runs on your own GitHub account and uses its free monthly Codespaces hours.
 
+## Labs
+
+Each lab is a branch. Open a codespace on the branch and follow its README.
+
+| Lab | Branch | Concepts and deck outline |
+|---|---|---|
+| 01 Data engineering: explore, version and check the data | [`01-data-engineering`](../../tree/01-data-engineering) | [`docs/packages/lab-01-data-engineering.md`](docs/packages/lab-01-data-engineering.md) |
+| 02 Log the data version and the checks to MLflow | [`02-mlflow`](../../tree/02-mlflow) | [`docs/packages/lab-02-mlflow.md`](docs/packages/lab-02-mlflow.md) |
+| 03 Build a model and track experiments | [`03-build-model`](../../tree/03-build-model) | [`docs/packages/lab-03-build-model.md`](docs/packages/lab-03-build-model.md) |
+| 04 Quality gates and controlled promotion | [`04-quality-gates`](../../tree/04-quality-gates) | [`docs/packages/lab-04-quality-gates.md`](docs/packages/lab-04-quality-gates.md) |
+
+The [`docs/`](docs/) folder records the concepts of each lab in Google's Open Knowledge Format (OKF). We build the classroom slide decks from it. See [`docs/README.md`](docs/README.md).
+
 | Folder | Dataset | Target |
 |---|---|---|
 | [`f1/data/`](f1/data/) | Synthetic Grand Prix championship: 10 fictional teams, 24 circuits, five seasons, 2,400 car-race rows | `points_finish` |
