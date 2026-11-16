@@ -11,8 +11,11 @@ To work with the data in your browser, click the badge and pick the branch for y
 | Data exploration | pandas, DuckDB, JupyterLab, matplotlib, seaborn, ydata-profiling, and the Data Wrangler and Rainbow CSV extensions (right-click a CSV → **Open in Data Wrangler**) |
 | Data versioning | DVC and the DVC extension (run `dvc init` to start tracking) |
 | Data quality | pandera and Great Expectations for validation, Evidently for drift and training-serving skew reports |
+| Experiment tracking | MLflow (the codespace forwards port 5000 for the MLflow UI) |
 
 The codespace runs on your own GitHub account and uses its free monthly Codespaces hours.
+
+**This branch, `mlflow`:** start an MLflow tracking server and log the data version (DVC) and the data validation results (pandera) to it. Follow [`exercises/mlflow/README.md`](exercises/mlflow/README.md).
 
 | Folder | Dataset | Target |
 |---|---|---|

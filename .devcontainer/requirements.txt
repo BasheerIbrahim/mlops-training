@@ -11,6 +11,9 @@ ydata-profiling==4.18.4
 # Data versioning
 dvc==3.67.1
 
+# Experiment tracking
+mlflow==3.18.0
+
 # Data quality, drift and validation
 pandera==0.36.0
 great-expectations==1.25.0
