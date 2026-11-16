@@ -1,7 +1,7 @@
 {
   "name": "mlops-training-dataset",
   "image": "mcr.microsoft.com/devcontainers/python:3.12",
-  "postCreateCommand": "pip install --no-cache-dir pandas pyarrow jupyterlab ipykernel matplotlib",
+  "postCreateCommand": "pip install --no-cache-dir -r .devcontainer/requirements.txt",
   "customizations": {
     "codespaces": {
       "openFiles": ["README.md"]
@@ -11,7 +11,8 @@
         "ms-python.python",
         "ms-toolsai.jupyter",
         "ms-toolsai.datawrangler",
-        "mechatroner.rainbow-csv"
+        "mechatroner.rainbow-csv",
+        "iterative.dvc"
       ]
     }
   },
