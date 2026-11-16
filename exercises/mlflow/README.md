@@ -12,7 +12,7 @@ Time: about 45 minutes.
 
 ## Before you start
 
-Open a codespace on the **`mlflow`** branch. Click the badge in the top-level README and pick `mlflow` as the branch. Wait until the terminal says the setup has finished: the codespace installs MLflow, DVC and pandera on first start.
+Open a codespace on the **`02-mlflow`** branch: click the badge in the top-level README and check that the branch is `02-mlflow`. Wait until the terminal says the setup has finished: the codespace installs MLflow, DVC and pandera on first start.
 
 Run all commands from the repository root (`/workspaces/mlops-training`).
 

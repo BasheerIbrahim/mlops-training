@@ -1,21 +1,61 @@
-# mlops-training
+# mlops-training · Stage 02: MLflow
 
 Synthetic datasets for hands-on MLOps training: data validation, leakage, drift, training-serving skew and delayed labels.
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/majlisofai/mlops-training)
+**In this stage** you start an MLflow tracking server, version the F1 race data with DVC, check it with pandera, and log the data version and the check results to MLflow. Then you break the data on purpose, see the checks catch it, and roll back to the good version.
 
-To work with the data in your browser, click the badge and pick the branch for your training stage (or switch to that branch and use **Code → Codespaces → Create codespace**). The codespace runs Python 3.12 and installs the tools from [`.devcontainer/requirements.txt`](.devcontainer/requirements.txt) the first time it starts:
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/majlisofai/mlops-training?ref=02-mlflow)
+
+## Trainees: start here
+
+1. **Open your codespace.** Click the badge above. Check that the branch is **`02-mlflow`**, then click **Create codespace**. A copy of VS Code opens in your browser. You need a GitHub account. The codespace runs on your account and uses your free monthly Codespaces hours.
+2. **Wait for the setup.** The first start takes a few minutes, because the codespace installs Python packages. Wait until the terminal says the setup has finished before you run any command.
+3. **Open the exercise.** In the file explorer, open [`exercises/mlflow/README.md`](exercises/mlflow/README.md). Right-click it and choose **Open Preview** to read it formatted.
+4. **Do the six steps** in the exercise, in order:
+
+   | Step | What you do | You are done when |
+   |---|---|---|
+   | 1 | Start the MLflow server and open the MLflow UI | The MLflow UI opens in a browser tab |
+   | 2 | Move `f1/data/races.csv` into DVC | `races.csv.dvc` shows md5 `199d7bda…` |
+   | 3 | Complete TODO 1 to TODO 5 in `exercises/mlflow/log_data_checks.py` and run it | The script says `validation passed` |
+   | 4 | Find the run in the MLflow UI | You can see the data version, the metrics and the artifacts |
+   | 5 | Corrupt the data and run the checks again | The script says `validation failed` |
+   | 6 | Roll back with DVC | The checks pass again on md5 `199d7bda…` |
+
+5. **Discuss** the three questions at the end of the exercise with your group.
+
+**Rules for this stage**
+
+- Run every command from the repository root, `/workspaces/mlops-training`.
+- Keep the terminal with the MLflow server open while you work. Use a second terminal for the other commands (**Terminal → New Terminal**).
+- Commit in your codespace if the exercise tells you to, but **do not push**.
+- Try the TODOs before you open the reference solution in `exercises/mlflow/solution/`.
+
+**If something goes wrong**
+
+| Problem | Fix |
+|---|---|
+| `mlflow: command not found` | The setup has not finished. Wait, or run `pip install -r .devcontainer/requirements.txt`. |
+| The MLflow UI shows **403** | Start the server with the full command from step 1, including `--allowed-hosts` and `--cors-allowed-origins`. |
+| The MLflow UI does not open | Open the **Ports** tab, find **MLflow UI** (port 5000) and click the globe icon. |
+| The script says `races.csv.dvc not found` | Do step 2 first. |
+| The script seems to hang, then after about 4 minutes fails with `MlflowException: API request ... Max retries exceeded` | The MLflow server is not running. Press **Ctrl+C**, start the server again (step 1), then run the script again. |
+| You closed the browser tab | Go to [github.com/codespaces](https://github.com/codespaces) and open your codespace again. Your work is still there. |
+
+When you finish, stop the codespace (**Codespaces** menu at the bottom left → **Stop Current Codespace**) so it does not use your hours.
+
+## Tools in the codespace
+
+The codespace runs Python 3.12 and installs the tools from [`.devcontainer/requirements.txt`](.devcontainer/requirements.txt):
 
 | Task | Tools |
 |---|---|
 | Data exploration | pandas, DuckDB, JupyterLab, matplotlib, seaborn, ydata-profiling, and the Data Wrangler and Rainbow CSV extensions (right-click a CSV → **Open in Data Wrangler**) |
-| Data versioning | DVC and the DVC extension (run `dvc init` to start tracking) |
+| Data versioning | DVC and the DVC extension |
 | Data quality | pandera and Great Expectations for validation, Evidently for drift and training-serving skew reports |
 | Experiment tracking | MLflow (the codespace forwards port 5000 for the MLflow UI) |
 
-The codespace runs on your own GitHub account and uses its free monthly Codespaces hours.
-
-**This branch, `mlflow`:** start an MLflow tracking server and log the data version (DVC) and the data validation results (pandera) to it. Follow [`exercises/mlflow/README.md`](exercises/mlflow/README.md).
+## Datasets
 
 | Folder | Dataset | Target |
 |---|---|---|
