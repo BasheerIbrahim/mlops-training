@@ -92,7 +92,7 @@ jobs:
         run: |
           approver=$(gh api "repos/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID/approvals" \
             --jq '[.[] | select(.state == "approved") | .user.login] | last // empty' || true)
-          echo "APPROVER=${approver:-$GITHUB_ACTOR (no required reviewer)}" >> "$GITHUB_ENV"
+          echo "APPROVER=${approver:-$GITHUB_ACTOR (no review recorded)}" >> "$GITHUB_ENV"
       - name: 4. Promote
         run: python exercises/quality-gates/promote.py --approver "$APPROVER"
 
