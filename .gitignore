@@ -13,3 +13,6 @@ gate_report.*
 
 # Load tests (exercises/serve-model)
 results/
+
+# Classroom slide decks: local only (ELM and Emeritus branding)
+slides/
