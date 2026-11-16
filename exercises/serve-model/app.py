@@ -115,8 +115,8 @@ def load_model(uri: str) -> dict:
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     # Load the model once, before the first request. If it fails, the API does not start.
-    app.state.served = load_model(MODEL_URI)
-    print(f"Serving {app.state.served['model_name']} version {app.state.served['model_version']} ({MODEL_URI})")
+    served = app.state.served = load_model(MODEL_URI)
+    print(f"Serving {served['model_name']} version {served['model_version']} ({MODEL_URI})", flush=True)
     yield
 
 
@@ -165,7 +165,7 @@ def reload():
             content={"detail": f"reload failed, still serving version {previous['model_version']}: {err}"},
         )
     app.state.served = served
-    print(f"Reloaded {MODEL_URI}: version {previous['model_version']} -> {served['model_version']}")
+    print(f"Reloaded {MODEL_URI}: version {previous['model_version']} -> {served['model_version']}", flush=True)
     return {
         "model_name": served["model_name"],
         "previous_version": previous["model_version"],

@@ -139,7 +139,7 @@ curl -s -X POST http://127.0.0.1:8000/v1/predict -H 'Content-Type: application/j
 ]}'
 ```
 
-> **Check:** `{"model_name":"f1-points-finish","model_version":"1","predictions":[1,0],"probabilities":[0.9582...,0.0091...]}`
+> **Check:** `{"model_name":"f1-points-finish","model_version":"1","predictions":[1,0],"probabilities":[0.9588...,0.0080...]}`. The pole-sitter scores points with probability 0.96, the last car with 0.01. On another kind of computer the last digits can differ a little.
 
 Now send a bad entry: grid 21, a circuit type that does not exist, no `rain_prob`, and an after-race column:
 
@@ -194,9 +194,9 @@ Stop the API in its terminal with **Ctrl+C**: the container needs port 8000. Bui
 docker build -t f1-api:1 exercises/serve-model
 ```
 
-The first build downloads the Python base image and installs the packages from [`requirements-serve.txt`](requirements-serve.txt). It takes a few minutes. `requirements-serve.txt` pins the same versions as the codespace, so the container loads the model with the scikit-learn that trained it. It uses `mlflow-skinny`: MLflow without the server and the UI, enough to load a model.
+The first build downloads the Python base image and installs the packages from [`requirements-serve.txt`](requirements-serve.txt). It takes about a minute. `requirements-serve.txt` pins the same versions as the codespace, so the container loads the model with the scikit-learn that trained it. It uses `mlflow-skinny`: MLflow without the server and the UI, enough to load a model.
 
-> **Check:** `docker image ls f1-api` shows the image `f1-api` with the tag `1`.
+> **Check:** `docker image ls f1-api` shows the image `f1-api:1`, about 810 MB on disk.
 
 Run the container:
 
@@ -226,15 +226,15 @@ locust -f exercises/serve-model/locustfile.py --host http://127.0.0.1:8000
 
 Open the **Ports** tab and click the globe icon next to **Locust UI** (port 8089). Set **Number of users** to `10` and **Ramp up** to `5`, and click **Start**. Watch the **Statistics** and **Charts** tabs for a minute. Then click **Stop**, and press **Ctrl+C** in the Locust terminal.
 
-> **Check:** the **Failures** column stays at 0, and the 95th percentile of `/v1/predict` stays far below 500 ms.
+> **Check:** the **Failures** column stays at 0, and the **95%ile (ms)** column of `/v1/predict` stays far below 500 ms. We measured 150 ms.
 
 **Without the UI, against the SLO.** A service-level objective (SLO) writes down how good the service must be. [`slo.yaml`](slo.yaml) holds it, and the load that it is defined for:
 
 | Objective | Threshold | Measured with the good model | Why this number |
 |---|---:|---:|---|
-| 95th percentile latency of `POST /v1/predict` | ≤ 500 ms | 190 ms in a container with 2 CPUs, like a codespace; 53 ms on a 10-core laptop | A person waits for the answer. Half a second still feels immediate. The good model keeps more than half of it in reserve, for a busy codespace or a busier day. |
+| 95th percentile latency of `POST /v1/predict` | ≤ 500 ms | 71 to 190 ms in a container with 2 CPUs, like a codespace; 89 and 140 ms on GitHub Actions | A person waits for the answer. Half a second still feels immediate. The good model keeps more than half of it in reserve, for a busy codespace or a busier day. |
 | Failure rate | ≤ 1 % | 0 % | A failed request is a race with no prediction. One in a hundred is the most a dashboard should show. |
-| Requests in 30 seconds | ≥ 150 | 241 to 263 | 10 users ask for about 250. Fewer than 150 means the API could not keep up with the load. |
+| Requests in 30 seconds | ≥ 150 | 245 to 263 | 10 users ask for about 250. Fewer than 150 means the API could not keep up with the load. |
 
 The 95th percentile is the time within which 95 of 100 requests answer. It shows what the slow requests feel like. The average hides them.
 
@@ -250,8 +250,8 @@ It runs Locust for 30 seconds with 10 users, without the UI, and writes the resu
 >
 > ```
 > SLO check for POST /v1/predict (results/locust_stats.csv):
->   PASS  requests            250   at least 150
->   PASS  p95 latency      190 ms   at most 500 ms
+>   PASS  requests            258   at least 150
+>   PASS  p95 latency      120 ms   at most 500 ms
 >   PASS  failure rate      0.00%   at most 1.00%
 > SLO MET
 > ```
@@ -285,11 +285,11 @@ Tell the API to load `@champion` again:
 curl -s -X POST http://127.0.0.1:8000/admin/reload
 ```
 
-> **Check:** `{"model_name":"f1-points-finish","previous_version":"1","model_version":"2","alias":"champion",...}`. It takes a few seconds: the model file is 121 MB, against 11 MB for version 1.
+> **Check:** `{"model_name":"f1-points-finish","previous_version":"1","model_version":"2","alias":"champion",...}`. It takes about two seconds: the model file is 121 MB, against 11 MB for version 1. The container log says `Reloaded models:/f1-points-finish@champion: version 1 -> 2`.
 
 Call it once, as a quick smoke test. Repeat the two-car `curl` of step 4.
 
-> **Check:** the answer is right (`"predictions":[1,0]`) and says `"model_version":"2"`. It takes a fraction of a second. One request looks fine.
+> **Check:** the answer is right (`"predictions":[1,0]`) and says `"model_version":"2"`. It takes about 0.2 seconds. One request looks fine.
 
 Now run the load test:
 
@@ -300,13 +300,25 @@ bash exercises/serve-model/load_test.sh
 > **Check:** `SLO BROKEN`. In a container with 2 CPUs we measured:
 >
 > ```
->   FAIL  requests             75   at least 150
->   FAIL  p95 latency     4300 ms   at most 500 ms
+>   FAIL  requests            129   at least 150
+>   FAIL  p95 latency     1800 ms   at most 500 ms
 >   PASS  failure rate      0.00%   at most 1.00%
 > SLO BROKEN: requests, p95 latency
 > ```
+>
+> In other runs the p95 latency was 2500 ms (GitHub Actions) and 4300 ms. It always breaks the SLO many times over.
 
-Each request now walks through 3000 trees instead of 300. Alone, that takes a few hundred milliseconds. With ten users, the requests queue behind each other, and the slowest wait seconds. Nothing failed, and every answer was right. The model is just too slow for this service.
+Each request now walks through 3000 trees instead of 300. Alone, that takes 0.2 seconds. With ten users, the requests queue behind each other, and the slowest wait seconds. Nothing failed, and every answer was right. The model is just too slow for this service. It also costs more to run. We measured, in a container with 2 CPUs:
+
+| | Version 1: 300 trees, depth 8 | Version 2: 3000 trees, depth 12 |
+|---|---:|---:|
+| Accuracy on 2025 | 0.842 | 0.840 |
+| Model file | 11 MB | 121 MB |
+| Memory of the container | 188 MiB | 385 MiB |
+| Start-up until `/health` answers | 2.5 s | 5.5 s |
+| p95 latency, 10 users | 71 to 190 ms | 1800 to 4300 ms |
+
+Capacity is a release requirement too. To serve version 2 within the SLO you would need several times the CPUs, for no gain in accuracy.
 
 Roll back with the lesson 04 script, then reload:
 
@@ -323,7 +335,7 @@ Run the load test again:
 bash exercises/serve-model/load_test.sh
 ```
 
-> **Check:** `SLO MET` again, with a p95 latency like the one in step 7.
+> **Check:** `SLO MET` again, with a p95 latency like the one in step 7. We measured 71 ms and 247 requests.
 
 That is the milestone of this lesson: a versioned API, and a rollback you proved with a measurement. The quality gates checked accuracy, and accuracy was fine. The fault was in serving. **A release needs serving checks too**: the contract tests and the load test belong in the release pipeline, next to the quality gates.
 
@@ -353,11 +365,11 @@ It writes the SLO table to the run page and keeps `results/` as the artifact `lo
 3. **Make `05-serve-model` the default branch of your fork** (**Settings → General → Default branch**), so that GitHub shows the **Run workflow** button.
 4. Your push changed `exercises/serve-model/`, so it started the workflow **serve**. If it did not (Actions were still off), open **Actions → serve → Run workflow** and keep the candidate `exercises/quality-gates/candidate.yaml`.
 
-> **Check:** the job **Serve and load-test** succeeds in about four minutes. The run page shows `Service-level objective: SLO MET` and the table, with 0.00 % failures.
+> **Check:** the job **Serve and load-test** succeeds in about three minutes. The run page shows `Service-level objective: SLO MET` and the table, with 0.00 % failures.
 
 Now try the faulty model. Open **Actions → serve → Run workflow**, set the candidate to `exercises/serve-model/examples/huge_forest.yaml`, and click **Run workflow**.
 
-> **Check:** step **1. Promote the candidate** passes: the huge forest passes all seven gates. Step **5. Load test and SLO check** fails with `SLO BROKEN`, and the job fails.
+> **Check:** step **1. Promote the candidate** passes: the huge forest passes all seven gates (accuracy 0.840). Steps 2 to 4 pass too: the contract tests, the image and the smoke test are fine. Step **5. Load test and SLO check** fails with `SLO BROKEN: requests, p95 latency` (we measured p95 2500 ms and 89 requests), and the job fails.
 
 ## Discuss
 
