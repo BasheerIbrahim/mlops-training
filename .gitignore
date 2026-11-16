@@ -10,3 +10,6 @@ mlruns/
 # Quality gates (exercises/quality-gates)
 gate_report.*
 .pytest_cache/
+
+# Load tests (exercises/serve-model)
+results/

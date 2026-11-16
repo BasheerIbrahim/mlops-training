@@ -27,3 +27,10 @@ evidently==0.7.23
 
 # Quality gates
 pytest==9.1.1
+
+# Model serving and load testing
+fastapi==0.163.1
+uvicorn==0.54.0
+# FastAPI's TestClient. Starlette 1.10 uses httpx2; with the older httpx it warns.
+httpx2==2.16.0
+locust==2.47.0

@@ -1,10 +1,16 @@
 {
   "name": "mlops-training",
   "image": "mcr.microsoft.com/devcontainers/python:3.12",
+  "features": {
+    "ghcr.io/devcontainers/features/docker-in-docker:2": { "moby": false }
+  },
+  "containerEnv": { "MLFLOW_DISABLE_AGENT_HINT": "1" },
   "postCreateCommand": "pip install --no-cache-dir -r .devcontainer/requirements.txt",
-  "forwardPorts": [5000],
+  "forwardPorts": [5000, 8000, 8089],
   "portsAttributes": {
-    "5000": { "label": "MLflow UI", "onAutoForward": "notify" }
+    "5000": { "label": "MLflow UI", "onAutoForward": "notify" },
+    "8000": { "label": "f1 API", "onAutoForward": "notify" },
+    "8089": { "label": "Locust UI", "onAutoForward": "notify" }
   },
   "customizations": {
     "codespaces": {

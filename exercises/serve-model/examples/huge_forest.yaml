@@ -1,0 +1,8 @@
+# A forest of 3000 trees of depth 12. As accurate as the lesson 04 candidate, ten times bigger.
+proposed_by: example-huge-forest
+model: forest
+leak: false
+hyperparameters:
+  n_estimators: 3000
+  max_depth: 12
+  min_samples_leaf: 5

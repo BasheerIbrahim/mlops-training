@@ -1,0 +1,89 @@
+# Serving check for f1-points-finish (lesson 05, exercises/serve-model).
+# Promote a candidate with the lesson 04 pipeline, run the API contract tests, build the
+# Docker image, run the container and load-test it against the service-level objective.
+name: serve
+
+on:
+  push:
+    paths:
+      - "exercises/serve-model/**"
+      - ".github/workflows/serve.yml"
+  workflow_dispatch:
+    inputs:
+      candidate:
+        description: "Candidate file to train, gate, promote and serve"
+        type: string
+        default: exercises/quality-gates/candidate.yaml
+
+permissions:
+  contents: read
+
+env:
+  # Each run has its own MLflow server, with its registry in a sqlite file in the workspace.
+  MLFLOW_TRACKING_URI: http://127.0.0.1:5000
+  MLFLOW_DISABLE_AGENT_HINT: "1"
+  CANDIDATE: ${{ inputs.candidate || 'exercises/quality-gates/candidate.yaml' }}
+
+jobs:
+  serve:
+    name: Serve and load-test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: |
+            exercises/quality-gates/requirements-ci.txt
+            exercises/serve-model/requirements-ci.txt
+      - name: Install packages
+        run: pip install -r exercises/serve-model/requirements-ci.txt
+
+      - name: Start the MLflow server
+        run: |
+          nohup mlflow server --host 127.0.0.1 --port 5000 \
+            --backend-store-uri sqlite:///mlflow.db --artifacts-destination ./mlartifacts \
+            > mlflow-server.log 2>&1 &
+          timeout 60 bash -c 'until curl -sf http://127.0.0.1:5000/health; do sleep 1; done'
+
+      - name: 1. Promote the candidate (lesson 04 pipeline)
+        run: |
+          echo "Candidate file: \`$CANDIDATE\`" >> "$GITHUB_STEP_SUMMARY"
+          GATES=exercises/quality-gates/solution/test_gates.py APPROVER=github-actions \
+            bash exercises/quality-gates/run_pipeline.sh "$CANDIDATE"
+      - name: 2. Contract tests
+        run: python -m pytest exercises/serve-model/test_api.py -rs --tb=line
+
+      - name: 3. Build the Docker image
+        run: docker build -t f1-api:${{ github.sha }} exercises/serve-model
+      - name: 4. Run the container
+        run: |
+          # --network host: the container shares the runner's network, so it reaches
+          # MLflow at 127.0.0.1:5000 and answers on 127.0.0.1:8000. The same as in the codespace.
+          docker run -d --name f1-api --network host f1-api:${{ github.sha }}
+          if ! timeout 120 bash -c 'until curl -sf http://127.0.0.1:8000/health; do sleep 1; done'; then
+            docker logs f1-api; exit 1
+          fi
+          echo
+          curl -sf -X POST http://127.0.0.1:8000/v1/predict -H 'Content-Type: application/json' \
+            -d '{"entries": [{"grid": 1, "quali_gap_ms": 0, "driver_form": 2.33, "team_form": 27.0,
+                 "team_dnf_rate": 0.083, "rain_prob": 0.24, "circuit_type": "permanent"}]}'
+          echo
+          echo "Serving: \`$(curl -s http://127.0.0.1:8000/health)\`" >> "$GITHUB_STEP_SUMMARY"
+      - name: 5. Load test and SLO check
+        run: bash exercises/serve-model/load_test.sh
+
+      - name: Container log
+        if: always()
+        run: docker logs f1-api 2>&1 | tail -50 || true
+      - name: Upload load test results
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: load-test
+          path: |
+            results/
+            gate_report.*
+            mlflow-server.log
+          if-no-files-found: ignore

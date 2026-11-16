@@ -1,0 +1,7 @@
+# The packages the serve workflow needs in GitHub Actions: the lesson 04 pipeline,
+# plus the API, its contract tests and Locust. The same versions as .devcontainer/requirements.txt.
+-r ../quality-gates/requirements-ci.txt
+fastapi==0.163.1
+uvicorn==0.54.0
+httpx2==2.16.0
+locust==2.47.0

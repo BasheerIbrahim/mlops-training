@@ -1,0 +1,14 @@
+# Service-level objective (SLO) for the f1-points-finish API.
+# check_slo.py compares a Locust run with these numbers. README.md explains why each was chosen.
+
+endpoint: POST /v1/predict   # the row of the Locust stats file that is checked (Type and Name)
+
+load:                        # the load the SLO is defined for (load_test.sh uses it)
+  users: 10                  # about 10 races per second
+  spawn_rate: 5
+  run_time: 30s
+
+objectives:
+  max_p95_ms: 500            # 95 % of the requests answer within half a second
+  max_failure_rate: 0.01     # at most 1 % of the requests fail
+  min_requests: 150          # fewer means the API could not keep up with the load
