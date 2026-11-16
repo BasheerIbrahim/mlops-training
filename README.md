@@ -1,10 +1,10 @@
-# mlops-training-dataset
+# mlops-training
 
 Synthetic datasets for hands-on MLOps training: data validation, leakage, drift, training-serving skew and delayed labels.
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/majlisofai/mlops-training-dataset?ref=data-engineering&quickstart=1)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/majlisofai/mlops-training)
 
-To work with the data in your browser, click the badge (or switch to the `data-engineering` branch and use **Code → Codespaces → Create codespace**). The codespace runs Python 3.12 and installs the tools from [`.devcontainer/requirements.txt`](.devcontainer/requirements.txt) the first time it starts:
+To work with the data in your browser, click the badge and pick the branch for your training stage (or switch to that branch and use **Code → Codespaces → Create codespace**). The codespace runs Python 3.12 and installs the tools from [`.devcontainer/requirements.txt`](.devcontainer/requirements.txt) the first time it starts:
 
 | Task | Tools |
 |---|---|
