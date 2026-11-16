@@ -2,7 +2,7 @@
 type: Domain Concept
 title: CI/CD pipeline
 description: An automated sequence of steps that validates, builds, tests and releases a change the same way each time, stopping at the first failure.
-tags: [mlops, ci-cd, github-actions, jenkins, automation]
+tags: [mlops, ci-cd, github-actions, automation]
 status: draft
 classification: public
 framework_refs: ["NIST-AI-RMF:GOVERN 1.4", "NIST-AI-RMF:MANAGE 1.1"]
@@ -21,10 +21,6 @@ sources:
     resource: https://docs.github.com/en/actions/reference/workflows-and-actions/workflow-syntax
     title: Workflow syntax for GitHub Actions
     author: org:github
-  - id: jenkins-pipeline
-    resource: https://www.jenkins.io/doc/book/pipeline/
-    title: Jenkins User Handbook, Pipeline
-    author: org:jenkins
   - id: pytest-output
     resource: https://docs.pytest.org/en/stable/how-to/output.html
     title: Managing pytest's output
@@ -45,7 +41,7 @@ A CI/CD pipeline is an automated sequence of steps that takes a change from vers
 
 For ML, CI also tests and validates data and models, not only code.[^google-mlops] The lab pipeline has four steps: validate data, train candidate, [quality gates](/knowledge/mlops/quality-gate.md), promote.[^lab04]
 
-The lab runs the pipeline on GitHub Actions, a CI/CD platform. A workflow is an automated process that runs one or more jobs. An event, such as a push, triggers a workflow run. A job is a set of steps that runs on one runner.[^gh-understand] The course plan names Jenkins as the CI server. A Jenkins Pipeline is defined in a `Jenkinsfile` in source control, with stages such as Build, Test and Deploy.[^jenkins-pipeline] The ideas in this concept are the same on both tools.
+The lab runs the pipeline on GitHub Actions, a CI/CD platform. A workflow is an automated process that runs one or more jobs. An event, such as a push, triggers a workflow run. A job is a set of steps that runs on one runner.[^gh-understand] The course uses GitHub Actions for CI/CD: the workflow file lives in the repository, next to the code it tests.
 
 # Why it matters
 
@@ -60,7 +56,7 @@ A CI/CD pipeline is a kitchen conveyor belt. Each dish goes past the same statio
 The lab workflow `.github/workflows/release.yml`:
 
 - Triggers: a push that changes `exercises/quality-gates/**`, and `workflow_dispatch` with an input `candidate` (a candidate file to try). A `workflow_dispatch` trigger takes optional inputs, and it works only when the workflow file is on the default branch.[^gh-workflow-syntax] That is why trainees make `04-quality-gates` the default branch of their fork.
-- Job `gates`: install packages, validate data, train candidate, run `pytest ... --junitxml=gate_report.xml`. pytest can write JUnit XML files that Jenkins and other CI servers read.[^pytest-output] The job writes the gate table to the run page.
+- Job `gates`: install packages, validate data, train candidate, run `pytest ... --junitxml=gate_report.xml`. pytest can write JUnit XML files that CI servers read.[^pytest-output] The job writes the gate table to the run page.
 - Job `promote`: `needs: gates`. If a job fails or is skipped, all jobs that need it are skipped.[^gh-workflow-syntax] It uses `environment: production`, so it waits for a [deployment approval](/knowledge/mlops/deployment-approval.md).
 
 Real runs on `majlisofai/mlops-training`:
@@ -81,7 +77,6 @@ Each CI run uses its own MLflow store, `sqlite:///mlflow.db`, so the CI version 
 [^google-mlops]: Google Cloud, "MLOps: Continuous delivery and automation pipelines in machine learning", sections "CI/CD pipeline automation" and "MLOps level 2".
 [^gh-understand]: GitHub Docs, "Understanding GitHub Actions".
 [^gh-workflow-syntax]: GitHub Docs, "Workflow syntax for GitHub Actions", sections `on.workflow_dispatch` and `jobs.<job_id>.needs`.
-[^jenkins-pipeline]: Jenkins User Handbook, "Pipeline".
 [^pytest-output]: pytest documentation, "Managing pytest's output", section on JUnit XML.
 [^nist-ai-rmf]: NIST AI 100-1, Table 1 (GOVERN 1.4) and Table 4 (MANAGE 1.1).
 [^lab04]: Lesson 04 README, sections "The pipeline" and steps 5 to 7.
