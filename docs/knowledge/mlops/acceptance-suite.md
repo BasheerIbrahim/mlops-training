@@ -98,14 +98,14 @@ What the suite measured:
 
 | Release | Result | Gates that blocked | What still passed |
 |---|---|---|---|
-| Good release, codespace | 10 PASS, PENDING | none | accuracy 0.842, ROC AUC 0.907, p95 75 ms, 247 requests |
+| Good release, measured locally | 10 PASS, PENDING | none | accuracy 0.842, ROC AUC 0.907, p95 75 ms, 247 requests |
 | Good release, GitHub Actions[^ci-ship] | 10 PASS, PENDING | none | p95 130 ms, 251 requests |
 | Model file replaced (`tamper`)[^ci-tamper] | do not ship | 2 Integrity | 7 quality gates (accuracy 0.846), contract and access tests, SLO (p95 26 ms) |
 | Lab 05 image deployed (`no-auth`)[^ci-no-auth] | do not ship | 6 Access (4 passed, 4 failed), 8 Audit (6 findings) | contract tests, SLO (p95 270 ms) |
 | No model card, no report (`no-evidence`)[^ci-no-evidence] | do not ship | 9 and 10 EVIDENCE MISSING | everything else |
 | One data value changed (`tamper.py --target data`)[^lab09-scenarios] | do not ship | 1 Data md5, 2 Integrity | data validation: 0 failure cases |
 
-Without a model card, the codespace run says `MISSING exercises/acceptance/evidence/model_card.md: 11 TODO left; it describes version TODO, not 1`.[^lab09] A run takes about 40 seconds in the codespace, most of it the load test, and about three minutes as a GitHub Actions job.[^lab09]
+Without a model card, the local run says `MISSING exercises/acceptance/evidence/model_card.md: 11 TODO left; it describes version TODO, not 1`.[^lab09] A run takes about 40 seconds in the codespace, most of it the load test, and about three minutes as a GitHub Actions job.[^lab09]
 
 How `accept.py` decides:[^lab09-accept]
 
@@ -122,7 +122,7 @@ How `accept.py` decides:[^lab09-accept]
 - Testing something other than what runs. Gate 4 checks that the API serves the version under acceptance, and gates 5 to 8 call the running container and audit its image.
 - Letting the suite write "ship". The suite recommends; a person decides.
 - Dropping a gate because the suite is slow. Each fault in the lab was caught by only one or two gates. Without the integrity gate, the tampered model ships.[^lab09-scenarios]
-- Reading only the count of passed gates. The tampered model's clues are in the evidence: ROC AUC 0.907 to 0.905 and p95 75 ms to 33 ms in the codespace.[^lab09-scenarios]
+- Reading only the count of passed gates. The tampered model's clues are in the evidence: ROC AUC 0.907 to 0.905 and p95 75 ms to 33 ms in the local runs.[^lab09-scenarios]
 
 [^ml-test-score]: Breck et al., "The ML Test Score: A Rubric for ML Production Readiness and Technical Debt Reduction", IEEE Big Data 2017, abstract.
 [^nist-ai-rmf]: NIST AI 100-1, Table 3 (MEASURE 2.1, MEASURE 2.7) and Table 4 (MANAGE 1.1).
