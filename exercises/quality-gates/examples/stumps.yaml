@@ -1,0 +1,8 @@
+# A forest of 10 one-split trees. Good enough overall, but poor for rookies.
+proposed_by: example-stumps
+model: forest
+leak: false
+hyperparameters:
+  n_estimators: 10
+  max_depth: 1
+  min_samples_leaf: 1

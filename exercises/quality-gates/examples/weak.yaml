@@ -1,0 +1,8 @@
+# A forest of 5 unlimited trees. It learns the training data too closely.
+proposed_by: example-weak
+model: forest
+leak: false
+hyperparameters:
+  n_estimators: 5
+  max_depth: null
+  min_samples_leaf: 1

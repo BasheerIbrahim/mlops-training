@@ -6,3 +6,7 @@ __pycache__/
 mlflow.db
 mlartifacts/
 mlruns/
+
+# Quality gates (exercises/quality-gates)
+gate_report.*
+.pytest_cache/

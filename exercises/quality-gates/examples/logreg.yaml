@@ -1,0 +1,6 @@
+# The lesson 03 reference model: a logistic regression on the seven inputs.
+proposed_by: example-logreg
+model: logreg
+leak: false
+hyperparameters:
+  C: 1.0

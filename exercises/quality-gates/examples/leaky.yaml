@@ -1,0 +1,8 @@
+# The best forest from lesson 03, plus finish_position as an input. It cheats.
+proposed_by: example-leaky
+model: forest
+leak: true
+hyperparameters:
+  n_estimators: 300
+  max_depth: 8
+  min_samples_leaf: 5

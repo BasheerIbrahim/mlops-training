@@ -1,0 +1,10 @@
+# The model you propose for release.
+# train_candidate.py trains it and registers it as f1-points-finish@candidate.
+
+proposed_by: your-name
+model: forest          # logreg or forest (the lesson 03 options)
+leak: false            # true adds finish_position as an input (the lesson 03 leakage trap)
+hyperparameters:       # logreg: C. forest: n_estimators, max_depth, min_samples_leaf.
+  n_estimators: 300
+  max_depth: 8
+  min_samples_leaf: 5

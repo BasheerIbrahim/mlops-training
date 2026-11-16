@@ -1,0 +1,27 @@
+# Release requirements for f1-points-finish.
+# A candidate must meet every requirement before promote.py makes it @champion.
+# README.md explains why each number was chosen.
+
+model_name: f1-points-finish
+test_season: 2025
+
+data:
+  path: f1/data/races.csv
+  must_pass_validation: true      # the lesson 02 schema (validate_data.py)
+
+metrics:                          # measured again by the gates on the 2025 holdout
+  min_accuracy: 0.82              # grid rule 0.804, honest lesson 03 models 0.833-0.842
+  min_margin_over_grid_rule: 0.02 # accuracy must beat the grid rule by 2 points
+  min_roc_auc: 0.88               # honest lesson 03 models 0.902-0.908
+  min_accuracy_rookie: 0.60       # grid rule 0.521, honest lesson 03 models about 0.646
+
+# Known only after the race (see f1/data/README.md). A model that needs one of
+# these as an input could never run before a race.
+forbidden_features:
+  - finish_position
+  - points
+  - status
+  - laps_completed
+  - fastest_lap
+  - actual_rain
+  - points_finish

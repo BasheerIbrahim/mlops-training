@@ -1,0 +1,12 @@
+# The packages the release pipeline needs in GitHub Actions.
+# The same versions as .devcontainer/requirements.txt, without the exploration tools.
+pandas==2.3.3
+scikit-learn==1.9.1
+mlflow==3.18.0
+pandera==0.36.0
+pyyaml==6.0.3
+pytest==9.1.1
+# The versions the codespace installs, so that CI measures the same numbers.
+numpy==2.3.5
+scipy==1.16.3
+matplotlib==3.10.0
